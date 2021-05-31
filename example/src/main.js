@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React from 'react';
 import { View, StatusBar } from 'react-native';
-import { TYSdk, NavigatorLayout } from 'tuya-panel-kit';
+import { TopBar, TYSdk, NavigatorLayout } from 'tuya-panel-kit';
 import composeLayout from './composeLayout';
 import configureStore from './redux/configureStore';
 import { routers } from './config';
@@ -24,6 +24,14 @@ class MainLayout extends NavigatorLayout {
       console.log('Strings: ', Strings);
     }
   }
+
+  handleBack = () => {
+    if (TYSdk.Navigator && TYSdk.Navigator.getCurrentRoutes().length > 1) {
+      TYSdk.Navigator.pop();
+      return;
+    }
+    TYSdk.native.back();
+  };
 
   /*
   hookRoute 可以做一些控制处理
@@ -62,7 +70,32 @@ class MainLayout extends NavigatorLayout {
     return {
       ...route,
       showOfflineView: true,
-      title: route.id === 'main' ? 'Tuya RN UI Explorer' : route.title,
+      title: route.id === 'main' ? ' ' : route.title,
+      renderTopBar: () => {
+        const uiPhase = TYSdk.devInfo.uiPhase || 'release';
+        const actions = [
+          uiPhase !== 'release' && {
+            accessibilityLabel: 'TopBar_Preview',
+            style: {
+              backgroundColor: '#57DD43',
+              borderWidth: 1,
+            },
+            contentStyle: { fontSize: 12 },
+            color: '#000',
+            source: 'Preview',
+            disabled: true,
+          },
+        ].filter(v => !!v);
+        return (
+          <TopBar
+            style={[{ zIndex: 999 }]}
+            title={route.id === 'main' ? ' ' : route.title}
+            color="#000"
+            actions={actions}
+            onBack={this.handleBack}
+          />
+        );
+      },
       renderStatusBar: () => (
         <StatusBar barStyle={type === 'light' ? 'default' : 'light-content'} />
       ),

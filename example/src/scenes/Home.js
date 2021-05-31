@@ -13,7 +13,6 @@ const Home = () => (
     ListHeaderComponent={
       <View style={styles.header}>
         <Image source={Res.logo} />
-        <TYText style={styles.text} text="Tuya Design" weight="500" color="#000" size={16} />
       </View>
     }
     contentContainerStyle={styles.container}
