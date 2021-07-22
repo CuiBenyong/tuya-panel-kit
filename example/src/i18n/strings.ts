@@ -21,8 +21,14 @@ export default {
     text_minute: 'minute',
     text_single: 'single selection',
     text_mul: 'multiple selection',
+    basic: 'basic',
+    scandinavian: 'scandinavian',
+    acrylic: 'acrylic',
+    illustration: 'illustration',
 
     // basic
+    // style-button
+    style_button: 'StyleButton',
     // battery
     battery: 'Battery',
     battery_power: 'Power {0}%',
@@ -357,8 +363,14 @@ export default {
     text_minute: '分钟',
     text_single: '单选',
     text_mul: '多选',
+    basic: '经典风',
+    scandinavian: '北欧风',
+    acrylic: '亚克力风格',
+    illustration: '插画风格',
 
     // basic
+    // style-button
+    style_button: 'StyleButton 风格化按钮',
     // battery
     battery: 'Battery 电池',
     battery_power: '电量 {0}%',

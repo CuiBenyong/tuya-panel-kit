@@ -1,13 +1,10 @@
 import * as Utils from './utils';
 
-// 默认主题配置变量.
-export { default as defaultTheme } from './components/theme/base';
-
-// 主题配置Provider组件
-export { default as Theme } from './components/theme';
+// 主题配置Provider组件  + 默认主题配置变量.
+// export { Theme, defaultTheme } from './components/theme';
 
 // The useTheme hook let's us access the currently active theme.
-export { default as useTheme } from './utils/theme/context/useTheme';
+export { useTheme, Theme, defaultTheme } from 'tuya-panel-theme';
 
 export { default as createNavigator } from './components/layout/react-navigation';
 
@@ -106,3 +103,5 @@ export { default as Battery } from './components/battery';
 export { default as SliderProgress } from './components/slider-progress';
 
 export { default as SliderWithLine } from './components/slider-with-line';
+
+export { default as StyleButton } from 'tuya-panel-style-button';

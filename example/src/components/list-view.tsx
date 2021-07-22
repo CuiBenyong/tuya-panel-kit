@@ -16,6 +16,7 @@ export interface ListViewProps {
   contentPadding?: boolean;
   contentCenter?: boolean;
   nthItemStyle?: StyleProp<ViewStyle>;
+  style?: StyleProp<ViewStyle>;
 }
 
 export const ListView = ({
@@ -23,9 +24,10 @@ export const ListView = ({
   contentPadding = true,
   contentCenter = false,
   nthItemStyle: itemStyle,
+  style,
 }: ListViewProps) => {
   return (
-    <View style={styles.list}>
+    <View style={[styles.list, style]}>
       {list.map((item, i) => (
         <View style={[styles.list_item, i > 0 ? itemStyle : {}, item.itemStyle]} key={item.title}>
           <TYText style={styles.list_item_title}>{`· ${item.title}`}</TYText>

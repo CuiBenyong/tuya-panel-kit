@@ -10,7 +10,7 @@ module.exports = {
   // testMatch: ['<rootDir>/packages/tuya-panel-kit/src/components/__tests__/?(*.)+(test).js'],
   collectCoverageFrom: [
     '<rootDir>/packages/tuya-panel-kit/src/components/**/*.js',
-    '<rootDir>/packages/tuya-panel-kit/src/utils/*.js',
+    '!<rootDir>/packages/tuya-panel-kit/src/utils/*.js',
     '!<rootDir>/packages/tuya-panel-kit/src/components/layout/+(navigator-layout|full-view|offline-view|api|detect-net-modal|react-navigation)/*.js',
     '!<rootDir>/packages/tuya-panel-kit/src/components/layout/offline-view/ble-offline-view/*.js',
     '!<rootDir>/packages/tuya-panel-kit/src/components/dialog/password.js',

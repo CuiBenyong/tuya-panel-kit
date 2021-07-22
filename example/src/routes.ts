@@ -4,6 +4,7 @@ import Strings from '#i18n';
 import Battery from './pages/basic/battery';
 import BrickButton from './pages/basic/brick-button';
 import Button from './pages/basic/button';
+import StyleButton from './pages/basic/style-button';
 import Iconfont from './pages/basic/icon-font';
 import Motion from './pages/basic/motion';
 import SliderProgress from './pages/basic/slider-progress';
@@ -63,6 +64,11 @@ export const routes = [
     name: Strings.getLang('button'),
     href: '/basic/button',
     component: Button,
+  },
+  {
+    name: Strings.getLang('style_button'),
+    href: '/basic/style-button',
+    component: StyleButton,
   },
   {
     name: Strings.getLang('iconfont'),
