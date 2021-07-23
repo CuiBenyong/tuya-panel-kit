@@ -1,13 +1,21 @@
+import { StyleProp, TextStyle, ViewStyle } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
 
 const { convertX: cx } = Utils.RatioUtils;
 
 export const IDefaultProps = {
   disabled: false,
-  width: cx(64),
-  height: cx(64),
-  borderRadius: cx(32),
-  backgroundColor: '#f0f',
+  width: cx(120),
+  height: cx(92),
+  radius: cx(14),
+  backgroundColor: '#FFF',
+  iconBgColor: 'transparent',
+  iconBgSize: cx(48),
+  iconBgRadius: cx(24),
+  fontColor: 'rgba(61, 61, 61, 0.5)',
+  fontSize: cx(10),
+  iconSize: cx(48),
+  fontWeight: '400',
   isSupportAcrylic: false,
   blurAmount: 1,
   blurType: 'light' as
@@ -39,7 +47,10 @@ export const IDefaultProps = {
 };
 
 export type IButtonProps = {
-  d?: string;
+  style?: StyleProp<ViewStyle>;
+  iconBgStyle?: StyleProp<ViewStyle>;
+  textStyle?: StyleProp<TextStyle>;
+  icon?: string;
   iconColor?: string;
   text?: string;
   theme?: any;

@@ -103,5 +103,3 @@ export { default as Battery } from './components/battery';
 export { default as SliderProgress } from './components/slider-progress';
 
 export { default as SliderWithLine } from './components/slider-with-line';
-
-export { default as StyleButton } from 'tuya-panel-style-button';

@@ -1,11 +1,9 @@
 # `tuya-panel-style-button`
 
-> TODO: description
+Stylized component - Button
 
 ## Usage
 
-```
-const tuyaPanelStyleButton = require('tuya-panel-style-button');
-
-// TODO: DEMONSTRATE API
+```jsx
+import { ClassicButton, NordicButton, AcrylicButton, PaintButton } from 'tuya-panel-style-button';
 ```

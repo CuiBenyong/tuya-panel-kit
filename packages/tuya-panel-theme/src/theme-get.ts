@@ -80,34 +80,7 @@ export const popup = {
   pressColor: (props: IProps): string => getTheme(props, 'popup.pressColor', d2.pressColor),
 };
 
-const styleButtonDefault = baseTheme.styleButton.basic;
-
-export const styleButton = {
-  width: (props: IProps): number => getTheme(props, 'styleButton.width', styleButtonDefault.width),
-  height: (props: IProps): number =>
-    getTheme(props, 'styleButton.height', styleButtonDefault.height),
-  borderRadius: (props: IProps): string =>
-    getTheme(props, 'styleButton.borderRadius', styleButtonDefault.borderRadius),
-  backgroundColor: (props: IProps): string =>
-    getTheme(props, 'styleButton.backgroundColor', styleButtonDefault.backgroundColor),
-  textColor: (props: IProps): string =>
-    getTheme(props, 'styleButton.textColor', styleButtonDefault.textColor),
-  iconSize: (props: IProps): number =>
-    getTheme(props, 'styleButton.iconSize', styleButtonDefault.iconSize),
-  textSize: (props: IProps): number =>
-    getTheme(props, 'styleButton.textSize', styleButtonDefault.textSize),
-  iconBackgroundWidth: (props: IProps): number =>
-    getTheme(props, 'styleButton.iconBackgroundWidth', styleButtonDefault.iconBackgroundWidth),
-  iconBackgroundHeight: (props: IProps): number =>
-    getTheme(props, 'styleButton.iconBackgroundHeight', styleButtonDefault.iconBackgroundHeight),
-  iconBackgroundRadius: (props: IProps): number =>
-    getTheme(props, 'styleButton.iconBackgroundRadius', styleButtonDefault.iconBackgroundRadius),
-  iconBackgroundColor: (props: IProps): string =>
-    getTheme(props, 'styleButton.iconBackgroundColor', styleButtonDefault.iconBackgroundColor),
-};
-
 export default {
   dialog,
   popup,
-  styleButton,
 };

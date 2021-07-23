@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Dimensions } from 'react-native';
-import { TYSdk, Utils, StyleButton } from 'tuya-panel-kit';
-// import StyleButton from 'tuya-panel-style-button';
+import { TYSdk, Utils } from 'tuya-panel-kit';
+import { ClassicButton, NordicButton, AcrylicButton, PaintButton } from 'tuya-panel-style-button';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { ListView } from '#components';
 import Strings from '#i18n';
@@ -29,7 +29,7 @@ export default () => {
                 justifyContent: 'flex-start',
               }}
             >
-              <StyleButton d={TuyaRNSvgs.power} text="开关" iconColor="#158CFB" />
+              <ClassicButton icon={TuyaRNSvgs.power} text="开关" iconColor="#158CFB" />
             </View>
           ),
         },
@@ -43,14 +43,7 @@ export default () => {
                 justifyContent: 'flex-start',
               }}
             >
-              <StyleButton
-                d={TuyaRNSvgs.power}
-                text="开关"
-                iconColor="#FFF"
-                theme={{
-                  type: 'scandinavian',
-                }}
-              />
+              <NordicButton icon={TuyaRNSvgs.power} text="开关" iconColor="#FFF" />
             </View>
           ),
         },
@@ -58,14 +51,11 @@ export default () => {
           title: Strings.getLang('acrylic'),
           content: (
             <View style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
-              <StyleButton
-                d={TuyaRNSvgs.power}
+              <AcrylicButton
+                icon={TuyaRNSvgs.power}
                 text="开关"
                 iconColor="#FFF"
                 isSupportAcrylic={isShow}
-                theme={{
-                  type: 'acrylic',
-                }}
               />
             </View>
           ),
@@ -80,14 +70,7 @@ export default () => {
                 justifyContent: 'flex-start',
               }}
             >
-              <StyleButton
-                d={TuyaRNSvgs.power}
-                text="开关"
-                iconColor="#FFF"
-                theme={{
-                  type: 'illustration',
-                }}
-              />
+              <PaintButton icon={TuyaRNSvgs.power} text="开关" iconColor="#FFF" />
             </View>
           ),
         },

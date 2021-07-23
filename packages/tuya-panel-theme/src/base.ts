@@ -438,62 +438,6 @@ const popup = {
   },
 };
 
-const styleButton = {
-  type: 'basic' as 'basic' | 'scandinavian' | 'acrylic' | 'illustration',
-  basic: {
-    width: cx(120),
-    height: cx(92),
-    borderRadius: cx(14),
-    backgroundColor: '#FFF',
-    iconBackgroundColor: 'transparent',
-    iconBackgroundWidth: cx(48),
-    iconBackgroundHeight: cx(48),
-    iconBackgroundRadius: cx(24),
-    textColor: 'rgba(61, 61, 61, 0.5)',
-    textSize: cx(10),
-    iconSize: cx(48),
-  },
-  scandinavian: {
-    width: cx(64),
-    height: cx(64),
-    borderRadius: cx(12),
-    backgroundColor: 'transparent',
-    iconBackgroundColor: '#1082FE',
-    iconBackgroundWidth: cx(64),
-    iconBackgroundHeight: cx(64),
-    iconBackgroundRadius: cx(12),
-    textColor: 'rgba(0, 0, 0, 0.3)',
-    textSize: cx(14),
-    iconSize: cx(20),
-  },
-  acrylic: {
-    width: cx(64),
-    height: cx(64),
-    borderRadius: cx(32),
-    backgroundColor: 'transparent',
-    iconBackgroundColor: '#FE7862',
-    iconBackgroundWidth: cx(64),
-    iconBackgroundHeight: cx(64),
-    iconBackgroundRadius: cx(32),
-    textColor: 'rgba(0, 0, 0, 0.85)',
-    textSize: cx(12),
-    iconSize: cx(19),
-  },
-  illustration: {
-    width: cx(164),
-    height: cx(108),
-    borderRadius: cx(12),
-    backgroundColor: '#FFF',
-    iconBackgroundColor: '#76A6E4',
-    iconBackgroundWidth: cx(48),
-    iconBackgroundHeight: cx(48),
-    iconBackgroundRadius: cx(12),
-    textColor: '#162236',
-    textSize: cx(12),
-    iconSize: cx(20),
-  },
-};
-
 export default {
   type: 'light',
   global,
@@ -509,5 +453,4 @@ export default {
   tips,
   dialog,
   popup,
-  styleButton,
 };
