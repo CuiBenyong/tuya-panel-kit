@@ -23,7 +23,9 @@
   "scripts": {
     "prebuild": "rimraf lib/*",
     "build": "tsc -d",
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "test": "jest -u --silent --forceExit",
+    "test:watch": "jest --watch"
   },
   "bugs": {
     "url": "https://github.com/tuya/tuya-panel-kit/issues"

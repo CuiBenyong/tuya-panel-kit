@@ -36,6 +36,8 @@ const StyleButton: React.FC<IButtonProps> = ({
   fontSize,
   iconBgStyle,
   textStyle,
+  activeOpacity,
+  overlayColor,
 }) => {
   let timer;
 
@@ -66,7 +68,7 @@ const StyleButton: React.FC<IButtonProps> = ({
       onPress={onPress}
       onPressIn={_handlePressIn}
       onPressOut={_handlePressOut}
-      activeOpacity={isSupportAcrylic && !isIos ? 1 : 0.8}
+      activeOpacity={activeOpacity || (isSupportAcrylic && !isIos) ? 1 : 0.8}
     >
       {React.isValidElement(children) && children}
       {!React.isValidElement(children) && icon && (
@@ -102,9 +104,9 @@ const StyleButton: React.FC<IButtonProps> = ({
                 },
                 iconBgStyle,
               ]}
-              blurType={blurType}
+              blurType={blurType || 'light'}
               blurAmount={blurAmount}
-              overlayColor="transparent"
+              overlayColor={overlayColor}
             />
           )}
         </View>
