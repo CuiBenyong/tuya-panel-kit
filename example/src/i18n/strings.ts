@@ -340,6 +340,11 @@ export default {
     tysectionlist_switch_title: 'The situation where the title of the list is too long --- ',
     tysectionlist_switch_subTitle:
       'This is the case where the detailed information content of this list is too long',
+    // style-compoennt
+    icon_background: 'IconBackground',
+    icon_and_background: 'icons and backgrounds exist',
+    only_icon: 'only icon',
+    no_icon: 'no icon',
   },
   zh: {
     // debug
@@ -682,5 +687,12 @@ export default {
     tysectionlist_switch_title: '列表标题过长的情况列表标题过长的情况列表标题过长的情况',
     tysectionlist_switch_subTitle:
       '这是这个列表的详细信息内容过长的情况这是这个列表的详细信息内容过长的情况',
+    // style-compoennt
+
+    // icon_background
+    icon_background: 'IconBackground',
+    icon_and_background: '图标和背景都存在',
+    only_icon: '只存在图标',
+    no_icon: '没有图标',
   },
 };

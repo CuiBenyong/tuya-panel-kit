@@ -72,7 +72,7 @@ export const routes = [
     component: StyleButton,
   },
   {
-    name: 'Iconbackground',
+    name: Strings.getLang('icon_background'),
     href: '/basic/icon-background',
     component: IconBackground,
   },

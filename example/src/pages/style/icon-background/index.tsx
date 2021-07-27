@@ -3,6 +3,7 @@ import { View, Dimensions } from 'react-native';
 import IconBackground from 'tuya-panel-icon-background';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { ListView } from '#components';
+import Strings from '#i18n';
 
 const { height } = Dimensions.get('screen');
 
@@ -13,7 +14,7 @@ export default () => {
       style={{ backgroundColor: '#f8f8f8', flex: 1, height }}
       list={[
         {
-          title: '图标背景都存在',
+          title: Strings.getLang('icon_and_background'),
           content: (
             <View style={{ display: 'flex', flexDirection: 'row' }}>
               <IconBackground icon={TuyaRNSvgs.power} style={{ marginRight: 20 }} />
@@ -22,7 +23,7 @@ export default () => {
           ),
         },
         {
-          title: '只存在图标',
+          title: Strings.getLang('only_icon'),
           content: (
             <IconBackground
               icon={TuyaRNSvgs.power}
@@ -33,7 +34,7 @@ export default () => {
           ),
         },
         {
-          title: '图标不存在，全都不存在',
+          title: Strings.getLang('no_icon'),
           content: (
             <IconBackground
               icon={TuyaRNSvgs.power}
