@@ -10,7 +10,6 @@ import Motion from './pages/basic/motion';
 import SliderProgress from './pages/basic/slider-progress';
 import TYText from './pages/basic/tytext';
 import UnitText from './pages/basic/unit-text';
-import IconBackground from './pages/basic/icon-background';
 // data-entry
 import Checkbox from './pages/data-entry/checkbox';
 import DatePicker from './pages/data-entry/date-picker';
@@ -48,6 +47,7 @@ import RotationView from './pages/presentation/rotation-view';
 import TYFlatList from './pages/presentation/tyflat-list';
 import TYListItem from './pages/presentation/tylist-item';
 import TYSectionList from './pages/presentation/tysection-list';
+import IconBackground from './pages/style/icon-background';
 
 export const routes = [
   // basic
@@ -70,6 +70,11 @@ export const routes = [
     name: Strings.getLang('style_button'),
     href: '/basic/style-button',
     component: StyleButton,
+  },
+  {
+    name: 'Iconbackground',
+    href: '/basic/icon-background',
+    component: IconBackground,
   },
   {
     name: Strings.getLang('iconfont'),
@@ -95,11 +100,6 @@ export const routes = [
     name: Strings.getLang('unittext'),
     href: '/basic/unit-text',
     component: UnitText,
-  },
-  {
-    name: 'Iconbackground',
-    href: '/basic/icon-background',
-    component: IconBackground,
   },
   // data-entry
   {
