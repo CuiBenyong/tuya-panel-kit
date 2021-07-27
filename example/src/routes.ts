@@ -10,6 +10,7 @@ import Motion from './pages/basic/motion';
 import SliderProgress from './pages/basic/slider-progress';
 import TYText from './pages/basic/tytext';
 import UnitText from './pages/basic/unit-text';
+import IconBackground from './pages/basic/icon-background';
 // data-entry
 import Checkbox from './pages/data-entry/checkbox';
 import DatePicker from './pages/data-entry/date-picker';
@@ -94,6 +95,11 @@ export const routes = [
     name: Strings.getLang('unittext'),
     href: '/basic/unit-text',
     component: UnitText,
+  },
+  {
+    name: 'Iconbackground',
+    href: '/basic/icon-background',
+    component: IconBackground,
   },
   // data-entry
   {
