@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { View } from 'react-native';
+import { View, Dimensions } from 'react-native';
 import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 import { ClassicButton, NordicButton, AcrylicButton, PaintButton } from '../index';
@@ -23,6 +23,13 @@ jest.mock('@react-navigation/stack', () => {
     createStackNavigator: () => 'createStackNavigator',
   };
 });
+
+Dimensions.get = () => {
+  return {
+    width: 375,
+    height: 667,
+  };
+};
 
 describe('StyleButton', () => {
   it('ClassicButton', () => {
