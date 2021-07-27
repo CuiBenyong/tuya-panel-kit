@@ -24,12 +24,11 @@ jest.mock('@react-navigation/stack', () => {
   };
 });
 
-Dimensions.get = () => {
+jest.mock('Dimensions', () => {
   return {
-    width: 375,
-    height: 667,
+    get: jest.fn().mockReturnValue({ width: 375, height: 667 }),
   };
-};
+});
 
 describe('StyleButton', () => {
   it('ClassicButton', () => {
