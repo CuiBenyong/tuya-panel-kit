@@ -4,7 +4,7 @@ import Strings from '#i18n';
 import Battery from './pages/basic/battery';
 import BrickButton from './pages/basic/brick-button';
 import Button from './pages/basic/button';
-import StyleButton from './pages/basic/style-button';
+import StyleButton from './pages/style/style-button';
 import Iconfont from './pages/basic/icon-font';
 import Motion from './pages/basic/motion';
 import SliderProgress from './pages/basic/slider-progress';
