@@ -3,8 +3,7 @@ import { View, ViewStyle } from 'react-native';
 import { IconFont } from 'tuya-panel-kit';
 
 export interface IconBackgroundProps {
-  icon: string;
-  size?: number;
+  icon?: string;
   iconSize?: number;
   iconBgSize?: number;
   showIcon?: boolean;
