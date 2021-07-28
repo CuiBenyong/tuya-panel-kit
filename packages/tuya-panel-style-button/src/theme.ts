@@ -3,9 +3,9 @@ import { Utils } from 'tuya-panel-utils';
 const { convertX: cx } = Utils.RatioUtils;
 
 export const NordicDefaultProps = {
-  width: cx(64),
-  height: cx(64),
-  radius: cx(12),
+  width: cx(120),
+  height: cx(92),
+  radius: cx(14),
   backgroundColor: 'transparent',
   iconBgColor: '#1082FE',
   iconBgSize: cx(64),
@@ -16,9 +16,9 @@ export const NordicDefaultProps = {
 };
 
 export const AcrylicDefaultProps = {
-  width: cx(64),
-  height: cx(64),
-  radius: cx(32),
+  width: cx(120),
+  height: cx(92),
+  radius: cx(14),
   backgroundColor: 'transparent',
   iconBgColor: '#FE7862',
   iconBgSize: cx(64),

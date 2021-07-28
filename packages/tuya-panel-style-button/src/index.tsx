@@ -2,13 +2,10 @@ import React from 'react';
 import { Utils } from 'tuya-panel-utils';
 import { TouchableOpacity, View, StyleSheet } from 'react-native';
 import { IconFont, TYText } from 'tuya-panel-kit';
-import { BlurView } from '@react-native-community/blur';
 import { IButtonProps, IDefaultProps } from './interface';
 import { NordicDefaultProps, AcrylicDefaultProps, PaintDefaultProps } from './theme';
 
 const { convertX: cx } = Utils.RatioUtils;
-
-const { isIos } = Utils.RatioUtils;
 
 const StyleButton: React.FC<IButtonProps> = ({
   disabled,
@@ -19,13 +16,10 @@ const StyleButton: React.FC<IButtonProps> = ({
   onPress,
   onLongPress,
   children,
-  isSupportAcrylic,
-  blurAmount,
-  blurType,
   milliseconds,
   style,
+  padding,
   width,
-  height,
   radius,
   backgroundColor,
   iconBgColor,
@@ -37,7 +31,8 @@ const StyleButton: React.FC<IButtonProps> = ({
   iconBgStyle,
   textStyle,
   activeOpacity,
-  overlayColor,
+  showIcon,
+  showIconBg,
 }) => {
   let timer;
 
@@ -61,66 +56,59 @@ const StyleButton: React.FC<IButtonProps> = ({
     borderRadius: iconBgRadius,
   };
 
+  const renderIcon = () => {
+    if (!showIcon) return null;
+    if (!showIconBg) return <IconFont d={icon} color={iconColor} size={iconSize} />;
+    return (
+      <View
+        style={[
+          styles.center,
+          iconBgDefault,
+          {
+            overflow: 'hidden',
+            backgroundColor: iconBgColor,
+          },
+          iconBgStyle,
+        ]}
+      >
+        <IconFont d={icon} color={iconColor} size={iconSize} />
+      </View>
+    );
+  };
+
   return (
     <TouchableOpacity
       disabled={disabled}
-      style={[styles.center, { width, height, borderRadius: radius, backgroundColor }, style]}
+      style={[styles.center, { width, borderRadius: radius, backgroundColor }, style]}
       onPress={onPress}
       onPressIn={_handlePressIn}
       onPressOut={_handlePressOut}
-      activeOpacity={activeOpacity || (isSupportAcrylic && !isIos) ? 1 : 0.8}
+      activeOpacity={activeOpacity ? 1 : 0.8}
     >
       {React.isValidElement(children) && children}
-      {!React.isValidElement(children) && icon && (
-        <View
-          style={[
-            styles.center,
-            iconBgDefault,
-            {
-              overflow: 'hidden',
-              backgroundColor: iconBgColor,
-            },
-            iconBgStyle,
-          ]}
-        >
-          <View
-            style={[
-              styles.center,
-              iconBgDefault,
-              {
-                backgroundColor: iconBgColor,
-              },
-              iconBgStyle,
-            ]}
+      <View
+        style={[
+          styles.center,
+          {
+            paddingTop: padding[0],
+            paddingRight: padding[1],
+            paddingBottom: padding[2],
+            paddingLeft: padding[3],
+          },
+        ]}
+      >
+        {!React.isValidElement(children) && icon && renderIcon()}
+        {!React.isValidElement(children) && text && (
+          <TYText
+            style={[{ marginTop: showIcon ? cx(8) : 0 }, textStyle]}
+            weight={fontWeight}
+            color={fontColor}
+            size={fontSize}
           >
-            <IconFont d={icon} color={iconColor} size={iconSize} />
-          </View>
-          {isSupportAcrylic && (
-            <BlurView
-              style={[
-                iconBgDefault,
-                {
-                  position: 'absolute',
-                },
-                iconBgStyle,
-              ]}
-              blurType={blurType || 'light'}
-              blurAmount={blurAmount}
-              overlayColor={overlayColor}
-            />
-          )}
-        </View>
-      )}
-      {!React.isValidElement(children) && text && (
-        <TYText
-          style={[{ marginTop: cx(8) }, textStyle]}
-          weight={fontWeight}
-          color={fontColor}
-          size={fontSize}
-        >
-          {text}
-        </TYText>
-      )}
+            {text}
+          </TYText>
+        )}
+      </View>
     </TouchableOpacity>
   );
 };

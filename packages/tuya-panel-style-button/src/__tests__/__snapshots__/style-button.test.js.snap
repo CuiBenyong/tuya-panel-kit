@@ -14,11 +14,10 @@ exports[`StyleButton AcrylicButton 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "transparent",
-      "borderRadius": 32,
-      "height": 64,
+      "borderRadius": 14,
       "justifyContent": "center",
       "opacity": 1,
-      "width": 64,
+      "width": 120,
     }
   }
 >
@@ -30,15 +29,11 @@ exports[`StyleButton AcrylicButton 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "borderRadius": 32,
-          "height": 64,
-          "width": 64,
+          "paddingBottom": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 12,
         },
-        Object {
-          "backgroundColor": "#FE7862",
-          "overflow": "hidden",
-        },
-        undefined,
       ]
     }
   >
@@ -56,6 +51,7 @@ exports[`StyleButton AcrylicButton 1`] = `
           },
           Object {
             "backgroundColor": "#FE7862",
+            "overflow": "hidden",
           },
           undefined,
         ]
@@ -149,11 +145,6 @@ exports[`StyleButton AcrylicButton 1`] = `
         </RNSVGSvgView>
       </View>
     </View>
-    <BlurView
-      blurAmount={1}
-      blurType="light"
-      overlayColor="transparent"
-    />
   </View>
 </View>
 `;
@@ -173,7 +164,6 @@ exports[`StyleButton ClassicButton 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderRadius": 14,
-      "height": 92,
       "justifyContent": "center",
       "opacity": 1,
       "width": 120,
@@ -188,15 +178,11 @@ exports[`StyleButton ClassicButton 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "borderRadius": 24,
-          "height": 48,
-          "width": 48,
+          "paddingBottom": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 12,
         },
-        Object {
-          "backgroundColor": "transparent",
-          "overflow": "hidden",
-        },
-        undefined,
       ]
     }
   >
@@ -214,6 +200,7 @@ exports[`StyleButton ClassicButton 1`] = `
           },
           Object {
             "backgroundColor": "transparent",
+            "overflow": "hidden",
           },
           undefined,
         ]
@@ -307,41 +294,41 @@ exports[`StyleButton ClassicButton 1`] = `
         </RNSVGSvgView>
       </View>
     </View>
-  </View>
-  <Text
-    accessible={true}
-    align={null}
-    allowFontScaling={false}
-    color="rgba(61, 61, 61, 0.5)"
-    ellipsizeMode="tail"
-    size={10}
-    style={
-      Array [
-        false,
+    <Text
+      accessible={true}
+      align={null}
+      allowFontScaling={false}
+      color="rgba(61, 61, 61, 0.5)"
+      ellipsizeMode="tail"
+      size={10}
+      style={
         Array [
           false,
           Array [
-            Object {
-              "backgroundColor": "transparent",
-              "color": "rgba(61, 61, 61, 0.5)",
-              "fontSize": 10,
-              "fontWeight": "400",
-            },
+            false,
             Array [
               Object {
-                "marginTop": 8,
+                "backgroundColor": "transparent",
+                "color": "rgba(61, 61, 61, 0.5)",
+                "fontSize": 10,
+                "fontWeight": "400",
               },
-              undefined,
+              Array [
+                Object {
+                  "marginTop": 8,
+                },
+                undefined,
+              ],
             ],
           ],
-        ],
-      ]
-    }
-    type={null}
-    weight="400"
-  >
-    开关
-  </Text>
+        ]
+      }
+      type={null}
+      weight="400"
+    >
+      开关
+    </Text>
+  </View>
 </View>
 `;
 
@@ -359,11 +346,10 @@ exports[`StyleButton NordicButton 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "transparent",
-      "borderRadius": 12,
-      "height": 64,
+      "borderRadius": 14,
       "justifyContent": "center",
       "opacity": 1,
-      "width": 64,
+      "width": 120,
     }
   }
 >
@@ -376,6 +362,22 @@ exports[`StyleButton NordicButton 1`] = `
       }
     }
   />
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        Object {
+          "paddingBottom": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 12,
+        },
+      ]
+    }
+  />
 </View>
 `;
 
@@ -386,7 +388,6 @@ exports[`StyleButton PaintButton 1`] = `
 >
   <StyleButton
     backgroundColor="#FFF"
-    blurAmount={1}
     disabled={false}
     fontColor="#162236"
     fontSize={12}
@@ -397,11 +398,20 @@ exports[`StyleButton PaintButton 1`] = `
     iconBgRadius={12}
     iconBgSize={48}
     iconSize={20}
-    isSupportAcrylic={false}
     milliseconds={200}
     onLongPress={[Function]}
     overlayColor="transparent"
+    padding={
+      Array [
+        12,
+        0,
+        12,
+        0,
+      ]
+    }
     radius={12}
+    showIcon={true}
+    showIconBg={true}
     width={164}
   >
     <TouchableOpacity
@@ -418,7 +428,6 @@ exports[`StyleButton PaintButton 1`] = `
           Object {
             "backgroundColor": "#FFF",
             "borderRadius": 12,
-            "height": 108,
             "width": 164,
           },
           undefined,
@@ -444,7 +453,6 @@ exports[`StyleButton PaintButton 1`] = `
               Object {
                 "backgroundColor": "#FFF",
                 "borderRadius": 12,
-                "height": 108,
                 "width": 164,
               },
               undefined,
@@ -469,7 +477,6 @@ exports[`StyleButton PaintButton 1`] = `
               "alignItems": "center",
               "backgroundColor": "#FFF",
               "borderRadius": 12,
-              "height": 108,
               "justifyContent": "center",
               "opacity": 1,
               "width": 164,
@@ -490,7 +497,6 @@ exports[`StyleButton PaintButton 1`] = `
                 "alignItems": "center",
                 "backgroundColor": "#FFF",
                 "borderRadius": 12,
-                "height": 108,
                 "justifyContent": "center",
                 "opacity": 1,
                 "width": 164,
@@ -505,15 +511,11 @@ exports[`StyleButton PaintButton 1`] = `
                     "justifyContent": "center",
                   },
                   Object {
-                    "borderRadius": 12,
-                    "height": 48,
-                    "width": 48,
+                    "paddingBottom": 12,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 12,
                   },
-                  Object {
-                    "backgroundColor": "#76A6E4",
-                    "overflow": "hidden",
-                  },
-                  undefined,
                 ]
               }
             >
@@ -525,15 +527,11 @@ exports[`StyleButton PaintButton 1`] = `
                       "justifyContent": "center",
                     },
                     Object {
-                      "borderRadius": 12,
-                      "height": 48,
-                      "width": 48,
+                      "paddingBottom": 12,
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 12,
                     },
-                    Object {
-                      "backgroundColor": "#76A6E4",
-                      "overflow": "hidden",
-                    },
-                    undefined,
                   ]
                 }
               >
@@ -551,6 +549,7 @@ exports[`StyleButton PaintButton 1`] = `
                       },
                       Object {
                         "backgroundColor": "#76A6E4",
+                        "overflow": "hidden",
                       },
                       undefined,
                     ]
@@ -570,6 +569,7 @@ exports[`StyleButton PaintButton 1`] = `
                         },
                         Object {
                           "backgroundColor": "#76A6E4",
+                          "overflow": "hidden",
                         },
                         undefined,
                       ]

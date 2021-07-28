@@ -33,8 +33,7 @@
   "dependencies": {
     "tuya-panel-utils": "^0.0.1",
     "tuya-panel-theme": "^0.0.1",
-    "tuya-panel-kit": "^4.6.2",
-    "@react-native-community/blur": "3.6.0"
+    "tuya-panel-kit": "^4.6.2"
   },
   "devDependencies": {
     "@types/tuya-panel-kit": "^4.0.5"
