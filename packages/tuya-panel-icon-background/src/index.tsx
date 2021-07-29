@@ -1,9 +1,10 @@
 import React from 'react';
-import { View, ViewStyle, Image } from 'react-native';
+import { ViewStyle, Image } from 'react-native';
 import { IconFont } from 'tuya-panel-kit';
 import Background, { IBackgroundProps } from './Background';
 
 export { default as Background } from './Background';
+export * from './Background';
 
 export interface IconBackgroundProps {
   icon?: string;

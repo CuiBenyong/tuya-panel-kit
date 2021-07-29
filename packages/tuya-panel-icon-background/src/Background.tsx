@@ -22,9 +22,9 @@ type RadiaGradientBg = {
     stopOpacity: string;
   }>;
 };
-
+export type BackgroundProps = PureColor | LinearGradientBg | RadiaGradientBg;
 export interface IBackgroundProps {
-  background: PureColor | LinearGradientBg | RadiaGradientBg;
+  background: BackgroundProps;
   width: number;
   height: number;
   style?: StyleProp<ViewStyle>;
