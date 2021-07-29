@@ -49,7 +49,17 @@ import TYListItem from './pages/presentation/tylist-item';
 import TYSectionList from './pages/presentation/tysection-list';
 import IconBackground from './pages/style/icon-background';
 
+// style
+import EnumCard from './pages/style/enum-card';
+
 export const routes = [
+  // style
+  {
+    name: 'enum card',
+    href: '/style/enum-card',
+    component: EnumCard,
+  },
+
   // basic
   {
     name: Strings.getLang('battery'),
