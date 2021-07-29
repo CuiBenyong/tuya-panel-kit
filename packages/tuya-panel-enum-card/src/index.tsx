@@ -105,7 +105,7 @@ const EnumCard: React.FC<IEnumCardProps> = ({
         <TouchableOpacity
           style={styles.itemBox}
           key={i}
-          activeOpacity={0.5}
+          activeOpacity={0.8}
           onPress={() => handClick(data.key)}
         >
           <IconBackground
