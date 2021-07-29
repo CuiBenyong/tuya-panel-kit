@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
-import { ClassicEnumCard, NordicEnumCard } from 'tuya-panel-enum-card';
+import { ClassicEnumCard, NordicEnumCard, AcrylicEnumCard } from 'tuya-panel-enum-card';
 import { ListView } from '#components';
 // import Strings from '#i18n';
 
@@ -68,6 +68,16 @@ export default () => {
                 activeIconColor="#ff6700"
                 activeTextColor="#ff6700"
               />
+              <ClassicEnumCard
+                style={{ marginTop: 20 }}
+                title="padding设置 [40, 60, 60, 40]"
+                list={list.slice(0, 3)}
+                defaultActiveKey="1"
+                showIconBg={false}
+                activeIconColor="#ff6700"
+                activeTextColor="#ff6700"
+                padding={[40, 60, 60, 40]}
+              />
             </View>
           ),
         },
@@ -77,6 +87,21 @@ export default () => {
             <View>
               <NordicEnumCard title="工作模式" list={list} activeKey="0" />
               <NordicEnumCard
+                style={{ marginTop: 20 }}
+                title="传入图片"
+                showTitle={false}
+                list={list1.slice(0, 4)}
+                defaultActiveKey="1"
+              />
+            </View>
+          ),
+        },
+        {
+          title: '北欧风格',
+          content: (
+            <View>
+              <AcrylicEnumCard title="工作模式" list={list} activeKey="0" />
+              <AcrylicEnumCard
                 style={{ marginTop: 20 }}
                 title="传入图片"
                 showTitle={false}

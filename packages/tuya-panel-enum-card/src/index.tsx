@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
 import { Carousel } from 'tuya-panel-kit';
 import IconBackground from 'tuya-panel-icon-background';
-import { NordicDefaultProps } from './theme';
+import { NordicDefaultProps, AcrylicDefaultProps } from './theme';
 import { defaultProps, IEnumCardProps } from './interface';
 
 const MAX_PAGE_COUNT = 4;
@@ -34,7 +34,7 @@ const EnumCard: React.FC<IEnumCardProps> = ({
   // title属性
   title,
   showTitle,
-  titleSize,
+  titleFontSize,
   titleColor,
   // 背景属性
   backgroundColor,
@@ -46,6 +46,7 @@ const EnumCard: React.FC<IEnumCardProps> = ({
   // 选中的key 传了就是受控组件
   activeKey,
   defaultActiveKey,
+  contentStyle,
 }) => {
   const [_activeKey, _setActiveKey] = useState(activeKey || defaultActiveKey || '');
   const [defaultPageIndex, setDefaultPageIndex] = useState(() => {
@@ -149,10 +150,10 @@ const EnumCard: React.FC<IEnumCardProps> = ({
     >
       {showTitle && Boolean(title) && (
         <View>
-          <Text style={[{ fontSize: titleSize, color: titleColor }, titleStyle]}>{title}</Text>
+          <Text style={[{ fontSize: titleFontSize, color: titleColor }, titleStyle]}>{title}</Text>
         </View>
       )}
-      <View style={styles.contentBox}>
+      <View style={[styles.contentBox, contentStyle]}>
         {list.length > MAX_PAGE_COUNT ? (
           <Carousel
             selectedIndex={defaultPageIndex}
@@ -203,3 +204,5 @@ const styles = StyleSheet.create({
 export const ClassicEnumCard = props => <EnumCard {...props} />;
 
 export const NordicEnumCard = props => <EnumCard {...props} {...NordicDefaultProps} />;
+
+export const AcrylicEnumCard = props => <EnumCard {...props} {...AcrylicDefaultProps} />;

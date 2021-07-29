@@ -3,7 +3,6 @@ import { Utils } from 'tuya-panel-utils';
 
 const { convertX: cx } = Utils.RatioUtils;
 export const defaultProps = {
-  width: 327,
   style: {}, // content容器 样式  优先级最高
   textStyle: {}, // 枚举项里面小蚊子样式 优先级最高
   titleStyle: {}, // 标题的样式 优先级最高
@@ -26,7 +25,7 @@ export const defaultProps = {
   // title属性
   title: '',
   showTitle: true,
-  titleSize: cx(16),
+  titleFontSize: cx(16),
   titleColor: '#000',
   // 背景属性
   backgroundColor: '#fff',
@@ -35,6 +34,7 @@ export const defaultProps = {
   dotSize: cx(6),
   dotColor: 'rgba(0, 0, 0, 0.05)',
   activeDotColor: '#158CFB',
+  contentStyle: {},
 };
 
 type EnumItem = {
@@ -46,8 +46,10 @@ type EnumItem = {
 
 export type IEnumCardProps = {
   list: Array<EnumItem>;
+  width?: number;
   style?: StyleProp<ViewStyle>;
   textStyle?: StyleProp<TextStyle>;
+  contentStyle: StyleProp<ViewStyle>;
   activeKey?: string;
   defaultActiveKey?: string;
 } & Partial<typeof defaultProps>;

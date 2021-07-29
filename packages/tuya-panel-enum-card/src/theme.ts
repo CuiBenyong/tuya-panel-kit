@@ -16,13 +16,29 @@ export const NordicDefaultProps: Partial<IEnumCardProps> = {
   activeTextColor: '#1082FE',
   textFontSize: cx(14),
   textStyle: {
-    marginTop: 11,
+    marginTop: cx(11),
   },
 };
 
 export const AcrylicDefaultProps: Partial<IEnumCardProps> = {
   padding: [20, 20, 20, 20],
+  titleColor: 'rgba(0, 0, 0, 0.87)',
+  titleFontSize: cx(16),
   iconBgSize: cx(60),
   iconBgRadius: cx(60),
-  iconBgColor: '#FF8976',
+  activeIconBgColor: '#FF8976',
+  iconBgColor: 'rgba(255, 120, 98, 0.1)',
+  iconSize: cx(20),
+  iconColor: '#FF8976',
+  textFontSize: cx(10),
+  activeTextColor: 'rgba(0, 0, 0, 0.85)',
+  textColor: 'rgba(0, 0, 0, 0.4)',
+  activeDotColor: '#FE724C',
+  dotColor: 'rgba(0, 0, 0, 0.05)',
+  textStyle: {
+    marginTop: cx(10),
+  },
+  contentStyle: {
+    marginTop: cx(20),
+  },
 };
