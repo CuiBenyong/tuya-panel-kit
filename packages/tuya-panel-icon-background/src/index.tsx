@@ -1,6 +1,9 @@
 import React from 'react';
 import { View, ViewStyle, Image } from 'react-native';
 import { IconFont } from 'tuya-panel-kit';
+import Background, { IBackgroundProps } from './Background';
+
+export { default as Background } from './Background';
 
 export interface IconBackgroundProps {
   icon?: string;
@@ -11,7 +14,7 @@ export interface IconBackgroundProps {
   showIcon?: boolean;
   showIconBg?: boolean;
   iconColor?: string;
-  iconBgColor?: string;
+  iconBgColor?: IBackgroundProps['background'];
   iconBgRadius?: number;
   style?: ViewStyle;
   imageRadius?: number;
@@ -53,13 +56,16 @@ const IconBackground: React.FC<IconBackgroundProps> = props => {
     return renderIcon();
   }
   return (
-    <View
+    <Background
+      width={props.iconBgSize}
+      height={props.iconBgSize}
+      background={props.iconBgColor}
       style={[
         {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          backgroundColor: props.iconBgColor || '#fff',
+          // backgroundColor: props.iconBgColor || '#fff',
           width: props.iconBgSize,
           height: props.iconBgSize,
           overflow: 'hidden',
@@ -67,9 +73,13 @@ const IconBackground: React.FC<IconBackgroundProps> = props => {
         },
         props.style,
       ]}
+      contentStyle={{
+        justifyContent: 'center',
+        alignContent: 'center',
+      }}
     >
       {renderIcon()}
-    </View>
+    </Background>
   );
 };
 
