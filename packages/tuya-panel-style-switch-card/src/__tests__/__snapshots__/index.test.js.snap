@@ -1,0 +1,1470 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchCard AcrylicSwitchCard 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 16,
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "paddingBottom": 20,
+        "paddingLeft": 25,
+        "paddingRight": 24,
+        "paddingTop": 19,
+        "width": 278,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "height": 40,
+            "width": 40,
+          },
+          false,
+          null,
+        ]
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            undefined,
+            false,
+            Object {
+              "flex": 0,
+              "height": 40,
+              "width": 40,
+            },
+          ]
+        }
+        vbHeight={1024}
+        vbWidth={1024}
+      >
+        <RNSVGPath
+          d="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
+          fill={
+            Array [
+              0,
+              0.8274509803921568,
+              0.8274509803921568,
+              0.8274509803921568,
+              1,
+            ]
+          }
+          fillOpacity={1}
+          fillRule={1}
+          matrix={
+            Array [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+            ]
+          }
+          opacity={1}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "fill",
+            ]
+          }
+          stroke={
+            Array [
+              0,
+              0.8274509803921568,
+              0.8274509803921568,
+              0.8274509803921568,
+              1,
+            ]
+          }
+          strokeDasharray={null}
+          strokeDashoffset={null}
+          strokeLinecap={0}
+          strokeLinejoin={0}
+          strokeMiterlimit={4}
+          strokeOpacity={1}
+          strokeWidth={1}
+        />
+      </RNSVGSvgView>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 12,
+          "marginRight": 12,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        align={null}
+        allowFontScaling={false}
+        color="#3D3D3D"
+        ellipsizeMode="tail"
+        size={15}
+        style={
+          Array [
+            false,
+            Array [
+              false,
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#3D3D3D",
+                  "fontSize": 15,
+                },
+                Array [
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+        text="Switch Card"
+        type={null}
+        weight={null}
+      >
+        Switch Card
+      </Text>
+      <Text
+        accessible={true}
+        align={null}
+        allowFontScaling={false}
+        color="rgba(61, 61, 61, 0.5)"
+        ellipsizeMode="tail"
+        size={14}
+        style={
+          Array [
+            false,
+            Array [
+              false,
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "rgba(61, 61, 61, 0.5)",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+        text="switch card"
+        type={null}
+        weight={null}
+      >
+        switch card
+      </Text>
+    </View>
+  </View>
+  <View
+    needsOffscreenAlphaCompositing={true}
+    style={
+      Array [
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="SwitchButton"
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "height": 30,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 54,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 10,
+              "height": 27,
+              "justifyContent": "center",
+              "width": 52,
+            },
+            Object {
+              "backgroundColor": "#FE7862",
+              "borderColor": "#FE7862",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFF",
+            "borderRadius": 0.5,
+            "height": 6,
+            "justifyContent": "center",
+            "left": 4.5,
+            "position": "absolute",
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFF",
+            "borderRadius": 0.5,
+            "height": 1.2000000000000002,
+            "justifyContent": "center",
+            "position": "absolute",
+            "right": 4.5,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-start",
+            "backgroundColor": "#fff",
+            "borderRadius": 8.8,
+            "elevation": 2,
+            "height": 24,
+            "justifyContent": "center",
+            "position": "absolute",
+            "shadowColor": "rgba(0, 0, 0, 0.3)",
+            "shadowOffset": Object {
+              "height": 3,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 3,
+            "transform": Array [
+              Object {
+                "translateX": 27.5,
+              },
+            ],
+            "width": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SwitchCard ClassicSwitchCard 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 14,
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "paddingBottom": 20,
+        "paddingLeft": 25,
+        "paddingRight": 24,
+        "paddingTop": 19,
+        "width": 310,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "height": 22,
+            "width": 22,
+          },
+          false,
+          null,
+        ]
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            undefined,
+            false,
+            Object {
+              "flex": 0,
+              "height": 22,
+              "width": 22,
+            },
+          ]
+        }
+        vbHeight={1024}
+        vbWidth={1024}
+      >
+        <RNSVGPath
+          d="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
+          fill={
+            Array [
+              0,
+              0.8274509803921568,
+              0.8274509803921568,
+              0.8274509803921568,
+              1,
+            ]
+          }
+          fillOpacity={1}
+          fillRule={1}
+          matrix={
+            Array [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+            ]
+          }
+          opacity={1}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "fill",
+            ]
+          }
+          stroke={
+            Array [
+              0,
+              0.8274509803921568,
+              0.8274509803921568,
+              0.8274509803921568,
+              1,
+            ]
+          }
+          strokeDasharray={null}
+          strokeDashoffset={null}
+          strokeLinecap={0}
+          strokeLinejoin={0}
+          strokeMiterlimit={4}
+          strokeOpacity={1}
+          strokeWidth={1}
+        />
+      </RNSVGSvgView>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 12,
+          "marginRight": 12,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        align={null}
+        allowFontScaling={false}
+        color="#3D3D3D"
+        ellipsizeMode="tail"
+        size={15}
+        style={
+          Array [
+            false,
+            Array [
+              false,
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#3D3D3D",
+                  "fontSize": 15,
+                },
+                Array [
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+        text="Switch Card"
+        type={null}
+        weight={null}
+      >
+        Switch Card
+      </Text>
+      <Text
+        accessible={true}
+        align={null}
+        allowFontScaling={false}
+        color="rgba(61, 61, 61, 0.5)"
+        ellipsizeMode="tail"
+        size={14}
+        style={
+          Array [
+            false,
+            Array [
+              false,
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "rgba(61, 61, 61, 0.5)",
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+        text="switch card"
+        type={null}
+        weight={null}
+      >
+        switch card
+      </Text>
+    </View>
+  </View>
+  <View
+    needsOffscreenAlphaCompositing={true}
+    style={
+      Array [
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="SwitchButton"
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "height": 27,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 42,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 13.285714285714286,
+              "height": 24,
+              "justifyContent": "center",
+              "width": 40,
+            },
+            Object {
+              "backgroundColor": "#1082FE",
+              "borderColor": "#1082FE",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-start",
+            "backgroundColor": "#fff",
+            "borderRadius": 10,
+            "elevation": 2,
+            "height": 20,
+            "justifyContent": "center",
+            "position": "absolute",
+            "shadowColor": "rgba(0, 0, 0, 0.3)",
+            "shadowOffset": Object {
+              "height": 3,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 3,
+            "transform": Array [
+              Object {
+                "translateX": 19,
+              },
+            ],
+            "width": 20,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SwitchCard NordicSwitchCard 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 16,
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "paddingBottom": 20,
+        "paddingLeft": 25,
+        "paddingRight": 24,
+        "paddingTop": 19,
+        "width": 278,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 0,
+          "marginRight": 12,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        align={null}
+        allowFontScaling={false}
+        color="#000"
+        ellipsizeMode="tail"
+        size={15}
+        style={
+          Array [
+            false,
+            Array [
+              false,
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000",
+                  "fontSize": 15,
+                },
+                Array [
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+        text="Switch Card"
+        type={null}
+        weight={null}
+      >
+        Switch Card
+      </Text>
+    </View>
+  </View>
+  <View
+    needsOffscreenAlphaCompositing={true}
+    style={
+      Array [
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="SwitchButton"
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "height": 28,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 48,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 13.839285714285715,
+              "height": 25,
+              "justifyContent": "center",
+              "width": 46,
+            },
+            Object {
+              "backgroundColor": "#1082FE",
+              "borderColor": "#1082FE",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-start",
+            "backgroundColor": "#fff",
+            "borderRadius": 9,
+            "elevation": 2,
+            "height": 18,
+            "justifyContent": "center",
+            "position": "absolute",
+            "shadowColor": "rgba(0, 0, 0, 0.3)",
+            "shadowOffset": Object {
+              "height": 3,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 3,
+            "transform": Array [
+              Object {
+                "translateX": 25,
+              },
+            ],
+            "width": 18,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SwitchCard PaintSwitchCard 1`] = `
+<ThemeProvider
+  theme={null}
+>
+  <WithTheme(ThemeConsumer)>
+    <ThemeConsumer
+      theme={null}
+    >
+      <ThemeProvider
+        theme={Object {}}
+      >
+        <PaintSwitchCard
+          icon="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
+        >
+          <StyleSwitchCard
+            backgroundColor="#FFF"
+            fontColor="#000"
+            fontSize={15}
+            icon="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
+            iconSize={22}
+            onTintColor="#76A6E4"
+            padding={
+              Array [
+                19,
+                24,
+                20,
+                25,
+              ]
+            }
+            radius={14}
+            showIcon={true}
+            subFontColor="rgba(61, 61, 61, 0.5)"
+            subFontSize={14}
+            switchSize={
+              Object {
+                "activeSize": 4,
+                "margin": 6,
+              }
+            }
+            text="Switch Card"
+            thumbStyle={
+              Object {
+                "borderRadius": 2,
+                "height": 12,
+                "width": 4,
+              }
+            }
+            width={294}
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFF",
+                    "borderRadius": 14,
+                    "flexDirection": "row",
+                    "justifyContent": "space-around",
+                    "paddingBottom": 20,
+                    "paddingLeft": 25,
+                    "paddingRight": 24,
+                    "paddingTop": 19,
+                    "width": 294,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFF",
+                      "borderRadius": 14,
+                      "flexDirection": "row",
+                      "justifyContent": "space-around",
+                      "paddingBottom": 20,
+                      "paddingLeft": 25,
+                      "paddingRight": 24,
+                      "paddingTop": 19,
+                      "width": 294,
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <IconBackground
+                      icon="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
+                      iconBgColor="#158CFB"
+                      iconBgRadius={50}
+                      iconBgSize={50}
+                      iconColor="#D3D3D3"
+                      iconSize={22}
+                      imageRadius={0}
+                      onTintColor="#76A6E4"
+                      showIcon={true}
+                      showIconBg={false}
+                      style={Object {}}
+                      thumbStyle={
+                        Object {
+                          "borderRadius": 2,
+                          "height": 12,
+                          "width": 4,
+                        }
+                      }
+                    >
+                      <Component
+                        color="#D3D3D3"
+                        d="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
+                        size={22}
+                      >
+                        <IconFont
+                          color="#D3D3D3"
+                          d="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
+                          fill={null}
+                          hFlip={false}
+                          height={null}
+                          name={null}
+                          size={22}
+                          stroke={null}
+                          strokeCap="round"
+                          strokeDash={
+                            Array [
+                              0,
+                              0,
+                            ]
+                          }
+                          strokeJoin="round"
+                          strokeWidth={1}
+                          style={null}
+                          vFlip={false}
+                          viewBox="0 0 1024 1024"
+                          width={null}
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "flexDirection": "row",
+                                },
+                                Object {
+                                  "height": 22,
+                                  "width": 22,
+                                },
+                                false,
+                                null,
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                Array [
+                                  Object {
+                                    "flexDirection": "row",
+                                  },
+                                  Object {
+                                    "height": 22,
+                                    "width": 22,
+                                  },
+                                  false,
+                                  null,
+                                ]
+                              }
+                            >
+                              <Svg
+                                height={22}
+                                key="0"
+                                preserveAspectRatio="xMidYMid meet"
+                                viewBox="0 0 1024 1024"
+                                width={22}
+                              >
+                                <_class
+                                  align="xMidYMid"
+                                  meetOrSlice={0}
+                                  minX={0}
+                                  minY={0}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      },
+                                      undefined,
+                                      false,
+                                      Object {
+                                        "flex": 0,
+                                        "height": 22,
+                                        "width": 22,
+                                      },
+                                    ]
+                                  }
+                                  vbHeight={1024}
+                                  vbWidth={1024}
+                                >
+                                  <RNSVGSvgView
+                                    align="xMidYMid"
+                                    meetOrSlice={0}
+                                    minX={0}
+                                    minY={0}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "backgroundColor": "transparent",
+                                        },
+                                        undefined,
+                                        false,
+                                        Object {
+                                          "flex": 0,
+                                          "height": 22,
+                                          "width": 22,
+                                        },
+                                      ]
+                                    }
+                                    vbHeight={1024}
+                                    vbWidth={1024}
+                                  >
+                                    <Path
+                                      d="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
+                                      fill="#D3D3D3"
+                                      height={null}
+                                      stroke="#D3D3D3"
+                                      strokeCap="round"
+                                      strokeDash={
+                                        Array [
+                                          0,
+                                          0,
+                                        ]
+                                      }
+                                      strokeJoin="round"
+                                      strokeWidth={1}
+                                      width={null}
+                                    >
+                                      <RNSVGPath
+                                        d="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
+                                        fill={
+                                          Array [
+                                            0,
+                                            0.8274509803921568,
+                                            0.8274509803921568,
+                                            0.8274509803921568,
+                                            1,
+                                          ]
+                                        }
+                                        fillOpacity={1}
+                                        fillRule={1}
+                                        matrix={
+                                          Array [
+                                            1,
+                                            0,
+                                            0,
+                                            1,
+                                            0,
+                                            0,
+                                          ]
+                                        }
+                                        opacity={1}
+                                        propList={
+                                          Array [
+                                            "stroke",
+                                            "strokeWidth",
+                                            "fill",
+                                          ]
+                                        }
+                                        stroke={
+                                          Array [
+                                            0,
+                                            0.8274509803921568,
+                                            0.8274509803921568,
+                                            0.8274509803921568,
+                                            1,
+                                          ]
+                                        }
+                                        strokeDasharray={null}
+                                        strokeDashoffset={null}
+                                        strokeLinecap={0}
+                                        strokeLinejoin={0}
+                                        strokeMiterlimit={4}
+                                        strokeOpacity={1}
+                                        strokeWidth={1}
+                                      />
+                                    </Path>
+                                  </RNSVGSvgView>
+                                </_class>
+                              </Svg>
+                            </View>
+                          </View>
+                        </IconFont>
+                      </Component>
+                    </IconBackground>
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "marginLeft": 12,
+                          "marginRight": 12,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "flex": 1,
+                            "marginLeft": 12,
+                            "marginRight": 12,
+                          }
+                        }
+                      >
+                        <TYText
+                          align={null}
+                          color="#000"
+                          size={15}
+                          style={
+                            Array [
+                              Object {
+                                "lineHeight": 24,
+                              },
+                              undefined,
+                            ]
+                          }
+                          text="Switch Card"
+                          type={null}
+                          weight={null}
+                        >
+                          <Styled(Text)
+                            align={null}
+                            allowFontScaling={false}
+                            color="#000"
+                            size={15}
+                            style={
+                              Array [
+                                Object {
+                                  "lineHeight": 24,
+                                },
+                                undefined,
+                              ]
+                            }
+                            text="Switch Card"
+                            type={null}
+                            weight={null}
+                          >
+                            <Text
+                              accessible={true}
+                              align={null}
+                              allowFontScaling={false}
+                              color="#000"
+                              ellipsizeMode="tail"
+                              size={15}
+                              style={
+                                Array [
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                    "color": "#000",
+                                    "fontSize": 15,
+                                  },
+                                  Array [
+                                    Object {
+                                      "lineHeight": 24,
+                                    },
+                                    undefined,
+                                  ],
+                                ]
+                              }
+                              text="Switch Card"
+                              type={null}
+                              weight={null}
+                            >
+                              <Text
+                                accessible={true}
+                                align={null}
+                                allowFontScaling={false}
+                                color="#000"
+                                ellipsizeMode="tail"
+                                size={15}
+                                style={
+                                  Array [
+                                    false,
+                                    Array [
+                                      false,
+                                      Array [
+                                        Object {
+                                          "backgroundColor": "transparent",
+                                          "color": "#000",
+                                          "fontSize": 15,
+                                        },
+                                        Array [
+                                          Object {
+                                            "lineHeight": 24,
+                                          },
+                                          undefined,
+                                        ],
+                                      ],
+                                    ],
+                                  ]
+                                }
+                                text="Switch Card"
+                                type={null}
+                                weight={null}
+                              >
+                                Switch Card
+                              </Text>
+                            </Text>
+                          </Styled(Text)>
+                        </TYText>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <ThemedSwitchButton
+                  icon="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
+                  onTintColor="#76A6E4"
+                  size={
+                    Object {
+                      "activeSize": 4,
+                      "margin": 6,
+                    }
+                  }
+                  theme={null}
+                  thumbStyle={
+                    Object {
+                      "borderRadius": 2,
+                      "height": 12,
+                      "width": 4,
+                    }
+                  }
+                >
+                  <WithTheme(ThemeConsumer)>
+                    <ThemeConsumer
+                      theme={Object {}}
+                    >
+                      <SwitchButton
+                        accessibilityLabel="SwitchButton"
+                        borderColor="#e5e5e5"
+                        d={null}
+                        defaultValue={true}
+                        disabled={false}
+                        icon="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
+                        iconColor={null}
+                        iconSize={18}
+                        offText=""
+                        offTextStyle={null}
+                        onText=""
+                        onTextStyle={null}
+                        onTintColor="#76A6E4"
+                        size={
+                          Object {
+                            "activeSize": 4,
+                            "height": undefined,
+                            "margin": 6,
+                            "width": undefined,
+                          }
+                        }
+                        smallThumbStyle={Object {}}
+                        switchType={null}
+                        thumbStyle={
+                          Object {
+                            "borderRadius": 2,
+                            "height": 12,
+                            "width": 4,
+                          }
+                        }
+                        thumbTintColor="#fff"
+                        tintColor="#e5e5e5"
+                        useNativeDriver={true}
+                      >
+                        <View
+                          needsOffscreenAlphaCompositing={true}
+                          style={
+                            Array [
+                              undefined,
+                              false,
+                            ]
+                          }
+                        >
+                          <View
+                            needsOffscreenAlphaCompositing={true}
+                            style={
+                              Array [
+                                undefined,
+                                false,
+                              ]
+                            }
+                          >
+                            <TouchableOpacity
+                              accessibilityLabel="SwitchButton"
+                              activeOpacity={1}
+                              onPress={[Function]}
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "backgroundColor": "transparent",
+                                  "height": NaN,
+                                  "justifyContent": "center",
+                                  "width": NaN,
+                                }
+                              }
+                            >
+                              <AnimatedComponent
+                                accessibilityLabel="SwitchButton"
+                                accessible={true}
+                                isTVSelectable={true}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={
+                                  Array [
+                                    Object {
+                                      "alignItems": "center",
+                                      "backgroundColor": "transparent",
+                                      "height": NaN,
+                                      "justifyContent": "center",
+                                      "width": NaN,
+                                    },
+                                    Object {
+                                      "opacity": 1,
+                                    },
+                                  ]
+                                }
+                              >
+                                <View
+                                  accessibilityLabel="SwitchButton"
+                                  accessible={true}
+                                  isTVSelectable={true}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Object {
+                                      "alignItems": "center",
+                                      "backgroundColor": "transparent",
+                                      "height": NaN,
+                                      "justifyContent": "center",
+                                      "opacity": 1,
+                                      "width": NaN,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    accessibilityLabel="SwitchButton"
+                                    accessible={true}
+                                    isTVSelectable={true}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={
+                                      Object {
+                                        "alignItems": "center",
+                                        "backgroundColor": "transparent",
+                                        "height": NaN,
+                                        "justifyContent": "center",
+                                        "opacity": 1,
+                                        "width": NaN,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Array [
+                                          Object {
+                                            "borderRadius": NaN,
+                                            "height": undefined,
+                                            "justifyContent": "center",
+                                            "width": undefined,
+                                          },
+                                          Object {
+                                            "backgroundColor": "#76A6E4",
+                                            "borderColor": "#76A6E4",
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Array [
+                                            Object {
+                                              "borderRadius": NaN,
+                                              "height": undefined,
+                                              "justifyContent": "center",
+                                              "width": undefined,
+                                            },
+                                            Object {
+                                              "backgroundColor": "#76A6E4",
+                                              "borderColor": "#76A6E4",
+                                            },
+                                          ]
+                                        }
+                                      />
+                                    </View>
+                                    <AnimatedComponent
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "justifyContent": "center",
+                                          },
+                                          Array [
+                                            Object {
+                                              "alignSelf": "flex-start",
+                                              "backgroundColor": "#fff",
+                                              "borderRadius": 2,
+                                              "elevation": 2,
+                                              "height": 4,
+                                              "position": "absolute",
+                                              "shadowColor": "rgba(0, 0, 0, 0.3)",
+                                              "shadowOffset": Object {
+                                                "height": 3,
+                                                "width": 0,
+                                              },
+                                              "shadowOpacity": 1,
+                                              "shadowRadius": 3,
+                                              "transform": Array [
+                                                Object {
+                                                  "translateX": NaN,
+                                                },
+                                              ],
+                                              "width": 4,
+                                            },
+                                            Object {
+                                              "borderRadius": 2,
+                                              "height": 12,
+                                              "width": 4,
+                                            },
+                                          ],
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "alignItems": "center",
+                                            "alignSelf": "flex-start",
+                                            "backgroundColor": "#fff",
+                                            "borderRadius": 2,
+                                            "elevation": 2,
+                                            "height": 12,
+                                            "justifyContent": "center",
+                                            "position": "absolute",
+                                            "shadowColor": "rgba(0, 0, 0, 0.3)",
+                                            "shadowOffset": Object {
+                                              "height": 3,
+                                              "width": 0,
+                                            },
+                                            "shadowOpacity": 1,
+                                            "shadowRadius": 3,
+                                            "transform": Array [
+                                              Object {
+                                                "translateX": NaN,
+                                              },
+                                            ],
+                                            "width": 4,
+                                          }
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Object {
+                                              "alignItems": "center",
+                                              "alignSelf": "flex-start",
+                                              "backgroundColor": "#fff",
+                                              "borderRadius": 2,
+                                              "elevation": 2,
+                                              "height": 12,
+                                              "justifyContent": "center",
+                                              "position": "absolute",
+                                              "shadowColor": "rgba(0, 0, 0, 0.3)",
+                                              "shadowOffset": Object {
+                                                "height": 3,
+                                                "width": 0,
+                                              },
+                                              "shadowOpacity": 1,
+                                              "shadowRadius": 3,
+                                              "transform": Array [
+                                                Object {
+                                                  "translateX": NaN,
+                                                },
+                                              ],
+                                              "width": 4,
+                                            }
+                                          }
+                                        />
+                                      </View>
+                                    </AnimatedComponent>
+                                  </View>
+                                </View>
+                              </AnimatedComponent>
+                            </TouchableOpacity>
+                          </View>
+                        </View>
+                      </SwitchButton>
+                    </ThemeConsumer>
+                  </WithTheme(ThemeConsumer)>
+                </ThemedSwitchButton>
+              </View>
+            </View>
+          </StyleSwitchCard>
+        </PaintSwitchCard>
+      </ThemeProvider>
+    </ThemeConsumer>
+  </WithTheme(ThemeConsumer)>
+</ThemeProvider>
+`;
