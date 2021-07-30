@@ -347,6 +347,8 @@ export default {
     no_icon: 'no icon',
     // SwichCard
     switch_card: 'Switch Card',
+    iconbg_image: 'Image',
+    block_card: 'Block Card',
   },
   zh: {
     // debug
@@ -698,5 +700,7 @@ export default {
     no_icon: '没有图标',
     // SwichCard
     switch_card: 'Switch Card 开关卡片',
+    iconbg_image: '图片',
+    block_card: 'Block Card 块状卡片',
   },
 };

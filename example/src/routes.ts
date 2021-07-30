@@ -52,6 +52,7 @@ import IconBackground from './pages/style/icon-background';
 // Style
 
 import SwitchCard from './pages/style/switch-card';
+import BlockCard from './pages/style/block-card';
 
 export const routes = [
   // basic
@@ -279,5 +280,10 @@ export const routes = [
     name: Strings.getLang('switch_card'),
     href: '/style/switch-card',
     component: SwitchCard,
+  },
+  {
+    name: Strings.getLang('block_card'),
+    href: '/style/block-card',
+    component: BlockCard,
   },
 ];

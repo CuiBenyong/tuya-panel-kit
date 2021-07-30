@@ -1,9 +1,11 @@
 import React from 'react';
-import { View, ViewStyle } from 'react-native';
+import { View, ViewStyle, Image, StyleProp } from 'react-native';
 import { IconFont } from 'tuya-panel-kit';
 
 export interface IconBackgroundProps {
   icon?: string;
+  image?: string; // 图标可以是图片，icon 优先级更高
+  size?: number;
   iconSize?: number;
   iconBgSize?: number;
   showIcon?: boolean;
@@ -11,7 +13,8 @@ export interface IconBackgroundProps {
   iconColor?: string;
   iconBgColor?: string;
   iconBgRadius?: number;
-  style?: ViewStyle;
+  imageRadius?: number;
+  style?: StyleProp<ViewStyle>;
 }
 
 const defaultProps = {
@@ -24,11 +27,23 @@ const defaultProps = {
   showIcon: true,
   showIconBg: true,
   style: {},
+  imageRadius: 0,
 };
 
 const IconBackground: React.FC<IconBackgroundProps> = props => {
   const renderIcon = () => {
-    return <IconFont d={props.icon} color={props.iconColor} size={props.iconSize} />;
+    if (props.icon) {
+      return <IconFont d={props.icon} color={props.iconColor} size={props.iconSize} />;
+    }
+    if (props.image) {
+      return (
+        <Image
+          source={{ uri: props.image }}
+          style={{ width: props.iconSize, height: props.iconSize, borderRadius: props.imageRadius }}
+        />
+      );
+    }
+    return null;
   };
 
   if (!props.showIcon) {

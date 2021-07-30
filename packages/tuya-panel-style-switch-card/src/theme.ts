@@ -3,7 +3,8 @@ import { Utils } from 'tuya-panel-utils';
 const { convertX: cx } = Utils.RatioUtils;
 
 export const NordicDefaultProps = {
-  width: cx(287),
+  showIcon: false,
+  width: cx(278),
   radius: cx(16),
   fontColor: '#000',
   switchSize: {
@@ -15,9 +16,10 @@ export const NordicDefaultProps = {
 };
 
 export const AcrylicDefaultProps = {
+  iconSize: cx(40),
   onTintColor: '#FE7862',
   switchType: 'thumbMore',
-  width: cx(287),
+  width: cx(278),
   radius: cx(16),
   thumbStyle: { width: cx(24), height: cx(24), borderRadius: cx(8.8) },
   smallThumbStyle: {
@@ -32,11 +34,11 @@ export const AcrylicDefaultProps = {
     height: cx(27),
     borderRadius: cx(10),
   },
-  style: { position: 'absolute', left: cx(1), top: cx(1) },
 };
 
 export const PaintDefaultProps = {
-  width: cx(303),
+  iconSize: cx(22),
+  width: cx(294),
   fontColor: '#000',
   onTintColor: '#76A6E4',
   thumbStyle: { width: cx(4), height: cx(12), borderRadius: cx(2) },

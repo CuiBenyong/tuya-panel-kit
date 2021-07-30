@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Dimensions } from 'react-native';
+import { View } from 'react-native';
 import {
   ClassicSwitchCard,
   NordicSwitchCard,
@@ -10,51 +10,36 @@ import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { ListView } from '#components';
 import Strings from '#i18n';
 
-const { height } = Dimensions.get('screen');
-
 export default () => {
-  // return <IconBackground icon={TuyaRNSvgs.power} />;
   return (
     <ListView
-      style={{ backgroundColor: '#f8f8f8', flex: 1, height }}
+      style={{ backgroundColor: '#f8f8f8' }}
       list={[
-        // {
-        //   title: Strings.getLang('basic'),
-        //   content: (
-        //     <View>
-        //       <ClassicSwitchCard icon={TuyaRNSvgs.power} />
-        //       <ClassicSwitchCard
-        //         icon={TuyaRNSvgs.power}
-        //         subText="switch card"
-        //         style={{ marginTop: 20 }}
-        //       />
-        //     </View>
-        //   ),
-        // },
-        // {
-        //   title: Strings.getLang('scandinavian'),
-        //   content: (
-        //     <View>
-        //       <NordicSwitchCard />
-        //     </View>
-        //   ),
-        // },
         {
-          title: Strings.getLang('acrylic'),
+          title: Strings.getLang('basic'),
           content: (
             <View>
-              <AcrylicSwitchCard icon={TuyaRNSvgs.power} subText="switch card" />
+              <ClassicSwitchCard icon={TuyaRNSvgs.power} />
+              <ClassicSwitchCard
+                icon={TuyaRNSvgs.power}
+                subText="switch card"
+                style={{ marginTop: 20 }}
+              />
             </View>
           ),
         },
-        // {
-        //   title: Strings.getLang('illustration'),
-        //   content: (
-        //     <View>
-        //       <PaintSwitchCard icon={TuyaRNSvgs.power} />
-        //     </View>
-        //   ),
-        // },
+        {
+          title: Strings.getLang('scandinavian'),
+          content: <NordicSwitchCard />,
+        },
+        {
+          title: Strings.getLang('acrylic'),
+          content: <AcrylicSwitchCard icon={TuyaRNSvgs.power} subText="switch card" />,
+        },
+        {
+          title: Strings.getLang('illustration'),
+          content: <PaintSwitchCard icon={TuyaRNSvgs.power} />,
+        },
       ]}
     />
   );

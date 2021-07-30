@@ -5,7 +5,7 @@
   "author": "ZengBeauty <2497752603@qq.com>",
   "homepage": "https://github.com/tuya/tuya-panel-kit#readme",
   "license": "MIT",
-  "main": "src/index.tsx",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,7 +21,11 @@
     "url": "git+https://github.com/tuya/tuya-panel-kit.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "prebuild": "rimraf lib/*",
+    "build": "tsc -d",
+    "dev": "tsc -w",
+    "test": "jest -u --silent --forceExit",
+    "test:watch": "jest --watch"
   },
   "bugs": {
     "url": "https://github.com/tuya/tuya-panel-kit/issues"
@@ -29,15 +33,13 @@
   "dependencies": {
     "tuya-panel-utils": "^0.0.1",
     "tuya-panel-icon-background": "^0.0.0",
-    "tuya-panel-kit": "^4.6.4",
-    "react-native-svg": "5.5.1"
+    "tuya-panel-kit": "^4.6.4"
   },
   "devDependencies": {
     "@types/tuya-panel-kit": "^4.0.5"
   },
   "peerDependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.10",
-    "react-native-svg": "5.5.1"
+    "react-native": "0.59.10"
   }
 }
