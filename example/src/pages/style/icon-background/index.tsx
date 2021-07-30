@@ -77,12 +77,12 @@ export default () => {
                   stops: [
                     {
                       offset: '0%',
-                      stopColor: '#ff0',
+                      stopColor: '#ff6700',
                       stopOpacity: '1',
                     },
                     {
                       offset: '100%',
-                      stopColor: '#00f',
+                      stopColor: '#22ee2d',
                       stopOpacity: '1',
                     },
                   ],
