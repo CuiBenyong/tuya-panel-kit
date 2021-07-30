@@ -14,7 +14,7 @@ const list = [
     key: '0',
   },
   {
-    label: '状态2',
+    label: '状态2状态2状态2',
     icon: TuyaRNSvgs.power,
     key: '1',
   },
@@ -70,13 +70,11 @@ export default () => {
               />
               <ClassicEnumCard
                 style={{ marginTop: 20 }}
-                title="padding设置 [40, 60, 60, 40]"
-                list={list.slice(0, 3)}
+                list={list}
                 defaultActiveKey="1"
                 showIconBg={false}
                 activeIconColor="#ff6700"
                 activeTextColor="#ff6700"
-                padding={[40, 60, 60, 40]}
               />
             </View>
           ),
@@ -97,7 +95,7 @@ export default () => {
           ),
         },
         {
-          title: '北欧风格',
+          title: '亚历克风格',
           content: (
             <View>
               <AcrylicEnumCard title="工作模式" list={list} activeKey="0" />

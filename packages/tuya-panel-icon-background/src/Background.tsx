@@ -22,9 +22,9 @@ type RadiaGradientBg = {
     stopOpacity: string;
   }>;
 };
-export type BackgroundProps = PureColor | LinearGradientBg | RadiaGradientBg;
+export type BackgroundType = PureColor | LinearGradientBg | RadiaGradientBg;
 export interface IBackgroundProps {
-  background: BackgroundProps;
+  background: BackgroundType;
   width: number;
   height: number;
   style?: StyleProp<ViewStyle>;
@@ -58,6 +58,7 @@ const Background: React.FC<IBackgroundProps> = ({
           style={{ width, height }}
           gradientId="base-background"
           {...getCoords((background as LinearGradientBg).deg)}
+          stops={background.stops}
         >
           <Rect width={width} height={height} />
         </LinearGradient>

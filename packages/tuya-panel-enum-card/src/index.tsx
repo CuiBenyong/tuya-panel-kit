@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Platform } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
 import { Carousel } from 'tuya-panel-kit';
 import IconBackground from 'tuya-panel-icon-background';
@@ -7,6 +7,7 @@ import { NordicDefaultProps, AcrylicDefaultProps } from './theme';
 import { defaultProps, IEnumCardProps } from './interface';
 
 const MAX_PAGE_COUNT = 4;
+const isAndroid = Platform.OS === 'android';
 
 const { convertX: cx } = Utils.RatioUtils;
 const EnumCard: React.FC<IEnumCardProps> = ({
@@ -31,11 +32,13 @@ const EnumCard: React.FC<IEnumCardProps> = ({
   textColor,
   activeTextColor,
   textFontSize,
+  textFontWeight = 'normal',
   // title属性
   title,
   showTitle,
   titleFontSize,
   titleColor,
+  titleFontWeight = 'normal',
   // 背景属性
   backgroundColor,
   radius,
@@ -47,9 +50,11 @@ const EnumCard: React.FC<IEnumCardProps> = ({
   activeKey,
   defaultActiveKey,
   contentStyle,
+  carouselPageContent,
+  titleContentStyle = {},
 }) => {
   const [_activeKey, _setActiveKey] = useState(activeKey || defaultActiveKey || '');
-  const [defaultPageIndex, setDefaultPageIndex] = useState(() => {
+  const [pageIndex, setPageIndex] = useState(() => {
     if (list.length <= MAX_PAGE_COUNT) return 0;
     let index = 0;
     for (let i = 0; i < list.length; i++) {
@@ -78,7 +83,10 @@ const EnumCard: React.FC<IEnumCardProps> = ({
       let endIndex = startIndex + MAX_PAGE_COUNT - 1;
       endIndex = endIndex >= list.length ? list.length - 1 : endIndex;
       const contentView = (
-        <View style={[{ paddingBottom: isCarousel ? 20 : 0 }, styles.pageBox]} key={i}>
+        <View
+          style={[isCarousel ? carouselPageContent : {}, styles.pageBox, carouselPageContent]}
+          key={i}
+        >
           {renderItem(startIndex, endIndex)}
         </View>
       );
@@ -92,6 +100,18 @@ const EnumCard: React.FC<IEnumCardProps> = ({
     if (!activeKey) {
       _setActiveKey(key);
     }
+  };
+
+  // 用于android下 计算轮播图的高度
+  const computedCarouselHeight = () => {
+    const iconContentSize = showIconBg ? iconBgSize : iconSize;
+    let textMargin = (textStyle as any).marginTop;
+    textMargin = typeof textMargin === 'number' ? textMargin : cx(8);
+    textMargin = showText ? textMargin : 0;
+    let textSize = (textStyle as any).fontSize;
+    textSize = typeof textSize === 'number' ? textSize : textFontSize;
+    textSize = showText ? textSize : 0;
+    return iconContentSize + textMargin + textSize + cx(20);
   };
 
   const renderItem = (startIndex, endIndex) => {
@@ -120,7 +140,11 @@ const EnumCard: React.FC<IEnumCardProps> = ({
           />
           {data.label && showText && (
             <Text
-              style={[{ color: realTextColor, fontSize: textFontSize }, styles.itemText, textStyle]}
+              style={[
+                { color: realTextColor, fontSize: textFontSize, fontWeight: textFontWeight },
+                styles.itemText,
+                textStyle,
+              ]}
             >
               {data.label}
             </Text>
@@ -130,6 +154,30 @@ const EnumCard: React.FC<IEnumCardProps> = ({
       ret.push(item);
     }
     return ret;
+  };
+
+  const renderDot = () => {
+    const pageCount = Math.ceil(list.length / MAX_PAGE_COUNT);
+    const contentWidth = pageCount * dotSize + (pageCount - 1) * cx(8);
+    const dotList = [];
+    for (let i = 0; i < pageCount; i++) {
+      const dot = (
+        <View
+          style={{
+            width: dotSize,
+            height: dotSize,
+            backgroundColor: i === pageIndex ? activeDotColor : dotColor,
+            borderRadius: dotSize,
+          }}
+        />
+      );
+      dotList.push(dot);
+    }
+    return <View style={[{ width: contentWidth }, styles.dotWarp]}>{dotList}</View>;
+  };
+
+  const onCarouselChange = index => {
+    setPageIndex(index);
   };
 
   return (
@@ -149,24 +197,27 @@ const EnumCard: React.FC<IEnumCardProps> = ({
       ]}
     >
       {showTitle && Boolean(title) && (
-        <View>
-          <Text style={[{ fontSize: titleFontSize, color: titleColor }, titleStyle]}>{title}</Text>
+        <View style={titleContentStyle}>
+          <Text
+            style={[
+              { fontSize: titleFontSize, color: titleColor, fontWeight: titleFontWeight },
+              titleStyle,
+            ]}
+          >
+            {title}
+          </Text>
         </View>
       )}
       <View style={[styles.contentBox, contentStyle]}>
         {list.length > MAX_PAGE_COUNT ? (
           <Carousel
-            selectedIndex={defaultPageIndex}
-            dotWrapperStyle={{
-              bottom: -10,
+            style={{
+              height: isAndroid ? computedCarouselHeight() : 'auto',
             }}
-            dotStyle={{
-              backgroundColor: dotColor,
-              width: dotSize,
-              height: dotSize,
-              borderRadius: dotSize,
-            }}
-            dotActiveStyle={{ backgroundColor: activeDotColor }}
+            selectedIndex={pageIndex}
+            hasDots={false}
+            // dotActiveStyle={{ backgroundColor: activeDotColor }}
+            carouselChange={onCarouselChange}
           >
             {renderPageCard()}
           </Carousel>
@@ -175,6 +226,7 @@ const EnumCard: React.FC<IEnumCardProps> = ({
             {renderItem(0, list.length - 1)}
           </View>
         )}
+        {list.length > MAX_PAGE_COUNT && <View style={styles.center}>{renderDot()}</View>}
       </View>
     </View>
   );
@@ -183,9 +235,16 @@ const EnumCard: React.FC<IEnumCardProps> = ({
 EnumCard.defaultProps = defaultProps;
 
 const styles = StyleSheet.create({
+  center: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   contentBox: {
     flex: 1,
-    marginTop: cx(12),
+  },
+  dotWarp: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   },
   itemBox: {
     alignItems: 'center',
@@ -193,7 +252,7 @@ const styles = StyleSheet.create({
     flex: 1 / MAX_PAGE_COUNT,
   },
   itemText: {
-    marginTop: 8,
+    marginTop: cx(8),
   },
   pageBox: {
     display: 'flex',

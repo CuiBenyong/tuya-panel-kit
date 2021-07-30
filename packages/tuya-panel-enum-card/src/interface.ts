@@ -1,12 +1,13 @@
 import { StyleProp, ViewStyle, TextStyle } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
+import { BackgroundType } from 'tuya-panel-icon-background';
 
 const { convertX: cx } = Utils.RatioUtils;
 export const defaultProps = {
   style: {}, // content容器 样式  优先级最高
-  textStyle: {}, // 枚举项里面小蚊子样式 优先级最高
+  textStyle: {}, // 枚举项里面小文字样式 优先级最高
   titleStyle: {}, // 标题的样式 优先级最高
-  padding: [16, 20, 16, 20],
+  padding: [cx(16), cx(16), cx(16), cx(16)],
   // icon属性
   iconColor: '#158CFB',
   activeIconColor: '#fff',
@@ -22,11 +23,13 @@ export const defaultProps = {
   textColor: 'rgba(61, 61, 61, 0.3)',
   activeTextColor: '#009FFF',
   textFontSize: cx(12),
+  // textFontWeight: 'normal',
   // title属性
   title: '',
   showTitle: true,
   titleFontSize: cx(16),
   titleColor: '#000',
+  // titleFontWeight: 'normal',
   // 背景属性
   backgroundColor: '#fff',
   radius: cx(12),
@@ -35,6 +38,12 @@ export const defaultProps = {
   dotColor: 'rgba(0, 0, 0, 0.05)',
   activeDotColor: '#158CFB',
   contentStyle: {},
+  carouselPageContent: {
+    paddingBottom: cx(20),
+  },
+  titleContentStyle: {
+    marginBottom: cx(16),
+  },
 };
 
 type EnumItem = {
@@ -48,8 +57,14 @@ export type IEnumCardProps = {
   list: Array<EnumItem>;
   width?: number;
   style?: StyleProp<ViewStyle>;
-  textStyle?: StyleProp<TextStyle>;
+  textStyle?: StyleProp<ViewStyle & TextStyle>;
   contentStyle: StyleProp<ViewStyle>;
+  carouselPageContent: StyleProp<ViewStyle>;
   activeKey?: string;
   defaultActiveKey?: string;
-} & Partial<typeof defaultProps>;
+  iconBgColor?: BackgroundType;
+  activeIconBgColor?: BackgroundType;
+  textFontWeight?: TextStyle['fontWeight'];
+  titleFontWeight?: TextStyle['fontWeight'];
+  titleContentStyle?: StyleProp<ViewStyle>;
+} & Omit<Partial<typeof defaultProps>, 'iconBgColor' | 'activeIconBgColor' | 'textStyle'>;
