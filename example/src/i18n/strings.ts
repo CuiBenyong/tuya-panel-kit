@@ -345,7 +345,10 @@ export default {
     icon_and_background: 'icons and backgrounds exist',
     only_icon: 'only icon',
     no_icon: 'no icon',
+    // SwichCard
+    switch_card: 'Switch Card',
     iconbg_image: 'Image',
+    block_card: 'Block Card',
   },
   zh: {
     // debug
@@ -695,6 +698,9 @@ export default {
     icon_and_background: '图标和背景都存在',
     only_icon: '只存在图标',
     no_icon: '没有图标',
+    // SwichCard
+    switch_card: 'Switch Card 开关卡片',
     iconbg_image: '图片',
+    block_card: 'Block Card 块状卡片',
   },
 };

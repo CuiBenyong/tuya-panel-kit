@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, ViewStyle, Image } from 'react-native';
+import { View, ViewStyle, Image, StyleProp } from 'react-native';
 import { IconFont } from 'tuya-panel-kit';
 
 export interface IconBackgroundProps {
@@ -13,8 +13,8 @@ export interface IconBackgroundProps {
   iconColor?: string;
   iconBgColor?: string;
   iconBgRadius?: number;
-  style?: ViewStyle;
   imageRadius?: number;
+  style?: StyleProp<ViewStyle>;
 }
 
 const defaultProps = {
