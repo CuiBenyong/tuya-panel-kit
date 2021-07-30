@@ -52,6 +52,7 @@ const EnumCard: React.FC<IEnumCardProps> = ({
   contentStyle,
   carouselPageContent,
   titleContentStyle = {},
+  onActiveKeyChange,
 }) => {
   const [_activeKey, _setActiveKey] = useState(activeKey || defaultActiveKey || '');
   const [pageIndex, setPageIndex] = useState(() => {
@@ -99,6 +100,8 @@ const EnumCard: React.FC<IEnumCardProps> = ({
   const handClick = (key: string) => {
     if (!activeKey) {
       _setActiveKey(key);
+    } else {
+      onActiveKeyChange && onActiveKeyChange(key);
     }
   };
 

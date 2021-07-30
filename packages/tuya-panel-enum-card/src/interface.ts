@@ -67,4 +67,5 @@ export type IEnumCardProps = {
   textFontWeight?: TextStyle['fontWeight'];
   titleFontWeight?: TextStyle['fontWeight'];
   titleContentStyle?: StyleProp<ViewStyle>;
+  onActiveKeyChange?: (number) => void;
 } & Omit<Partial<typeof defaultProps>, 'iconBgColor' | 'activeIconBgColor' | 'textStyle'>;

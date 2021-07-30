@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View } from 'react-native';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { ClassicEnumCard, NordicEnumCard, AcrylicEnumCard } from 'tuya-panel-enum-card';
@@ -49,6 +49,11 @@ const list1 = list.map(item => {
 });
 
 export default () => {
+  const [activeKey1, setActiveKey1] = useState('5');
+  const onActiveKeyChange = key => {
+    setActiveKey1(key);
+  };
+
   return (
     <ListView
       style={{ backgroundColor: '#f9f9f9', minHeight: 200 }}
@@ -57,7 +62,12 @@ export default () => {
           title: '经典风格',
           content: (
             <View>
-              <ClassicEnumCard title="工作模式" list={list} activeKey="5" />
+              <ClassicEnumCard
+                title="工作模式"
+                list={list}
+                activeKey={activeKey1}
+                onActiveKeyChange={onActiveKeyChange}
+              />
               <ClassicEnumCard
                 style={{ marginTop: 20 }}
                 title="工作模式"
