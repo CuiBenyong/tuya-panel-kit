@@ -7,8 +7,10 @@ import { NordicDefaultProps, AcrylicDefaultProps } from './theme';
 import { defaultProps, IEnumCardProps } from './interface';
 
 const MAX_PAGE_COUNT = 4;
-const isAndroid = Platform.OS === 'android';
-
+export function getOS() {
+  return Platform.OS;
+}
+const isAndroid = getOS() === 'android';
 const { convertX: cx } = Utils.RatioUtils;
 const EnumCard: React.FC<IEnumCardProps> = ({
   list = [],
@@ -108,10 +110,14 @@ const EnumCard: React.FC<IEnumCardProps> = ({
   // 用于android下 计算轮播图的高度
   const computedCarouselHeight = () => {
     const iconContentSize = showIconBg ? iconBgSize : iconSize;
-    let textMargin = (textStyle as any).marginTop;
+    /* eslint-disable */
+    // @ts-ignored
+    let textMargin = textStyle.marginTop;
     textMargin = typeof textMargin === 'number' ? textMargin : cx(8);
     textMargin = showText ? textMargin : 0;
-    let textSize = (textStyle as any).fontSize;
+    // @ts-ignored
+    let textSize = textStyle.fontSize;
+    /* eslint-enable */
     textSize = typeof textSize === 'number' ? textSize : textFontSize;
     textSize = showText ? textSize : 0;
     return iconContentSize + textMargin + textSize + cx(20);

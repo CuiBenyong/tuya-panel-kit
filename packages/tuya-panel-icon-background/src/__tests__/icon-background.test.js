@@ -3,7 +3,8 @@
  */
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Iconbackground from '../index';
+import Iconbackground, { Background } from '../index';
+import { Text } from 'react-native';
 
 jest.mock('react-native-gesture-handler', () => {
   return {
@@ -51,4 +52,22 @@ describe('IconBackground', () => {
     const wrapper = renderer.create(<Iconbackground image={image} />).toJSON();
     expect(wrapper).toMatchSnapshot();
   })
+
+  it('Background', () => {
+    const wrapper = renderer.create(<Background
+      style={{ justifyContent: 'center', alignItems: 'center', marginTop: 20 }}
+      width={100}
+      height={100}
+      background={{
+        deg: 90,
+        stops: {
+          '0%': 'red',
+          '100%': 'yellow',
+        },
+      }}
+    >
+      <Text style={{ color: '#fff' }}>hello world</Text>
+    </Background>).toJSON();
+    expect(wrapper).toMatchSnapshot();
+  });
 });

@@ -53,6 +53,20 @@ type EnumItem = {
   key?: string;
 };
 
+type FontWeightType =
+  | 'normal'
+  | 'bold'
+  | '100'
+  | '200'
+  | '300'
+  | '400'
+  | '500'
+  | '600'
+  | '700'
+  | '800'
+  | '900'
+  | undefined;
+
 export type IEnumCardProps = {
   list: Array<EnumItem>;
   width?: number;
@@ -64,8 +78,8 @@ export type IEnumCardProps = {
   defaultActiveKey?: string;
   iconBgColor?: BackgroundType;
   activeIconBgColor?: BackgroundType;
-  textFontWeight?: TextStyle['fontWeight'];
-  titleFontWeight?: TextStyle['fontWeight'];
+  textFontWeight?: FontWeightType;
+  titleFontWeight?: FontWeightType;
   titleContentStyle?: StyleProp<ViewStyle>;
   onActiveKeyChange?: (number) => void;
 } & Omit<Partial<typeof defaultProps>, 'iconBgColor' | 'activeIconBgColor' | 'textStyle'>;
