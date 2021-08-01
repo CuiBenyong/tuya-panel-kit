@@ -22,9 +22,9 @@ type RadiaGradientBg = {
     stopOpacity: string;
   }>;
 };
-export type BackgroundProps = PureColor | LinearGradientBg | RadiaGradientBg;
+export type BackgroundType = PureColor | LinearGradientBg | RadiaGradientBg;
 export interface IBackgroundProps {
-  background: BackgroundProps;
+  background: BackgroundType;
   width: number;
   height: number;
   style?: StyleProp<ViewStyle>;
@@ -46,18 +46,22 @@ const Background: React.FC<IBackgroundProps> = ({
       );
     }
     return (
-      <ImageBackground style={[{ width, height }, style]} source={{ uri: background as string }}>
+      <ImageBackground style={[{ width, height }, style]} source={{ uri: background }}>
         {children}
       </ImageBackground>
     );
   }
-  if ((background as LinearGradientBg).deg) {
+  /* eslint-disable */
+  // @ts-ignore
+  if (background.deg) {
     return (
       <View style={[{ width, height }, style]}>
         <LinearGradient
           style={{ width, height }}
           gradientId="base-background"
-          {...getCoords((background as LinearGradientBg).deg)}
+          // @ts-ignore
+          {...getCoords(background.deg)}
+          stops={background.stops}
         >
           <Rect width={width} height={height} />
         </LinearGradient>
@@ -65,13 +69,16 @@ const Background: React.FC<IBackgroundProps> = ({
       </View>
     );
   }
-  if ((background as RadiaGradientBg).cx) {
+  // @ts-ignore
+  if (background.cx) {
     return (
       <View style={[{ width, height }, style]}>
+        {/* @ts-ignore */}
         <RadialGradient
           style={{ width, height }}
           gradientId="base-background"
-          {...getCoords((background as LinearGradientBg).deg)}
+          // @ts-ignore
+          {...background}
         />
         <View style={[{ flex: 1, zIndex: 2 }, contentStyle]}>{children}</View>
       </View>

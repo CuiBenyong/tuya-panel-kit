@@ -50,11 +50,18 @@ import TYSectionList from './pages/presentation/tysection-list';
 import IconBackground from './pages/style/icon-background';
 
 // Style
-
 import SwitchCard from './pages/style/switch-card';
 import BlockCard from './pages/style/block-card';
+import EnumCard from './pages/style/enum-card';
 
 export const routes = [
+  // style
+  {
+    name: 'enum card',
+    href: '/style/enum-card',
+    component: EnumCard,
+  },
+
   // basic
   {
     name: Strings.getLang('battery'),
