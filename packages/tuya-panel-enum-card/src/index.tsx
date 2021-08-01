@@ -6,11 +6,20 @@ import IconBackground from 'tuya-panel-icon-background';
 import { NordicDefaultProps, AcrylicDefaultProps } from './theme';
 import { defaultProps, IEnumCardProps } from './interface';
 
-const MAX_PAGE_COUNT = 4;
-export function getOS() {
-  return Platform.OS;
+function computedCurrentPageIndex(activeKey, list, maxCount): number {
+  if (list.length <= maxCount) return 0;
+  let index = 0;
+  for (let i = 0; i < list.length; i++) {
+    const data = list[i];
+    if (data.key === activeKey) {
+      index = Math.floor(i / MAX_PAGE_COUNT);
+      return index;
+    }
+  }
+  return index;
 }
-const isAndroid = getOS() === 'android';
+
+const MAX_PAGE_COUNT = 4;
 const { convertX: cx } = Utils.RatioUtils;
 const EnumCard: React.FC<IEnumCardProps> = ({
   list = [],
@@ -57,24 +66,19 @@ const EnumCard: React.FC<IEnumCardProps> = ({
   onActiveKeyChange,
 }) => {
   const [_activeKey, _setActiveKey] = useState(activeKey || defaultActiveKey || '');
-  const [pageIndex, setPageIndex] = useState(() => {
-    if (list.length <= MAX_PAGE_COUNT) return 0;
-    let index = 0;
-    for (let i = 0; i < list.length; i++) {
-      const data = list[i];
-      if (data.key === _activeKey) {
-        index = Math.floor(i / MAX_PAGE_COUNT);
-        return index;
-      }
-    }
-    return index;
-  });
-
+  const [pageIndex, setPageIndex] = useState(
+    computedCurrentPageIndex(_activeKey, list, MAX_PAGE_COUNT)
+  );
   useEffect(() => {
-    if (activeKey) {
+    if (activeKey !== undefined) {
       _setActiveKey(activeKey);
     }
   }, [activeKey]);
+
+  useEffect(() => {
+    const index = computedCurrentPageIndex(_activeKey, list, MAX_PAGE_COUNT);
+    setPageIndex(index);
+  }, [list.length, _activeKey]);
 
   const renderPageCard = () => {
     const pageCount = Math.ceil(list.length / MAX_PAGE_COUNT);
@@ -100,7 +104,7 @@ const EnumCard: React.FC<IEnumCardProps> = ({
   };
 
   const handClick = (key: string) => {
-    if (!activeKey) {
+    if (activeKey === undefined) {
       _setActiveKey(key);
     } else {
       onActiveKeyChange && onActiveKeyChange(key);
@@ -120,6 +124,7 @@ const EnumCard: React.FC<IEnumCardProps> = ({
     /* eslint-enable */
     textSize = typeof textSize === 'number' ? textSize : textFontSize;
     textSize = showText ? textSize : 0;
+    // 20 是固定的轮播图区域底部的间距
     return iconContentSize + textMargin + textSize + cx(20);
   };
 
@@ -178,6 +183,7 @@ const EnumCard: React.FC<IEnumCardProps> = ({
             backgroundColor: i === pageIndex ? activeDotColor : dotColor,
             borderRadius: dotSize,
           }}
+          key={i}
         />
       );
       dotList.push(dot);
@@ -221,7 +227,7 @@ const EnumCard: React.FC<IEnumCardProps> = ({
         {list.length > MAX_PAGE_COUNT ? (
           <Carousel
             style={{
-              height: isAndroid ? computedCarouselHeight() : 'auto',
+              height: Platform.OS === 'android' ? computedCarouselHeight() : 'auto',
             }}
             selectedIndex={pageIndex}
             hasDots={false}

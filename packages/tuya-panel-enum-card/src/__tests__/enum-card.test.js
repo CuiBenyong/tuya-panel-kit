@@ -70,43 +70,20 @@ const list1 = list.map(item => {
 
 describe('EnumCard', () => {
   it('Classic', () => {
-    const wrap = renderer.create(<ClassicEnumCard
+    const wrap = mount(<ClassicEnumCard
       style={{ marginTop: 20 }}
       title="工作模式"
-      list={list.slice(0, 4)}
-      defaultActiveKey="1"
+      list={list}
+      defaultActiveKey="5"
       activeIconColor="#ff6700"
       activeTextColor="#ff6700"
-    />).toJSON();
+      showText={false}
+      padding={[8, 8, 8, 8]}
+    />);
+    expect(wrap.find('Carousel').at(0).props().selectedIndex).toBe(1);
     expect(wrap).toMatchSnapshot();
   });
-  it('Classic hand key change', () => {
-    let activeKey = '0';
-    const onActiveKeyChange = key => { activeKey = key };
-    const wrap = mount(<ClassicEnumCard list={list} activeKey={activeKey} onActiveKeyChange={onActiveKeyChange} />);
-    const touchInstance = wrap
-      .find('TouchableOpacity')
-      .at(1);
-    touchInstance.props().onPress();
-    expect(activeKey).toBe(list[1].key);
-    expect(wrap).toMatchSnapshot();  
-  });
-  it('in android', () => {
-    jest.mock('Platform', () => {
-      const Platform = require.requireActual('Platform');
-      Platform.OS = 'ios';
-      return Platform;
-    });
-    const wrap = renderer.create(<ClassicEnumCard
-      style={{ marginTop: 20 }}
-      title="工作模式"
-      list={list.slice(0, 4)}
-      defaultActiveKey="1"
-      activeIconColor="#ff6700"
-      activeTextColor="#ff6700"
-    />).toJSON();
-    expect(wrap).toMatchSnapshot();
-  });
+
   it('NordicEnumCard', () => {
     const warp = renderer.create(<NordicEnumCard
       style={{ marginTop: 20 }}
@@ -117,9 +94,81 @@ describe('EnumCard', () => {
     />).toJSON();
     expect(warp).toMatchSnapshot();
   });
+
   it('AcrylicEnumCard', () => {
-    const warp = renderer.create(<AcrylicEnumCard title="工作模式" list={list} activeKey="0" />).toJSON();
+    const warp = renderer.create(<AcrylicEnumCard title="工作模式" list={list}/>).toJSON();
     expect(warp).toMatchSnapshot();
+  });
+
+  it('in android carousel', () => {
+    jest.mock('Platform', () => {
+      const Platform = require.requireActual('Platform');
+      Platform.OS = 'android';
+      return Platform
+    });
+    const wrap = mount(<ClassicEnumCard
+      style={{ marginTop: 20 }}
+      title="工作模式"
+      list={list}
+      defaultActiveKey="1"
+      showText={false}
+      iconBgSize={40}
+    />);
+    expect(wrap.find('Carousel').at(0).props().style.height).toBe(60);  
+    // expect(wrap.find('Carousel').at(0).props().plat).toBe('android');  
+
+    expect(wrap).toMatchSnapshot();
+
+    const wrap1 = mount(<ClassicEnumCard
+      style={{ marginTop: 20 }}
+      title="工作模式"
+      list={list}
+      defaultActiveKey="5"
+      iconBgSize={40}
+      showIconBg={false}
+      iconSize={20}
+      textStyle={{ marginTop: 10, fontSize: 20 }}
+    />);
+    expect(wrap1.find('Carousel').at(0).props().style.height).toBe(70);
+    expect(wrap1).toMatchSnapshot();
+  });
+
+  it('hand key change controlled', () => {
+    let activeKey = '0';
+    const onActiveKeyChange = key => { activeKey = key };
+    const wrap = mount(<ClassicEnumCard list={list} activeKey={activeKey} activeIconBgColor="#888999" onActiveKeyChange={onActiveKeyChange} />);
+    const touchInstance = wrap
+      .find('TouchableOpacity')
+      .at(1);
+    touchInstance.props().onPress();
+    expect(activeKey).toBe(list[1].key);
+  });
+
+  it('hand key change controlled and no onActiveKeyChange', () => {
+    let activeKey = '0';
+    const wrap = mount(<ClassicEnumCard list={list} activeKey={activeKey} activeIconBgColor="#888999" />);
+    const touchInstance = wrap
+      .find('TouchableOpacity')
+      .at(1);
+    touchInstance.props().onPress();
+    expect(activeKey).toBe('0');
+  });
+
+  it('hand key change uncontrolled', () => {
+    const iconBgColor = "#222333";
+    const activeIconBgColor = "#888999";
+    const wrap = mount(<ClassicEnumCard 
+      list={list.slice(0,3)} 
+      // defaultActiveKey="0" 
+      iconBgColor={iconBgColor} 
+      activeIconBgColor={activeIconBgColor} />);
+    const touchInstance = wrap
+      .find('TouchableOpacity')
+      .at(1);
+    touchInstance.props().onPress();
+    wrap.update()
+    expect(wrap.find('IconBackground').at(0).props().iconBgColor).toBe(iconBgColor);
+    expect(wrap.find('IconBackground').at(1).props().iconBgColor).toBe(activeIconBgColor);
   });
 });
 
