@@ -53,6 +53,7 @@ import IconBackground from './pages/style/icon-background';
 import SwitchCard from './pages/style/switch-card';
 import BlockCard from './pages/style/block-card';
 import EnumCard from './pages/style/enum-card';
+import ButtonCard from './pages/style/button-card';
 
 export const routes = [
   // style
@@ -60,6 +61,11 @@ export const routes = [
     name: 'enum card',
     href: '/style/enum-card',
     component: EnumCard,
+  },
+  {
+    name: 'ButtonCard',
+    href: '/style/button-card',
+    component: ButtonCard,
   },
 
   // basic
