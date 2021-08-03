@@ -103,6 +103,8 @@ export default () => {
               list={list1}
               renderButtonItem={renderButtonItem}
               rowCount={4}
+              showTitle={false}
+              backgroundColor="rgba(255, 255, 255, 0)"
             />
           ),
         },

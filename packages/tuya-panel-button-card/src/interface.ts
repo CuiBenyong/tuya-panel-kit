@@ -66,7 +66,8 @@ type Props = {
   renderButtonItem?: (data: RangeItem) => React.ReactElement; // 自定义button的渲染方法
 };
 
-export type IButtonCardProps = Partial<Omit<typeof defaultProps, keyof Props>> & Props;
+// export type IButtonCardProps = Partial<Omit<typeof defaultProps, keyof Props>> & Props;
+export type IButtonCardProps = Partial<typeof defaultProps> & Props;
 
 type FontWeightType =
   | 'normal'

@@ -53,7 +53,7 @@ const ButtonCard: React.FC<IButtonCardProps> = ({
   activeKeyChange,
   renderButtonItem,
 }) => {
-  const [rangeData, setRangeData] = useState<RangeItem[][]>([]);
+  const [rangeData, setRangeData] = useState([]);
   const [_activeKeys, _setActiveKeys] = useState(activeKeys || defaultActiveKeys || []);
 
   useEffect(() => {
@@ -130,7 +130,7 @@ const ButtonCard: React.FC<IButtonCardProps> = ({
           },
         ]}
         activeOpacity={0.8}
-        onPressIn={() => handButtonClick(itemData.key, itemData)}
+        onPress={() => handButtonClick(itemData.key, itemData)}
       >
         {renderButtonItem ? (
           renderButtonItem(itemData)
@@ -243,6 +243,4 @@ const styles = StyleSheet.create({
 
 // export default ButtonCard;
 export const ClassicButtonCard: React.FC<IButtonCardProps> = props => <ButtonCard {...props} />;
-export const NordicButtonCard: React.FC<IButtonCardProps> = props => (
-  <ButtonCard {...props} {...NordicDefaultProps} />
-);
+export const NordicButtonCard: React.FC<IButtonCardProps> = props => <ButtonCard {...props} {...NordicDefaultProps} />;
