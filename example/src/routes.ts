@@ -55,6 +55,7 @@ import BlockCard from './pages/style/block-card';
 import EnumCard from './pages/style/enum-card';
 import ButtonCard from './pages/style/button-card';
 import DisplayCard from './pages/style/display-card';
+import SliderCard from './pages/style/slider-card';
 
 export const routes = [
   // style
@@ -67,6 +68,11 @@ export const routes = [
     name: 'ButtonCard',
     href: '/style/button-card',
     component: ButtonCard,
+  },
+  {
+    name: 'SliderCard',
+    href: '/style/slider-card',
+    component: SliderCard,
   },
 
   // basic
