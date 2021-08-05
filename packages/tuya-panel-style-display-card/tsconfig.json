@@ -3,7 +3,6 @@
     "baseUrl": "./",
     "paths": {
       "tuya-panel-utils": ["../tuya-panel-utils/lib"],
-      "tuya-panel-icon-background": ["../tuya-panel-icon-background/lib"]
     },
     "allowJs": true,
     "declaration": true,

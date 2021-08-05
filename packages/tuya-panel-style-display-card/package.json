@@ -1,7 +1,7 @@
 {
-  "name": "tuya-panel-style-block-card",
+  "name": "tuya-panel-style-display-card",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "tuya-panel-style-display-card",
   "author": "ZengBeauty <2497752603@qq.com>",
   "homepage": "https://github.com/tuya/tuya-panel-kit#readme",
   "license": "MIT",
@@ -27,19 +27,14 @@
     "test": "jest -u --silent --forceExit",
     "test:watch": "jest --watch"
   },
-  "bugs": {
-    "url": "https://github.com/tuya/tuya-panel-kit/issues"
-  },
   "dependencies": {
-    "tuya-panel-utils": "^0.0.1",
-    "tuya-panel-icon-background": "^0.0.0",
-    "tuya-panel-kit": "^4.6.4"
+    "tuya-panel-utils": "0.0.2",
+    "tuya-panel-kit": "4.6.6"
   },
   "devDependencies": {
     "@types/tuya-panel-kit": "^4.0.5"
   },
-  "peerDependencies": {
-    "react": "16.8.3",
-    "react-native": "0.59.10"
+  "bugs": {
+    "url": "https://github.com/tuya/tuya-panel-kit/issues"
   }
 }

@@ -54,6 +54,7 @@ import SwitchCard from './pages/style/switch-card';
 import BlockCard from './pages/style/block-card';
 import EnumCard from './pages/style/enum-card';
 import ButtonCard from './pages/style/button-card';
+import DisplayCard from './pages/style/display-card';
 
 export const routes = [
   // style
@@ -298,5 +299,10 @@ export const routes = [
     name: Strings.getLang('block_card'),
     href: '/style/block-card',
     component: BlockCard,
+  },
+  {
+    name: Strings.getLang('display_card'),
+    href: '/style/display-card',
+    component: DisplayCard,
   },
 ];

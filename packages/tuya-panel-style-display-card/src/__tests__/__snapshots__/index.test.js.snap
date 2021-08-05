@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisplayCard AcrylicDisplayCard 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "justifyContent": "center",
+        "paddingBottom": 26,
+        "paddingLeft": 31,
+        "paddingRight": 19,
+        "paddingTop": 26,
+        "width": 198,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "baseline",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      align={null}
+      allowFontScaling={false}
+      color="#000"
+      ellipsizeMode="tail"
+      size={64}
+      style={
+        Array [
+          false,
+          Array [
+            false,
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#000",
+                "fontSize": 64,
+                "fontWeight": "600",
+              },
+              Array [
+                Object {
+                  "lineHeight": 90,
+                },
+                Object {
+                  "lineHeight": 87.5,
+                },
+              ],
+            ],
+          ],
+        ]
+      }
+      text="32"
+      type={null}
+      weight={600}
+    >
+      32
+    </Text>
+    <Text
+      accessible={true}
+      align={null}
+      allowFontScaling={false}
+      color="rgba(0, 0, 0, 0.5)"
+      ellipsizeMode="tail"
+      size={18}
+      style={
+        Array [
+          false,
+          Array [
+            false,
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgba(0, 0, 0, 0.5)",
+                "fontSize": 18,
+                "fontWeight": "normal",
+              },
+              Array [
+                Object {
+                  "height": 24,
+                  "marginLeft": 5,
+                  "marginTop": 10,
+                },
+                Object {
+                  "lineHeight": 25,
+                  "paddingBottom": 18,
+                },
+              ],
+            ],
+          ],
+        ]
+      }
+      text="°C"
+      type={null}
+      weight="normal"
+    >
+      °C
+    </Text>
+  </View>
+  <Text
+    accessible={true}
+    align={null}
+    allowFontScaling={false}
+    color="rgba(0, 0, 0, 0.5)"
+    ellipsizeMode="tail"
+    size={14}
+    style={
+      Array [
+        false,
+        Array [
+          false,
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "rgba(0, 0, 0, 0.5)",
+              "fontSize": 14,
+              "fontWeight": "500",
+            },
+            Array [
+              Object {
+                "height": 20,
+                "marginTop": 4,
+              },
+              undefined,
+            ],
+          ],
+        ],
+      ]
+    }
+    text="Current Temp"
+    type={null}
+    weight={500}
+  >
+    Current Temp
+  </Text>
+</View>
+`;
+
+exports[`DisplayCard ClassicDisplayCard 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#FFF",
+        "borderRadius": 0,
+        "justifyContent": "center",
+        "paddingBottom": 26,
+        "paddingLeft": 31,
+        "paddingRight": 19,
+        "paddingTop": 26,
+        "width": 198,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      align={null}
+      allowFontScaling={false}
+      color="#000"
+      ellipsizeMode="tail"
+      size={74}
+      style={
+        Array [
+          false,
+          Array [
+            false,
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#000",
+                "fontSize": 74,
+                "fontWeight": "700",
+              },
+              Array [
+                Object {
+                  "lineHeight": 90,
+                },
+                undefined,
+              ],
+            ],
+          ],
+        ]
+      }
+      text="32"
+      type={null}
+      weight={700}
+    >
+      32
+    </Text>
+    <Text
+      accessible={true}
+      align={null}
+      allowFontScaling={false}
+      color="#000"
+      ellipsizeMode="tail"
+      size={20}
+      style={
+        Array [
+          false,
+          Array [
+            false,
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#000",
+                "fontSize": 20,
+                "fontWeight": "500",
+              },
+              Array [
+                Object {
+                  "height": 24,
+                  "marginLeft": 5,
+                  "marginTop": 10,
+                },
+                undefined,
+              ],
+            ],
+          ],
+        ]
+      }
+      text="°C"
+      type={null}
+      weight={500}
+    >
+      °C
+    </Text>
+  </View>
+  <Text
+    accessible={true}
+    align={null}
+    allowFontScaling={false}
+    color="rgba(0, 0, 0, 0.5)"
+    ellipsizeMode="tail"
+    size={14}
+    style={
+      Array [
+        false,
+        Array [
+          false,
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "rgba(0, 0, 0, 0.5)",
+              "fontSize": 14,
+              "fontWeight": "400",
+            },
+            Array [
+              Object {
+                "height": 20,
+                "marginTop": 4,
+              },
+              undefined,
+            ],
+          ],
+        ],
+      ]
+    }
+    text="Current Temp"
+    type={null}
+    weight={400}
+  >
+    Current Temp
+  </Text>
+</View>
+`;
