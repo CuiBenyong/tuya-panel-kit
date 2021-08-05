@@ -13,7 +13,7 @@ export default () => {
           title: Strings.getLang('basic'),
           content: (
             <View>
-              <ClassicDisplayCard />
+              <ClassicDisplayCard isAlignCenter />
               <ClassicDisplayCard backgroundColor="#FFF" />
             </View>
           ),

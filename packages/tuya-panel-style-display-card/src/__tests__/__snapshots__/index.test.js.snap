@@ -22,7 +22,7 @@ exports[`DisplayCard AcrylicDisplayCard 1`] = `
   <View
     style={
       Object {
-        "alignItems": "baseline",
+        "alignItems": "flex-end",
         "flexDirection": "row",
       }
     }
@@ -85,13 +85,13 @@ exports[`DisplayCard AcrylicDisplayCard 1`] = `
               },
               Array [
                 Object {
-                  "height": 24,
+                  "lineHeight": 24,
                   "marginLeft": 5,
                   "marginTop": 10,
                 },
                 Object {
                   "lineHeight": 25,
-                  "paddingBottom": 18,
+                  "paddingBottom": 14,
                 },
               ],
             ],
@@ -126,7 +126,7 @@ exports[`DisplayCard AcrylicDisplayCard 1`] = `
             },
             Array [
               Object {
-                "height": 20,
+                "lineHeight": 20,
                 "marginTop": 4,
               },
               undefined,
@@ -227,7 +227,7 @@ exports[`DisplayCard ClassicDisplayCard 1`] = `
               },
               Array [
                 Object {
-                  "height": 24,
+                  "lineHeight": 24,
                   "marginLeft": 5,
                   "marginTop": 10,
                 },
@@ -265,7 +265,7 @@ exports[`DisplayCard ClassicDisplayCard 1`] = `
             },
             Array [
               Object {
-                "height": 20,
+                "lineHeight": 20,
                 "marginTop": 4,
               },
               undefined,

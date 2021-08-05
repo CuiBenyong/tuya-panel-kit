@@ -21,6 +21,7 @@ export const IDefaultProps = {
   valueColor: '#000',
   valueWeight: 700,
   isUnitInTop: true,
+  isAlignCenter: false,
 };
 
 export interface IDisplayCardProps {
@@ -45,4 +46,5 @@ export interface IDisplayCardProps {
   valueColor?: string;
   valueWeight?: number;
   isUnitInTop?: boolean;
+  isAlignCenter?: boolean;
 }

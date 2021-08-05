@@ -29,6 +29,7 @@ export const StyleDisplayCard: React.FC<IDisplayCardProps> = ({
   valueWeight,
   valueStyle,
   isUnitInTop,
+  isAlignCenter,
 }) => {
   return (
     <View
@@ -37,7 +38,7 @@ export const StyleDisplayCard: React.FC<IDisplayCardProps> = ({
           backgroundColor,
           borderRadius: radius,
           width,
-          alignItems: 'flex-start',
+          alignItems: isAlignCenter ? 'center' : 'flex-start',
           justifyContent: 'center',
           ...parseToStyle(padding, 'padding'),
         },
