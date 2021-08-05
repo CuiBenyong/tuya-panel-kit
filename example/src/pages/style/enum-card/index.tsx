@@ -12,6 +12,7 @@ const list = [
     label: '状态1',
     icon: TuyaRNSvgs.power,
     key: '0',
+    disabled: true,
   },
   {
     label: '状态2状态2状态2',
@@ -93,8 +94,9 @@ export default () => {
           title: '北欧风格',
           content: (
             <View>
-              <NordicEnumCard title="工作模式" list={list} activeKey="0" />
+              <NordicEnumCard disabled title="工作模式" list={list} activeKey="0" />
               <NordicEnumCard
+                disabled
                 style={{ marginTop: 20 }}
                 title="传入图片"
                 showTitle={false}

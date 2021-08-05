@@ -51,6 +51,7 @@ type EnumItem = {
   icon: string;
   isImage?: boolean;
   key?: string;
+  disabled?: boolean;
 };
 
 type FontWeightType =
@@ -82,4 +83,5 @@ export type IEnumCardProps = {
   titleFontWeight?: FontWeightType;
   titleContentStyle?: StyleProp<ViewStyle>;
   onActiveKeyChange?: (number) => void;
+  disabled?: boolean;
 } & Omit<Partial<typeof defaultProps>, 'iconBgColor' | 'activeIconBgColor' | 'textStyle'>;

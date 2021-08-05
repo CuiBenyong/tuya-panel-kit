@@ -64,6 +64,7 @@ const EnumCard: React.FC<IEnumCardProps> = ({
   carouselPageContent,
   titleContentStyle = {},
   onActiveKeyChange,
+  disabled = false,
 }) => {
   const [_activeKey, _setActiveKey] = useState(activeKey || defaultActiveKey || '');
   const [pageIndex, setPageIndex] = useState(
@@ -137,10 +138,11 @@ const EnumCard: React.FC<IEnumCardProps> = ({
       const realTextColor = data.key === _activeKey ? activeTextColor : textColor;
       const item = (
         <TouchableOpacity
-          style={styles.itemBox}
+          style={[(disabled || data.disabled) && { opacity: 0.5 }, styles.itemBox]}
           key={i}
           activeOpacity={0.8}
           onPress={() => handClick(data.key)}
+          disabled={disabled || data.disabled}
         >
           <IconBackground
             icon={data.isImage ? '' : data.icon}
