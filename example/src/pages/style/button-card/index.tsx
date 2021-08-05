@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
-import { ClassicButtonCard, NordicButtonCard } from 'tuya-panel-button-card';
+import { ClassicButtonCard, NordicButtonCard } from 'tuya-panel-style-button-card';
 import Iconbackground from 'tuya-panel-icon-background';
 import { ListView } from '#components';
 
