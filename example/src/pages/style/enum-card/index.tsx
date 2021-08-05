@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
-import { ClassicEnumCard, NordicEnumCard, AcrylicEnumCard } from 'tuya-panel-enum-card';
+import { ClassicEnumCard, NordicEnumCard, AcrylicEnumCard } from 'tuya-panel-style-enum-card';
 import { ListView } from '#components';
 // import Strings from '#i18n';
 

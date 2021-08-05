@@ -2381,11 +2381,14 @@ exports[`EnumCard Classic 1`] = `
                                       key="0"
                                       onPress={[Function]}
                                       style={
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        }
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ]
                                       }
                                     >
                                       <AnimatedComponent
@@ -2399,11 +2402,14 @@ exports[`EnumCard Classic 1`] = `
                                         onStartShouldSetResponder={[Function]}
                                         style={
                                           Array [
-                                            Object {
-                                              "alignItems": "center",
-                                              "display": "flex",
-                                              "flex": 0.25,
-                                            },
+                                            Array [
+                                              undefined,
+                                              Object {
+                                                "alignItems": "center",
+                                                "display": "flex",
+                                                "flex": 0.25,
+                                              },
+                                            ],
                                             Object {
                                               "opacity": 1,
                                             },
@@ -2724,11 +2730,14 @@ exports[`EnumCard Classic 1`] = `
                                       key="1"
                                       onPress={[Function]}
                                       style={
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        }
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ]
                                       }
                                     >
                                       <AnimatedComponent
@@ -2742,11 +2751,14 @@ exports[`EnumCard Classic 1`] = `
                                         onStartShouldSetResponder={[Function]}
                                         style={
                                           Array [
-                                            Object {
-                                              "alignItems": "center",
-                                              "display": "flex",
-                                              "flex": 0.25,
-                                            },
+                                            Array [
+                                              undefined,
+                                              Object {
+                                                "alignItems": "center",
+                                                "display": "flex",
+                                                "flex": 0.25,
+                                              },
+                                            ],
                                             Object {
                                               "opacity": 1,
                                             },
@@ -3067,11 +3079,14 @@ exports[`EnumCard Classic 1`] = `
                                       key="2"
                                       onPress={[Function]}
                                       style={
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        }
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ]
                                       }
                                     >
                                       <AnimatedComponent
@@ -3085,11 +3100,14 @@ exports[`EnumCard Classic 1`] = `
                                         onStartShouldSetResponder={[Function]}
                                         style={
                                           Array [
-                                            Object {
-                                              "alignItems": "center",
-                                              "display": "flex",
-                                              "flex": 0.25,
-                                            },
+                                            Array [
+                                              undefined,
+                                              Object {
+                                                "alignItems": "center",
+                                                "display": "flex",
+                                                "flex": 0.25,
+                                              },
+                                            ],
                                             Object {
                                               "opacity": 1,
                                             },
@@ -3410,11 +3428,14 @@ exports[`EnumCard Classic 1`] = `
                                       key="3"
                                       onPress={[Function]}
                                       style={
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        }
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ]
                                       }
                                     >
                                       <AnimatedComponent
@@ -3428,11 +3449,14 @@ exports[`EnumCard Classic 1`] = `
                                         onStartShouldSetResponder={[Function]}
                                         style={
                                           Array [
-                                            Object {
-                                              "alignItems": "center",
-                                              "display": "flex",
-                                              "flex": 0.25,
-                                            },
+                                            Array [
+                                              undefined,
+                                              Object {
+                                                "alignItems": "center",
+                                                "display": "flex",
+                                                "flex": 0.25,
+                                              },
+                                            ],
                                             Object {
                                               "opacity": 1,
                                             },
@@ -3813,11 +3837,14 @@ exports[`EnumCard Classic 1`] = `
                                       key="4"
                                       onPress={[Function]}
                                       style={
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        }
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ]
                                       }
                                     >
                                       <AnimatedComponent
@@ -3831,11 +3858,14 @@ exports[`EnumCard Classic 1`] = `
                                         onStartShouldSetResponder={[Function]}
                                         style={
                                           Array [
-                                            Object {
-                                              "alignItems": "center",
-                                              "display": "flex",
-                                              "flex": 0.25,
-                                            },
+                                            Array [
+                                              undefined,
+                                              Object {
+                                                "alignItems": "center",
+                                                "display": "flex",
+                                                "flex": 0.25,
+                                              },
+                                            ],
                                             Object {
                                               "opacity": 1,
                                             },
@@ -4156,11 +4186,14 @@ exports[`EnumCard Classic 1`] = `
                                       key="5"
                                       onPress={[Function]}
                                       style={
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        }
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ]
                                       }
                                     >
                                       <AnimatedComponent
@@ -4174,11 +4207,14 @@ exports[`EnumCard Classic 1`] = `
                                         onStartShouldSetResponder={[Function]}
                                         style={
                                           Array [
-                                            Object {
-                                              "alignItems": "center",
-                                              "display": "flex",
-                                              "flex": 0.25,
-                                            },
+                                            Array [
+                                              undefined,
+                                              Object {
+                                                "alignItems": "center",
+                                                "display": "flex",
+                                                "flex": 0.25,
+                                              },
+                                            ],
                                             Object {
                                               "opacity": 1,
                                             },
@@ -5372,11 +5408,14 @@ exports[`EnumCard in android carousel 1`] = `
                                   key="0"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -5390,11 +5429,14 @@ exports[`EnumCard in android carousel 1`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
@@ -5715,11 +5757,14 @@ exports[`EnumCard in android carousel 1`] = `
                                   key="1"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -5733,11 +5778,14 @@ exports[`EnumCard in android carousel 1`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
@@ -6058,11 +6106,14 @@ exports[`EnumCard in android carousel 1`] = `
                                   key="2"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -6076,11 +6127,14 @@ exports[`EnumCard in android carousel 1`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
@@ -6401,11 +6455,14 @@ exports[`EnumCard in android carousel 1`] = `
                                   key="3"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -6419,11 +6476,14 @@ exports[`EnumCard in android carousel 1`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
@@ -6804,11 +6864,14 @@ exports[`EnumCard in android carousel 1`] = `
                                   key="4"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -6822,11 +6885,14 @@ exports[`EnumCard in android carousel 1`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
@@ -7147,11 +7213,14 @@ exports[`EnumCard in android carousel 1`] = `
                                   key="5"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -7165,11 +7234,14 @@ exports[`EnumCard in android carousel 1`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
@@ -7985,11 +8057,14 @@ exports[`EnumCard in android carousel 2`] = `
                                   key="0"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -8003,11 +8078,14 @@ exports[`EnumCard in android carousel 2`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
@@ -8305,11 +8383,14 @@ exports[`EnumCard in android carousel 2`] = `
                                   key="1"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -8323,11 +8404,14 @@ exports[`EnumCard in android carousel 2`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
@@ -8625,11 +8709,14 @@ exports[`EnumCard in android carousel 2`] = `
                                   key="2"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -8643,11 +8730,14 @@ exports[`EnumCard in android carousel 2`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
@@ -8945,11 +9035,14 @@ exports[`EnumCard in android carousel 2`] = `
                                   key="3"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -8963,11 +9056,14 @@ exports[`EnumCard in android carousel 2`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
@@ -9325,11 +9421,14 @@ exports[`EnumCard in android carousel 2`] = `
                                   key="4"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -9343,11 +9442,14 @@ exports[`EnumCard in android carousel 2`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
@@ -9645,11 +9747,14 @@ exports[`EnumCard in android carousel 2`] = `
                                   key="5"
                                   onPress={[Function]}
                                   style={
-                                    Object {
-                                      "alignItems": "center",
-                                      "display": "flex",
-                                      "flex": 0.25,
-                                    }
+                                    Array [
+                                      undefined,
+                                      Object {
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "flex": 0.25,
+                                      },
+                                    ]
                                   }
                                 >
                                   <AnimatedComponent
@@ -9663,11 +9768,14 @@ exports[`EnumCard in android carousel 2`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Array [
-                                        Object {
-                                          "alignItems": "center",
-                                          "display": "flex",
-                                          "flex": 0.25,
-                                        },
+                                        Array [
+                                          undefined,
+                                          Object {
+                                            "alignItems": "center",
+                                            "display": "flex",
+                                            "flex": 0.25,
+                                          },
+                                        ],
                                         Object {
                                           "opacity": 1,
                                         },
