@@ -52,6 +52,7 @@ const ButtonCard: React.FC<IButtonCardProps> = ({
   defaultActiveKeys,
   activeKeyChange,
   renderButtonItem,
+  type,
 }) => {
   const [rangeData, setRangeData] = useState([]);
   const [_activeKeys, _setActiveKeys] = useState(activeKeys || defaultActiveKeys || []);
@@ -82,11 +83,16 @@ const ButtonCard: React.FC<IButtonCardProps> = ({
   }, [activeKeys]);
 
   const handButtonClick = (key, data) => {
-    let newActiveKeys = _activeKeys.slice(0);
-    if (newActiveKeys.indexOf(key) > -1) {
-      newActiveKeys = newActiveKeys.filter(itemKey => itemKey !== key);
+    let newActiveKeys;
+    if (type === 'radio') {
+      newActiveKeys = [key];
     } else {
-      newActiveKeys.push(key);
+      newActiveKeys = _activeKeys.slice(0);
+      if (newActiveKeys.indexOf(key) > -1) {
+        newActiveKeys = newActiveKeys.filter(itemKey => itemKey !== key);
+      } else {
+        newActiveKeys.push(key);
+      }
     }
     if (activeKeys) {
       activeKeyChange && activeKeyChange(key, newActiveKeys, data);

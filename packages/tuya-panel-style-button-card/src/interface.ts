@@ -43,6 +43,7 @@ export const defaultProps = {
   backgroundColor: '#fff',
   radius: cx(14),
   rowCount: 3, // 一行展示的按钮的个数
+  type: 'radio',
 };
 
 export type RangeItem = {
@@ -50,6 +51,8 @@ export type RangeItem = {
   key: string;
   disabled?: boolean;
 } & Record<string, unknown>;
+
+type ActiveKeys = Array<string>;
 
 type Props = {
   width?: number;
@@ -60,10 +63,11 @@ type Props = {
   titleFontWeight?: FontWeightType;
   disabled?: boolean;
   list?: Array<RangeItem>;
-  activeKeys?: Array<string>;
-  defaultActiveKeys?: Array<string>;
-  activeKeyChange?: (key: string, nextKeys: string[], data: RangeItem) => void;
+  activeKeys?: ActiveKeys;
+  defaultActiveKeys?: ActiveKeys;
+  activeKeyChange?: (key: string, nextKeys: ActiveKeys, data: RangeItem) => void;
   renderButtonItem?: (data: RangeItem) => React.ReactElement; // 自定义button的渲染方法
+  type?: 'radio' | 'multi'; // 单选还是多选 默认单选
 };
 
 // export type IButtonCardProps = Partial<Omit<typeof defaultProps, keyof Props>> & Props;

@@ -59,8 +59,9 @@ export default () => {
                 showIconBg={false}
                 icon={TuyaRNSvgs.power}
                 list={list}
+                defaultActiveKeys={['1']}
               />
-              <Text style={{ marginTop: 20 }}>受控制的：</Text>
+              <Text style={{ marginTop: 20 }}>受控制的 多选：</Text>
               <ClassicButtonCard
                 style={{ marginTop: 20 }}
                 title="工作模式"
@@ -78,6 +79,7 @@ export default () => {
                 rowCount={4}
                 activeKeys={activeKeys}
                 activeKeyChange={handActiveKeyChange}
+                type="multi"
               />
             </View>
           ),

@@ -86,6 +86,25 @@ describe('ButtonCard', () => {
     />);
     const tapInstance = wrap.find('TouchableOpacity').at(1);
     tapInstance.props().onPress();
+    expect(activekey).toEqual(['1']);
+  });
+
+  it('controlled component multi type', () => {
+    let activekey = ['0'];
+    const changeActiveKey = (key, nextKeys, data) => {
+      activekey = nextKeys;
+    }
+    const wrap = mount(<ClassicButtonCard
+      title="工作模式"
+      showIconBg={false}
+      icon={TuyaRNSvgs.power}
+      list={list}
+      activeKeys={activekey}
+      activeKeyChange={changeActiveKey}
+      type="multi"
+    />);
+    const tapInstance = wrap.find('TouchableOpacity').at(1);
+    tapInstance.props().onPress();
     expect(activekey).toEqual(['0', '1']);
   });
 
