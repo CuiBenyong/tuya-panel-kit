@@ -56,6 +56,7 @@ import EnumCard from './pages/style/enum-card';
 import ButtonCard from './pages/style/button-card';
 import DisplayCard from './pages/style/display-card';
 import SliderCard from './pages/style/slider-card';
+import DepictCard from './pages/style/depict-card';
 
 export const routes = [
   // style
@@ -310,5 +311,10 @@ export const routes = [
     name: Strings.getLang('display_card'),
     href: '/style/display-card',
     component: DisplayCard,
+  },
+  {
+    name: Strings.getLang('depict_card'),
+    href: '/style/depict-card',
+    component: DepictCard,
   },
 ];

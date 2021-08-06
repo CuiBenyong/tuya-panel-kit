@@ -350,6 +350,7 @@ export default {
     iconbg_image: 'Image',
     block_card: 'Block Card',
     display_card: 'Display Card',
+    depict_card: 'Depict Card',
   },
   zh: {
     // debug
@@ -704,5 +705,6 @@ export default {
     iconbg_image: '图片',
     block_card: 'Block Card 块状卡片',
     display_card: 'Display Card 文本展示卡片',
+    depict_card: 'Depict Card 文本描述卡片',
   },
 };

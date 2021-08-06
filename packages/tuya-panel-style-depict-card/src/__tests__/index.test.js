@@ -4,7 +4,7 @@
  import React from 'react';
  import renderer from 'react-test-renderer';
  import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
- import { ClassicDisplayCard, AcrylicDisplayCard, NordicDisplayCard } from '../index';
+ import { ClassicDepictCard, NordicDepictCard, AcrylicDepictCard, AcrylicDepictIconCard } from '../index';
  
  jest.mock('react-native-gesture-handler', () => {
    return {
@@ -26,22 +26,26 @@
    };
  });
  
- describe('DisplayCard', () => {
-   it('ClassicDisplayCard', () => {
+ describe('DepictCard', () => {
+   it('ClassicDepictCard', () => {
      const wrapper = renderer
-       .create(<ClassicDisplayCard backgroundColor="#FFF" />)
+       .create(<ClassicDepictCard backgroundColor="#fff" />)
        .toJSON();
      expect(wrapper).toMatchSnapshot();
    });
-   it('NordicDisplayCard', () => {
+   it('NordicDepictCard', () => {
     const wrapper = renderer
-    .create(<NordicDisplayCard icon={TuyaRNSvgs.power} />)
+    .create(<NordicDepictCard backgroundColor="#fff" />)
     .toJSON();
   expect(wrapper).toMatchSnapshot();
    })
-   it('AcrylicDisplayCard', () => {
-     const wrapper = renderer.create(<AcrylicDisplayCard />).toJSON();
+   it('AcrylicDepictCard', () => {
+     const wrapper = renderer.create(<AcrylicDepictCard />).toJSON();
      expect(wrapper).toMatchSnapshot();
    });
+   it('AcrylicDepictIconCard', () => {
+    const wrapper = renderer.create(<AcrylicDepictIconCard icon={TuyaRNSvgs.power} />).toJSON();
+    expect(wrapper).toMatchSnapshot();
+  });
  });
  

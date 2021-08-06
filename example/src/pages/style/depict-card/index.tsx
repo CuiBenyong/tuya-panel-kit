@@ -1,10 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
 import {
-  ClassicDisplayCard,
-  NordicDisplayCard,
-  AcrylicDisplayCard,
-} from 'tuya-panel-style-display-card';
+  ClassicDepictCard,
+  NordicDepictCard,
+  AcrylicDepictCard,
+  AcrylicDepictIconCard,
+} from 'tuya-panel-style-depict-card';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { ListView } from '#components';
 import Strings from '#i18n';
@@ -16,20 +17,20 @@ export default () => {
       list={[
         {
           title: Strings.getLang('basic'),
-          content: (
-            <View>
-              <ClassicDisplayCard isAlignCenter />
-              <ClassicDisplayCard backgroundColor="#FFF" icon={TuyaRNSvgs.power} />
-            </View>
-          ),
+          content: <ClassicDepictCard backgroundColor="#fff" />,
         },
         {
           title: Strings.getLang('scandinavian'),
-          content: <NordicDisplayCard icon={TuyaRNSvgs.power} />,
+          content: <NordicDepictCard backgroundColor="#fff" />,
         },
         {
           title: Strings.getLang('acrylic'),
-          content: <AcrylicDisplayCard />,
+          content: (
+            <View>
+              <AcrylicDepictCard style={{ marginBottom: 10 }} />
+              <AcrylicDepictIconCard icon={TuyaRNSvgs.power} />
+            </View>
+          ),
         },
       ]}
     />
