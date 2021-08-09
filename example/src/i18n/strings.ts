@@ -351,6 +351,7 @@ export default {
     block_card: 'Block Card',
     display_card: 'Display Card',
     depict_card: 'Depict Card',
+    icon_block_card: 'Icon Block Card',
   },
   zh: {
     // debug
@@ -706,5 +707,6 @@ export default {
     block_card: 'Block Card 块状卡片',
     display_card: 'Display Card 文本展示卡片',
     depict_card: 'Depict Card 文本描述卡片',
+    icon_block_card: 'Icon Block Card 图标块状卡片',
   },
 };

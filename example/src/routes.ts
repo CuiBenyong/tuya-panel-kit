@@ -57,6 +57,7 @@ import ButtonCard from './pages/style/button-card';
 import DisplayCard from './pages/style/display-card';
 import SliderCard from './pages/style/slider-card';
 import DepictCard from './pages/style/depict-card';
+import IconBlockCard from './pages/style/icon-card';
 
 export const routes = [
   // style
@@ -316,5 +317,10 @@ export const routes = [
     name: Strings.getLang('depict_card'),
     href: '/style/depict-card',
     component: DepictCard,
+  },
+  {
+    name: Strings.getLang('icon_block_card'),
+    href: '/style/icon-card',
+    component: IconBlockCard,
   },
 ];
