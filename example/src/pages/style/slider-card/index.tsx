@@ -15,6 +15,7 @@ const IMAGE =
 export default () => {
   const [value, setValue] = useState(20);
   const [value1, setValue1] = useState(10);
+  const [enumValue, setEnumValue] = useState(['无', '上', '下', '左', '右']);
   return (
     <ListView
       style={{ backgroundColor: '#f9f9f9', minHeight: 200 }}
@@ -31,8 +32,9 @@ export default () => {
                 value={value}
                 unit="%"
                 handValueChange={setValue}
+                canTouchTrack
               />
-              <Text style={{ marginTop: 20 }}>ClassicLargeSidlerCard：</Text>
+              <Text style={{ marginTop: 20 }}>ClassicLargeSidlerCard disabled：</Text>
               <ClassicLargeSliderCard
                 icon={TuyaRNSvgs.power}
                 showIconBg
@@ -48,6 +50,7 @@ export default () => {
                 unit="条"
                 value={value}
                 handSlidingComplete={setValue}
+                disabled
               />
             </View>
           ),
@@ -59,10 +62,10 @@ export default () => {
               <NordicLargeSliderCard
                 title="风速"
                 icon={TuyaRNSvgs.power}
-                unit="档"
-                maximumValue={4}
+                maximumValue={enumValue.length - 1}
                 minimumValue={0}
-                value={3}
+                value={0}
+                renderValue={value => enumValue[value]}
               />
             </View>
           ),
@@ -99,9 +102,11 @@ export default () => {
                 title="Function"
                 icon={TuyaRNSvgs.power}
                 // bothSideIcons={[TuyaRNSvgs.power, TuyaRNSvgs.power]}
-                value={value1}
+                maximumValue={enumValue.length - 1}
+                minimumValue={0}
+                value={0}
                 bottomPromptTexts={['最小', '最大']}
-                unit="%"
+                renderValue={value => enumValue[value]}
               />
             </View>
           ),

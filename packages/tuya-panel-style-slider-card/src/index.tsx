@@ -6,6 +6,8 @@ import { Utils } from 'tuya-panel-utils';
 import { defaultProps, ISliderProps } from './interface';
 import { classicLargeSliderProps, NorDicSliderCardProps, AcrylicSliderCardProps } from './theme';
 
+export type SliderCardComponentProps = ISliderProps;
+
 const { convertX: cx } = Utils.RatioUtils;
 const SliderCard: React.FC<ISliderProps> = ({
   silderProps,
@@ -67,6 +69,9 @@ const SliderCard: React.FC<ISliderProps> = ({
   bothSideIconIsImage,
   bothSideIconSize,
   bothSideIconColor,
+  canTouchTrack,
+  disabled,
+  renderValue,
 }) => {
   const [_value, _setValue] = useState(value || 0);
 
@@ -90,6 +95,42 @@ const SliderCard: React.FC<ISliderProps> = ({
     fontSize: bottomPromptTextFontSize,
     color: bottomPromptTextFontColor,
     fontWeight: bottomPromptTextFontWeight,
+  };
+
+  const renderViewValue = () => {
+    if (!renderValue) {
+      return (
+        <TYText
+          style={{
+            fontSize: valueFontSize,
+            color: valueFontColor,
+            fontWeight: valueFontWeight,
+          }}
+        >
+          {_value}
+          {unit}
+        </TYText>
+      );
+    }
+    const element = renderValue(_value);
+    if (typeof element === 'string' || typeof element === 'number') {
+      return (
+        <TYText
+          style={{
+            fontSize: valueFontSize,
+            color: valueFontColor,
+            fontWeight: valueFontWeight,
+          }}
+        >
+          {element}
+          {unit}
+        </TYText>
+      );
+    }
+    if (React.isValidElement(element)) {
+      return element;
+    }
+    return null;
   };
 
   return (
@@ -142,16 +183,7 @@ const SliderCard: React.FC<ISliderProps> = ({
                 {/* eslint-disable */}
                 {/* @ts-ignore */}
                 <TYText style={{ color: valueFontColor, marginRight: 5 }}>·</TYText>
-                <TYText
-                  style={{
-                    fontSize: valueFontSize,
-                    color: valueFontColor,
-                    fontWeight: valueFontWeight,
-                  }}
-                >
-                  {_value}
-                  {unit}
-                </TYText>
+                {renderViewValue()}
               </View>
             </React.Fragment>
           )}
@@ -196,6 +228,8 @@ const SliderCard: React.FC<ISliderProps> = ({
             renderMinimumTrack={renderMinimumTrack}
             // type="parcel"
             // minimumTrackTintColor="#ff6700"
+            canTouchTrack={canTouchTrack}
+            disabled={disabled}
             {...silderProps}
           />
           {bothSideIcons && Array.isArray(bothSideIcons) && (
@@ -244,6 +278,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-between',
+    alignItems: 'center',
   },
   sliderBox: {
     flex: 1,
@@ -275,7 +310,45 @@ export const AcrylicSliderCard: React.FC<ISliderProps> = props => {
     valueFontColor,
     valueFontWeight,
     unit,
+    renderValue,
   } = props;
+
+  const renderViewValue = (value) => {
+    if (!renderValue) {
+      return (
+        <TYText
+          style={{
+            fontSize: valueFontSize,
+            color: valueFontColor,
+            fontWeight: valueFontWeight,
+          }}
+        >
+          {value}
+          {unit}
+        </TYText>
+      );
+    }
+    const element = renderValue(value);
+    if (typeof element === 'string' || typeof element === 'number') {
+      return (
+        <TYText
+          style={{
+            fontSize: valueFontSize,
+            color: valueFontColor,
+            fontWeight: valueFontWeight,
+          }}
+        >
+          {element}
+          {unit}
+        </TYText>
+      );
+    }
+    if (React.isValidElement(element)) {
+      return element;
+    }
+    return null;
+  };
+
   const renderTitle = _value => {
     return (
       <View style={styles.acrylicTitleContent}>
@@ -292,16 +365,7 @@ export const AcrylicSliderCard: React.FC<ISliderProps> = props => {
         >
           {title}
         </TYText>
-        <TYText
-          style={{
-            fontSize: valueFontSize,
-            color: valueFontColor,
-            fontWeight: valueFontWeight,
-          }}
-        >
-          {_value}
-          {unit}
-        </TYText>
+        {renderViewValue(_value)}
       </View>
     );
   };

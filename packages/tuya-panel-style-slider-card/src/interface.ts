@@ -61,6 +61,8 @@ export const defaultProps = {
   unit: '', // 单位
   stepValue: 1,
   hasControl: false, // value是否是受控制的
+  canTouchTrack: false,
+  disabled: false, // 是否禁用
 };
 
 type FontWeight =
@@ -81,27 +83,30 @@ type Props = {
   width?: number;
   style?: StyleProp<ViewStyle>;
   titleStyle?: StyleProp<ViewStyle>;
-  contentStyle: StyleProp<ViewStyle>;
+  contentStyle?: StyleProp<ViewStyle>;
   thumbStyle?: Partial<typeof defaultProps.thumbStyle> & StyleProp<ViewStyle>;
   iconBgColor?: BackgroundType;
   titleFontWeight?: FontWeight;
   valueFontWeight?: FontWeight;
-  value: number;
+  value?: number;
   handValueChange?: (value: number) => void;
   handSlidingComplete?: (value: number) => void;
   type?: 'parcel' | 'normal';
   renderMinimumTrack?: () => React.ReactElement;
   renderTitle?: (value) => React.ReactElement; // title部分自定义渲染 title 和 value部分
-  // 底部的提示文字
+  // 底部居左右提示文字
   bottomPromptTexts?: [string, string];
   bottomPromptTextFontSize?: number;
-  bottomPromptTextFontColor: string;
-  bottomPromptTextFontWeight: FontWeight;
+  bottomPromptTextFontColor?: string;
+  bottomPromptTextFontWeight?: FontWeight;
   // slider两边展示的图标
-  bothSideIcons: [string, string];
-  bothSideIconIsImage: boolean;
-  bothSideIconSize: number;
-  bothSideIconColor: string;
+  bothSideIcons?: [string, string];
+  bothSideIconIsImage?: boolean;
+  bothSideIconSize?: number;
+  bothSideIconColor?: string;
+  canTouchTrack?: boolean;
+  disabled?: boolean;
+  renderValue?: (value: number) => React.ReactNode; // 自定义的渲染value的呈现 通常用于 slider做枚举时使用
 };
 
 export type ISliderProps = Omit<Partial<typeof defaultProps>, 'thumbStyle'> & Props;

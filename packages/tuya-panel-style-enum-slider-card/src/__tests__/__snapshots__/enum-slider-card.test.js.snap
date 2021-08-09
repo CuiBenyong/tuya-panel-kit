@@ -1,0 +1,403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnumSliderCard Acrylic 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": 16,
+        "paddingBottom": 21,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 21,
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 24,
+        },
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        align={null}
+        allowFontScaling={false}
+        color={null}
+        ellipsizeMode="tail"
+        size={16}
+        style={
+          Array [
+            false,
+            Array [
+              false,
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#333",
+                  "fontSize": 16,
+                },
+                Array [
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "marginLeft": 0,
+                  },
+                  undefined,
+                ],
+              ],
+            ],
+          ]
+        }
+        type={null}
+        weight={null}
+      >
+        AcrylicEnumSliderCard
+      </Text>
+      <Text
+        accessible={true}
+        align={null}
+        allowFontScaling={false}
+        color={null}
+        ellipsizeMode="tail"
+        size={16}
+        style={
+          Array [
+            false,
+            Array [
+              false,
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#333",
+                  "fontSize": 16,
+                },
+                Object {
+                  "color": "rgba(0, 0, 0, 0.5)",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                },
+              ],
+            ],
+          ]
+        }
+        type={null}
+        weight={null}
+      >
+        关闭
+      </Text>
+    </View>
+  </View>
+  <View
+    style={Object {}}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Slider"
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "center",
+            },
+            Object {
+              "flexDirection": "column",
+              "height": 40,
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.05)",
+                "overflow": "hidden",
+              },
+              Object {
+                "borderRadius": 2,
+                "height": 4,
+              },
+              Object {
+                "borderRadius": 6,
+                "height": 6,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 0,
+                "height": 0,
+                "width": 0,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+                "justifyContent": "center",
+                "position": "absolute",
+              },
+              Object {
+                "left": 0,
+              },
+              Object {
+                "backgroundColor": "rgba(255, 255, 255, 0.7)",
+                "borderRadius": 4,
+                "height": 4,
+                "width": 4,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 0,
+                "height": 0,
+                "width": 0,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+                "justifyContent": "center",
+                "position": "absolute",
+              },
+              Object {
+                "left": 0,
+              },
+              Object {
+                "backgroundColor": "rgba(255, 255, 255, 0.7)",
+                "borderRadius": 4,
+                "height": 4,
+                "width": 4,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 0,
+                "height": 0,
+                "width": 0,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+                "justifyContent": "center",
+                "position": "absolute",
+              },
+              Object {
+                "left": 0,
+              },
+              Object {
+                "backgroundColor": "rgba(255, 255, 255, 0.7)",
+                "borderRadius": 4,
+                "height": 4,
+                "width": 4,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 0,
+                "height": 0,
+                "width": 0,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+                "justifyContent": "center",
+                "position": "absolute",
+              },
+              Object {
+                "left": 0,
+              },
+              Object {
+                "backgroundColor": "rgba(255, 255, 255, 0.7)",
+                "borderRadius": 4,
+                "height": 4,
+                "width": 4,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FE7862",
+              "borderRadius": 6,
+              "height": 6,
+              "justifyContent": "center",
+              "opacity": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+            }
+          }
+        />
+        <View
+          onLayout={[Function]}
+          renderToHardwareTextureAndroid={true}
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 24,
+              "elevation": 2,
+              "height": 24,
+              "opacity": 0,
+              "position": "absolute",
+              "shadowColor": "rgba(0, 0, 0, 0.15)",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.8,
+              "shadowRadius": 8,
+              "width": 24,
+            }
+          }
+        />
+        <View
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {},
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 9,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        align={null}
+        allowFontScaling={false}
+        color={null}
+        ellipsizeMode="tail"
+        size={12}
+        style={
+          Array [
+            false,
+            Array [
+              false,
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#333",
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "rgba(0, 0, 0, 0.45)",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                },
+              ],
+            ],
+          ]
+        }
+        type={null}
+        weight={null}
+      >
+        Off
+      </Text>
+      <Text
+        accessible={true}
+        align={null}
+        allowFontScaling={false}
+        color={null}
+        ellipsizeMode="tail"
+        size={12}
+        style={
+          Array [
+            false,
+            Array [
+              false,
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#333",
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "rgba(0, 0, 0, 0.45)",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                },
+              ],
+            ],
+          ]
+        }
+        type={null}
+        weight={null}
+      >
+        Max
+      </Text>
+    </View>
+  </View>
+</View>
+`;
