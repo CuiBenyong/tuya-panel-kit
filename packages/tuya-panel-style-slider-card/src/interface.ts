@@ -83,12 +83,12 @@ type Props = {
   width?: number;
   style?: StyleProp<ViewStyle>;
   titleStyle?: StyleProp<ViewStyle>;
-  contentStyle: StyleProp<ViewStyle>;
+  contentStyle?: StyleProp<ViewStyle>;
   thumbStyle?: Partial<typeof defaultProps.thumbStyle> & StyleProp<ViewStyle>;
   iconBgColor?: BackgroundType;
   titleFontWeight?: FontWeight;
   valueFontWeight?: FontWeight;
-  value: number;
+  value?: number;
   handValueChange?: (value: number) => void;
   handSlidingComplete?: (value: number) => void;
   type?: 'parcel' | 'normal';
@@ -106,7 +106,7 @@ type Props = {
   bothSideIconColor?: string;
   canTouchTrack?: boolean;
   disabled?: boolean;
-  renderValue?: (value: number) => React.ReactElement; // 自定义的渲染value的呈现 通常用于 slider做枚举时使用
+  renderValue?: (value: number) => React.ReactNode; // 自定义的渲染value的呈现 通常用于 slider做枚举时使用
 };
 
 export type ISliderProps = Omit<Partial<typeof defaultProps>, 'thumbStyle'> & Props;

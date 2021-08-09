@@ -6,6 +6,8 @@ import { Utils } from 'tuya-panel-utils';
 import { defaultProps, ISliderProps } from './interface';
 import { classicLargeSliderProps, NorDicSliderCardProps, AcrylicSliderCardProps } from './theme';
 
+export type SliderCardComponentProps = ISliderProps;
+
 const { convertX: cx } = Utils.RatioUtils;
 const SliderCard: React.FC<ISliderProps> = ({
   silderProps,

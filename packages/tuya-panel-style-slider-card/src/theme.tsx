@@ -94,4 +94,5 @@ export const AcrylicSliderCardProps: Partial<ISliderProps> = {
   bothSideIconIsImage: false,
   bothSideIconSize: cx(12),
   bothSideIconColor: '#FE724C',
+  radius: cx(16),
 };

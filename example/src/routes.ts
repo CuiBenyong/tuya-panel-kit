@@ -56,6 +56,7 @@ import EnumCard from './pages/style/enum-card';
 import ButtonCard from './pages/style/button-card';
 import DisplayCard from './pages/style/display-card';
 import SliderCard from './pages/style/slider-card';
+import EnumSliderCard from './pages/style/enum-slider-card';
 
 export const routes = [
   // style
@@ -73,6 +74,11 @@ export const routes = [
     name: 'SliderCard',
     href: '/style/slider-card',
     component: SliderCard,
+  },
+  {
+    name: 'EnumSliderCard',
+    href: '/style/enum-slider-card',
+    component: EnumSliderCard,
   },
 
   // basic

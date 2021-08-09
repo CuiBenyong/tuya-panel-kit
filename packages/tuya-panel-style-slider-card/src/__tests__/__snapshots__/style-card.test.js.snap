@@ -6,7 +6,7 @@ exports[`SiderCard Acrylic 1`] = `
     Array [
       Object {
         "backgroundColor": "#fff",
-        "borderRadius": 14,
+        "borderRadius": 16,
         "paddingBottom": 21,
         "paddingLeft": 20,
         "paddingRight": 20,
@@ -1968,7 +1968,7 @@ exports[`SiderCard enum slider, custom render value in Acrylic 1`] = `
     Array [
       Object {
         "backgroundColor": "#fff",
-        "borderRadius": 14,
+        "borderRadius": 16,
         "paddingBottom": 21,
         "paddingLeft": 20,
         "paddingRight": 20,
