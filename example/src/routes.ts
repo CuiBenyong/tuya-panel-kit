@@ -59,6 +59,7 @@ import SliderCard from './pages/style/slider-card';
 import DepictCard from './pages/style/depict-card';
 import IconBlockCard from './pages/style/icon-card';
 import EnumSliderCard from './pages/style/enum-slider-card';
+import EnumTabsButtonCard from './pages/style/enum-tabs-button-card';
 
 export const routes = [
   // style
@@ -82,7 +83,11 @@ export const routes = [
     href: '/style/enum-slider-card',
     component: EnumSliderCard,
   },
-
+  {
+    name: 'EnumTabsButtonCard',
+    href: '/style/enum-tabs-button-card',
+    component: EnumTabsButtonCard,
+  },
   // basic
   {
     name: Strings.getLang('battery'),
