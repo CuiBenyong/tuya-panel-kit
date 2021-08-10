@@ -94,11 +94,11 @@ const ButtonCard: React.FC<IButtonCardProps> = ({
         newActiveKeys.push(key);
       }
     }
-    if (activeKeys) {
-      activeKeyChange && activeKeyChange(key, newActiveKeys, data);
-    } else {
+
+    if (!activeKeys) {
       _setActiveKeys(newActiveKeys);
     }
+    activeKeyChange && activeKeyChange(key, newActiveKeys, data);
   };
 
   const renderItem = (itemData: RangeItem, idx) => {

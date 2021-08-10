@@ -107,9 +107,8 @@ const EnumCard: React.FC<IEnumCardProps> = ({
   const handClick = (key: string) => {
     if (activeKey === undefined) {
       _setActiveKey(key);
-    } else {
-      onActiveKeyChange && onActiveKeyChange(key);
     }
+    onActiveKeyChange && onActiveKeyChange(key);
   };
 
   // 用于android下 计算轮播图的高度
