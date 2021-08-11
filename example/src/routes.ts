@@ -62,6 +62,7 @@ import EnumSliderCard from './pages/style/enum-slider-card';
 import EnumTabsButtonCard from './pages/style/enum-tabs-button-card';
 import ListCard from './pages/style/list-card';
 import ArrowCard from './pages/style/arrow-card';
+import EnumButtonGroup from './pages/style/enum-button-group';
 
 export const routes = [
   // style
@@ -89,6 +90,11 @@ export const routes = [
     name: 'EnumTabsButtonCard',
     href: '/style/enum-tabs-button-card',
     component: EnumTabsButtonCard,
+  },
+  {
+    name: 'EnumButtonGroup',
+    href: '/style/enum-button-group',
+    component: EnumButtonGroup,
   },
   // basic
   {
