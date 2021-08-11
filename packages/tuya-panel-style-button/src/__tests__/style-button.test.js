@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { View, Dimensions } from 'react-native';
+import { View } from 'react-native';
 import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 import { ClassicButton, NordicButton, AcrylicButton, PaintButton } from '../index';

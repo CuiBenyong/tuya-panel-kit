@@ -1,7 +1,8 @@
-import { StyleProp, ViewStyle } from 'react-native';
+import { StyleProp, TextStyle, ViewStyle } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
 import { SwitchButtonProps } from 'tuya-panel-kit';
 import { IconBackgroundProps } from 'tuya-panel-icon-background';
+import React from 'react';
 
 const { convertX: cx } = Utils.RatioUtils;
 
@@ -16,12 +17,16 @@ export const IDefaultProps = {
   subFontColor: 'rgba(61, 61, 61, 0.5)',
   subFontSize: cx(14),
   showIcon: true,
+  fontWeight: 400,
+  subFontWeight: 400,
   switchSize: { width: cx(40), height: cx(24), activeSize: cx(20), margin: cx(2) },
+  disabled: true,
+  milliseconds: 500,
 };
 
 export interface ISwitchCardProps
   extends Omit<IconBackgroundProps, 'style'>,
-    Omit<SwitchButtonProps, 'style' | 'iconSize' | 'iconColor' | 'size'> {
+    Omit<SwitchButtonProps, 'style' | 'iconSize' | 'iconColor' | 'size' | 'value'> {
   style?: StyleProp<ViewStyle>;
   backgroundColor?: string;
   padding?: number[];
@@ -30,14 +35,33 @@ export interface ISwitchCardProps
   text: string;
   fontColor?: string;
   fontSize?: number;
-  textStyle?: StyleProp<ViewStyle>;
+  fontWeight?: number | string;
+  textStyle?: StyleProp<TextStyle>;
   subText?: string;
   subFontColor?: string;
   subFontSize?: number;
+  subFontWeight?: number | string;
   subTextStyle?: StyleProp<ViewStyle>;
   switchSize?: { width?: number; height?: number; activeSize?: number; margin?: number };
   switchIconSize?: number;
   switchIconColor?: string;
   switchStyle?: StyleProp<ViewStyle>;
   iconStyle?: StyleProp<ViewStyle>;
+  type?: 'switch' | 'arrow';
+  value?: boolean | string;
+  valueColor?: string;
+  valueSize?: number;
+  valueFontWeight?: number | string;
+  valueStyle?: StyleProp<TextStyle>;
+  unit?: string;
+  unitSize?: number;
+  unitColor?: string;
+  unitWeight?: number | string;
+  unitStyle?: StyleProp<TextStyle>;
+  arrowSize?: number;
+  arrowColor?: string;
+  children?: React.ReactNode;
+  onPress?: () => void;
+  onLongPress?: () => void;
+  milliseconds?: number;
 }

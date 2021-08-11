@@ -5,7 +5,7 @@ import React from 'react';
 import { Utils } from 'tuya-panel-utils';
 import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
-import { ClassicSwitchCard, NordicSwitchCard, AcrylicSwitchCard, PaintSwitchCard } from '../index';
+import { ClassicSwitchCard, NordicSwitchCard, AcrylicSwitchCard, PaintSwitchCard, ClassicArrowCard, NordicArrowCard, AcrylicArrowCard, ClassicItemCard, NordicItemCard, AcrylicItemCard } from '../index';
 
 const { ThemeProvider } = Utils.ThemeUtils;
 
@@ -41,7 +41,19 @@ describe('SwitchCard', () => {
         </ThemeProvider>
       )
       .toJSON();
+      const wrapper1 = renderer.create(<ThemeProvider>
+        <ClassicArrowCard
+          icon={icon}
+          subText="switch card"
+          style={{ marginTop: 20 }}
+        />
+      </ThemeProvider>).toJSON();
+      const wrapper2 = renderer.create(<ThemeProvider>
+        <ClassicItemCard icon={icon} />
+      </ThemeProvider>).toJSON();
     expect(wrapper).toMatchSnapshot();
+    expect(wrapper1).toMatchSnapshot();
+    expect(wrapper2).toMatchSnapshot();
   });
   it('NordicSwitchCard', () => {
     const wrapper = renderer
@@ -51,7 +63,15 @@ describe('SwitchCard', () => {
         </ThemeProvider>
       )
       .toJSON();
+      const wrapper1 = renderer.create(<ThemeProvider>
+        <NordicArrowCard icon={icon} />
+      </ThemeProvider>).toJSON();
+      const wrapper2 = renderer.create(<ThemeProvider>
+        <NordicItemCard icon={icon} />
+      </ThemeProvider>).toJSON();
     expect(wrapper).toMatchSnapshot();
+    expect(wrapper1).toMatchSnapshot();
+    expect(wrapper2).toMatchSnapshot();
   });
   it('AcrylicSwitchCard', () => {
     const wrapper = renderer
@@ -61,7 +81,21 @@ describe('SwitchCard', () => {
         </ThemeProvider>
       )
       .toJSON();
+      const wrapper1 = renderer.create(<ThemeProvider>
+        <AcrylicArrowCard icon={icon} />
+      </ThemeProvider>).toJSON();
+      const wrapper2 = mount(<ThemeProvider>
+        <AcrylicItemCard icon={icon} onLongPress={() => console.log('hh')} />
+      </ThemeProvider>);
+      const touchable = wrapper2
+      .findWhere(c => c.name() === 'TouchableOpacity' && !!c.prop('onPressIn'))
+      .at(0);
+
+    touchable.props().onPressIn();
+    touchable.props().onPressOut();
     expect(wrapper).toMatchSnapshot();
+    expect(wrapper1).toMatchSnapshot();
+    expect(wrapper2).toMatchSnapshot();
   });
   it('PaintSwitchCard', () => {
     const wrapper = mount(

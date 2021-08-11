@@ -60,6 +60,8 @@ import DepictCard from './pages/style/depict-card';
 import IconBlockCard from './pages/style/icon-card';
 import EnumSliderCard from './pages/style/enum-slider-card';
 import EnumTabsButtonCard from './pages/style/enum-tabs-button-card';
+import ListCard from './pages/style/list-card';
+import ArrowCard from './pages/style/arrow-card';
 
 export const routes = [
   // style
@@ -333,5 +335,15 @@ export const routes = [
     name: Strings.getLang('icon_block_card'),
     href: '/style/icon-card',
     component: IconBlockCard,
+  },
+  {
+    name: Strings.getLang('list_card'),
+    href: '/style/list_card',
+    component: ListCard,
+  },
+  {
+    name: Strings.getLang('arrow_card'),
+    href: '/style/arrow_card',
+    component: ArrowCard,
   },
 ];
