@@ -69,13 +69,15 @@ const StudioIconBlock: React.FC<IStudioIconCardProps> = ({
           size={valueSize}
           style={[{ lineHeight: cx(26) }, valueStyle]}
         />
-        <TYText
-          text={unit}
-          weight={unitWeight}
-          color={unitColor}
-          size={unitSize}
-          style={[{ lineHeight: cx(26) }, unitStyle]}
-        />
+        {!!unit && (
+          <TYText
+            text={unit}
+            weight={unitWeight}
+            color={unitColor}
+            size={unitSize}
+            style={[{ lineHeight: cx(26) }, unitStyle]}
+          />
+        )}
       </View>
     </View>
   );

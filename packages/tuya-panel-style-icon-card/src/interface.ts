@@ -13,14 +13,10 @@ export const IStudioDefaultProps = {
   fontWeight: 400,
   fontSize: cx(16),
   fontColor: '#3D3D3D',
-  value: '42',
-  unit: '%',
+  value: '42%',
   valueWeight: 600,
   valueSize: cx(24),
   valueColor: '#505050',
-  unitWeight: 600,
-  unitColor: '#505050',
-  unitSize: cx(24),
 };
 
 export const INordicDefaultProps = {
@@ -32,14 +28,14 @@ export const INordicDefaultProps = {
   fontWeight: 400,
   fontSize: cx(16),
   fontColor: 'rgba(0, 0, 0, 0.9)',
-  value: '42',
-  unit: '%',
+  value: '42%',
   valueWeight: 400,
   valueSize: cx(28),
   valueColor: 'rgba(0, 0, 0, 0.5)',
-  unitWeight: 400,
-  unitColor: 'rgba(0, 0, 0, 0.5)',
-  unitSize: cx(28),
+  arrowSize: cx(10),
+  arrowColor: 'rgba(0, 0, 0, 0.2)',
+  hasArrow: false,
+  showIcon: true,
 };
 
 export const IAcrylicDefaultProps = {
@@ -83,4 +79,10 @@ export interface IStudioIconCardProps extends Omit<IconBackgroundProps, 'style'>
   unitWeight?: number;
   unitColor?: string;
   unitSize?: number;
+}
+
+export interface INordicIconCardProps extends IStudioIconCardProps {
+  arrowSize?: number;
+  arrowColor?: string;
+  hasArrow?: boolean;
 }

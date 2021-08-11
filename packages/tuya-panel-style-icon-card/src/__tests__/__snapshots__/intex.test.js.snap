@@ -458,46 +458,11 @@ exports[`IconCard ClassicIconBlockCard 1`] = `
           ],
         ]
       }
-      text="42"
+      text="42%"
       type={null}
       weight={600}
     >
-      42
-    </Text>
-    <Text
-      accessible={true}
-      align={null}
-      allowFontScaling={false}
-      color="#505050"
-      ellipsizeMode="tail"
-      size={24}
-      style={
-        Array [
-          false,
-          Array [
-            false,
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "color": "#505050",
-                "fontSize": 24,
-                "fontWeight": "600",
-              },
-              Array [
-                Object {
-                  "lineHeight": 26,
-                },
-                undefined,
-              ],
-            ],
-          ],
-        ]
-      }
-      text="%"
-      type={null}
-      weight={600}
-    >
-      %
+      42%
     </Text>
   </View>
 </View>
@@ -671,80 +636,55 @@ exports[`IconCard NordicIconBlockCard 1`] = `
   <View
     style={
       Object {
+        "alignItems": "center",
         "flexDirection": "row",
+        "justifyContent": "space-around",
       }
     }
   >
-    <Text
-      accessible={true}
-      align={null}
-      allowFontScaling={false}
-      color="rgba(0, 0, 0, 0.5)"
-      ellipsizeMode="tail"
-      size={28}
+    <View
       style={
-        Array [
-          false,
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        align={null}
+        allowFontScaling={false}
+        color="rgba(0, 0, 0, 0.5)"
+        ellipsizeMode="tail"
+        size={28}
+        style={
           Array [
             false,
             Array [
-              Object {
-                "backgroundColor": "transparent",
-                "color": "rgba(0, 0, 0, 0.5)",
-                "fontSize": 28,
-                "fontWeight": "400",
-              },
+              false,
               Array [
                 Object {
-                  "lineHeight": 39,
+                  "backgroundColor": "transparent",
+                  "color": "rgba(0, 0, 0, 0.5)",
+                  "fontSize": 28,
+                  "fontWeight": "400",
                 },
-                undefined,
+                Array [
+                  Object {
+                    "lineHeight": 39,
+                  },
+                  undefined,
+                ],
               ],
             ],
-          ],
-        ]
-      }
-      text="42"
-      type={null}
-      weight={400}
-    >
-      42
-    </Text>
-    <Text
-      accessible={true}
-      align={null}
-      allowFontScaling={false}
-      color="rgba(0, 0, 0, 0.5)"
-      ellipsizeMode="tail"
-      size={28}
-      style={
-        Array [
-          false,
-          Array [
-            false,
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "color": "rgba(0, 0, 0, 0.5)",
-                "fontSize": 28,
-                "fontWeight": "400",
-              },
-              Array [
-                Object {
-                  "lineHeight": 39,
-                },
-                undefined,
-              ],
-            ],
-          ],
-        ]
-      }
-      text="%"
-      type={null}
-      weight={400}
-    >
-      %
-    </Text>
+          ]
+        }
+        text="42%"
+        type={null}
+        weight={400}
+      >
+        42%
+      </Text>
+    </View>
   </View>
 </View>
 `;

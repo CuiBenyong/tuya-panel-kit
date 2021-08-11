@@ -1,4 +1,5 @@
 import React from 'react';
+import { View } from 'react-native';
 import {
   ClassicIconBlockCard,
   NordicIconBlockCard,
@@ -19,7 +20,13 @@ export default () => {
         },
         {
           title: Strings.getLang('scandinavian'),
-          content: <NordicIconBlockCard icon={TuyaRNSvgs.power} />,
+          content: (
+            <View>
+              <NordicIconBlockCard icon={TuyaRNSvgs.power} />
+              <NordicIconBlockCard showIcon={false} hasArrow style={{ marginTop: 20 }} />
+              <NordicIconBlockCard icon={TuyaRNSvgs.power} hasArrow style={{ marginTop: 20 }} />
+            </View>
+          ),
         },
         {
           title: Strings.getLang('acrylic'),

@@ -1,14 +1,14 @@
 import React from 'react';
 import { View } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
-import { TYText } from 'tuya-panel-kit';
+import { TYText, IconFont } from 'tuya-panel-kit';
 import IconBackground from 'tuya-panel-icon-background';
-import { IStudioIconCardProps, INordicDefaultProps } from './interface';
+import { INordicIconCardProps, INordicDefaultProps } from './interface';
 
 const { parseToStyle } = Utils.ThemeUtils;
 const { convertX: cx } = Utils.RatioUtils;
 
-const NordicIconBlock: React.FC<IStudioIconCardProps> = ({
+const NordicIconBlock: React.FC<INordicIconCardProps> = ({
   style,
   backgroundColor,
   radius,
@@ -30,6 +30,10 @@ const NordicIconBlock: React.FC<IStudioIconCardProps> = ({
   unitColor,
   unitSize,
   unitStyle,
+  arrowSize,
+  arrowColor,
+  hasArrow,
+  showIcon,
   ...rest
 }) => {
   return (
@@ -50,6 +54,7 @@ const NordicIconBlock: React.FC<IStudioIconCardProps> = ({
         iconBgRadius={cx(12)}
         iconBgColor="#1082FE"
         {...rest}
+        showIcon={showIcon}
         style={iconStyle}
       />
       <TYText
@@ -57,23 +62,35 @@ const NordicIconBlock: React.FC<IStudioIconCardProps> = ({
         weight={fontWeight}
         color={fontColor}
         size={fontSize}
-        style={[{ lineHeight: cx(22), marginBottom: cx(4), marginTop: cx(29) }, textStyle]}
+        style={[
+          {
+            lineHeight: cx(22),
+            marginBottom: showIcon ? cx(4) : cx(75),
+            marginTop: showIcon ? cx(29) : 0,
+          },
+          textStyle,
+        ]}
       />
-      <View style={{ flexDirection: 'row' }}>
-        <TYText
-          text={value}
-          weight={valueWeight}
-          color={valueColor}
-          size={valueSize}
-          style={[{ lineHeight: cx(39) }, valueStyle]}
-        />
-        <TYText
-          text={unit}
-          weight={unitWeight}
-          color={unitColor}
-          size={unitSize}
-          style={[{ lineHeight: cx(39) }, unitStyle]}
-        />
+      <View style={{ flexDirection: 'row', justifyContent: 'space-around', alignItems: 'center' }}>
+        <View style={{ flex: 1 }}>
+          <TYText
+            text={value}
+            weight={valueWeight}
+            color={valueColor}
+            size={valueSize}
+            style={[{ lineHeight: cx(39) }, valueStyle]}
+          />
+          {!!unit && (
+            <TYText
+              text={unit}
+              weight={unitWeight}
+              color={unitColor}
+              size={unitSize}
+              style={[{ lineHeight: cx(39) }, unitStyle]}
+            />
+          )}
+        </View>
+        {hasArrow && <IconFont name="arrow" size={arrowSize} color={arrowColor} />}
       </View>
     </View>
   );
