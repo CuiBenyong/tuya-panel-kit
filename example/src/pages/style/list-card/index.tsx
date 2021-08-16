@@ -1,35 +1,33 @@
 import React from 'react';
-import { View } from 'react-native';
-import { ClassicItemCard, NordicItemCard, AcrylicItemCard } from 'tuya-panel-style-switch-card';
+import { Button, View } from 'react-native';
+import { NordicListCard } from 'tuya-panel-style-list-card';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { ListView } from '#components';
 import Strings from '#i18n';
 
 export default () => {
+  const [value, setValue] = React.useState('world');
   return (
     <ListView
       style={{ backgroundColor: '#f8f8f8' }}
       list={[
         {
-          title: Strings.getLang('basic'),
+          title: Strings.getLang('scandinavian'),
           content: (
             <View>
-              <ClassicItemCard icon={TuyaRNSvgs.power} />
-              <ClassicItemCard
+              <NordicListCard
                 icon={TuyaRNSvgs.power}
-                subText="switch card"
-                style={{ marginTop: 20 }}
+                value={value}
+                onPress={value => console.log({ value })}
+                dataSource={[
+                  { icon: TuyaRNSvgs.power, text: 'Hello World', value: 'world' },
+                  { icon: TuyaRNSvgs.power, text: 'Hello Tuya', value: 'tuya' },
+                  { icon: TuyaRNSvgs.power, text: 'Hello China', value: 'china' },
+                ]}
               />
+              <Button title="hh" onPress={() => setValue('china')} />
             </View>
           ),
-        },
-        {
-          title: Strings.getLang('scandinavian'),
-          content: <NordicItemCard icon={TuyaRNSvgs.power} />,
-        },
-        {
-          title: Strings.getLang('acrylic'),
-          content: <AcrylicItemCard icon={TuyaRNSvgs.power} />,
         },
       ]}
     />

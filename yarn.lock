@@ -13635,6 +13635,11 @@ tuya-panel-theme@^0.0.1:
   dependencies:
     tuya-panel-utils "^0.0.1"
 
+tuya-panel-utils@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.nlark.com/tuya-panel-utils/download/tuya-panel-utils-0.1.0.tgz#9d8b36dc449581695fdaf2c165e0acd61bcfa837"
+  integrity sha1-nYs23ESVgWlf2vLBZeCs1hvPqDc=
+
 tuya-panel-utils@^0.0.1:
   version "0.0.1"
   resolved "https://registry.nlark.com/tuya-panel-utils/download/tuya-panel-utils-0.0.1.tgz#910a1fc163ae61c63e0f5c2938983fcbd55b739a"

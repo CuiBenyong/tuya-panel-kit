@@ -60,9 +60,11 @@ import DepictCard from './pages/style/depict-card';
 import IconBlockCard from './pages/style/icon-card';
 import EnumSliderCard from './pages/style/enum-slider-card';
 import EnumTabsButtonCard from './pages/style/enum-tabs-button-card';
-import ListCard from './pages/style/list-card';
+import ItemCard from './pages/style/item-card';
 import ArrowCard from './pages/style/arrow-card';
 import EnumButtonGroup from './pages/style/enum-button-group';
+import StepCard from './pages/style/step-card';
+import ListCard from './pages/style/list-card';
 
 export const routes = [
   // style
@@ -343,13 +345,23 @@ export const routes = [
     component: IconBlockCard,
   },
   {
-    name: Strings.getLang('list_card'),
-    href: '/style/list_card',
-    component: ListCard,
+    name: Strings.getLang('item_card'),
+    href: '/style/item_card',
+    component: ItemCard,
   },
   {
     name: Strings.getLang('arrow_card'),
     href: '/style/arrow_card',
     component: ArrowCard,
+  },
+  {
+    name: Strings.getLang('step_card'),
+    href: '/style/step_card',
+    component: StepCard,
+  },
+  {
+    name: Strings.getLang('list_card'),
+    href: '/style/list_card',
+    component: ListCard,
   },
 ];
