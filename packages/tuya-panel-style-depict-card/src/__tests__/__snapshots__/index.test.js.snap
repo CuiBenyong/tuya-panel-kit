@@ -40,26 +40,20 @@ exports[`DepictCard AcrylicDepictCard 1`] = `
           Array [
             false,
             Array [
-              false,
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgba(0, 0, 0, 0.5)",
+                "fontSize": 12,
+                "fontWeight": "500",
+              },
               Array [
-                false,
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "color": "rgba(0, 0, 0, 0.5)",
-                    "fontSize": 12,
-                    "fontWeight": "500",
-                  },
-                  Array [
-                    Object {
-                      "lineHeight": 24,
-                      "marginBottom": 7,
-                    },
-                    Object {
-                      "lineHeight": 16.3,
-                    },
-                  ],
-                ],
+                Object {
+                  "lineHeight": 24,
+                  "marginBottom": 7,
+                },
+                Object {
+                  "lineHeight": 16.3,
+                },
               ],
             ],
           ],
@@ -92,25 +86,19 @@ exports[`DepictCard AcrylicDepictCard 1`] = `
             Array [
               false,
               Array [
-                false,
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#505050",
+                  "fontSize": 24,
+                  "fontWeight": "500",
+                },
                 Array [
-                  false,
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "#505050",
-                      "fontSize": 24,
-                      "fontWeight": "500",
-                    },
-                    Array [
-                      Object {
-                        "lineHeight": 24,
-                      },
-                      Object {
-                        "lineHeight": 33,
-                      },
-                    ],
-                  ],
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "lineHeight": 33,
+                  },
                 ],
               ],
             ],
@@ -135,26 +123,20 @@ exports[`DepictCard AcrylicDepictCard 1`] = `
             Array [
               false,
               Array [
-                false,
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "rgba(0, 0, 0, 0.45)",
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                },
                 Array [
-                  false,
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "rgba(0, 0, 0, 0.45)",
-                      "fontSize": 12,
-                      "fontWeight": "400",
-                    },
-                    Array [
-                      Object {
-                        "lineHeight": 24,
-                      },
-                      Object {
-                        "lineHeight": 16,
-                        "paddingBottom": 5,
-                      },
-                    ],
-                  ],
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "lineHeight": 16,
+                    "paddingBottom": 5,
+                  },
                 ],
               ],
             ],
@@ -327,26 +309,20 @@ exports[`DepictCard AcrylicDepictIconCard 1`] = `
           Array [
             false,
             Array [
-              false,
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgba(0, 0, 0, 0.45)",
+                "fontSize": 12,
+                "fontWeight": "400",
+              },
               Array [
-                false,
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "color": "rgba(0, 0, 0, 0.45)",
-                    "fontSize": 12,
-                    "fontWeight": "400",
-                  },
-                  Array [
-                    Object {
-                      "lineHeight": 24,
-                      "marginBottom": 3,
-                    },
-                    Object {
-                      "lineHeight": 16,
-                    },
-                  ],
-                ],
+                Object {
+                  "lineHeight": 24,
+                  "marginBottom": 3,
+                },
+                Object {
+                  "lineHeight": 16,
+                },
               ],
             ],
           ],
@@ -379,25 +355,19 @@ exports[`DepictCard AcrylicDepictIconCard 1`] = `
             Array [
               false,
               Array [
-                false,
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "rgba(0, 0, 0, 0.9)",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                },
                 Array [
-                  false,
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "rgba(0, 0, 0, 0.9)",
-                      "fontSize": 16,
-                      "fontWeight": "500",
-                    },
-                    Array [
-                      Object {
-                        "lineHeight": 24,
-                      },
-                      Object {
-                        "lineHeight": 22,
-                      },
-                    ],
-                  ],
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "lineHeight": 22,
+                  },
                 ],
               ],
             ],
@@ -422,26 +392,20 @@ exports[`DepictCard AcrylicDepictIconCard 1`] = `
             Array [
               false,
               Array [
-                false,
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "rgba(0, 0, 0, 0.5)",
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                },
                 Array [
-                  false,
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "rgba(0, 0, 0, 0.5)",
-                      "fontSize": 12,
-                      "fontWeight": "400",
-                    },
-                    Array [
-                      Object {
-                        "lineHeight": 24,
-                      },
-                      Object {
-                        "lineHeight": 16,
-                        "paddingBottom": 2,
-                      },
-                    ],
-                  ],
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "lineHeight": 16,
+                    "paddingBottom": 2,
+                  },
                 ],
               ],
             ],
@@ -498,24 +462,18 @@ exports[`DepictCard ClassicDepictCard 1`] = `
           Array [
             false,
             Array [
-              false,
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgba(80, 80, 80, 0.5)",
+                "fontSize": 12,
+                "fontWeight": "400",
+              },
               Array [
-                false,
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "color": "rgba(80, 80, 80, 0.5)",
-                    "fontSize": 12,
-                    "fontWeight": "400",
-                  },
-                  Array [
-                    Object {
-                      "lineHeight": 24,
-                      "marginBottom": 6,
-                    },
-                    undefined,
-                  ],
-                ],
+                Object {
+                  "lineHeight": 24,
+                  "marginBottom": 6,
+                },
+                undefined,
               ],
             ],
           ],
@@ -548,23 +506,17 @@ exports[`DepictCard ClassicDepictCard 1`] = `
             Array [
               false,
               Array [
-                false,
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#505050",
+                  "fontSize": 18,
+                  "fontWeight": "600",
+                },
                 Array [
-                  false,
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "#505050",
-                      "fontSize": 18,
-                      "fontWeight": "600",
-                    },
-                    Array [
-                      Object {
-                        "lineHeight": 24,
-                      },
-                      undefined,
-                    ],
-                  ],
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  undefined,
                 ],
               ],
             ],
@@ -589,23 +541,17 @@ exports[`DepictCard ClassicDepictCard 1`] = `
             Array [
               false,
               Array [
-                false,
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000",
+                  "fontSize": 18,
+                  "fontWeight": "400",
+                },
                 Array [
-                  false,
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "#000",
-                      "fontSize": 18,
-                      "fontWeight": "400",
-                    },
-                    Array [
-                      Object {
-                        "lineHeight": 24,
-                      },
-                      undefined,
-                    ],
-                  ],
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  undefined,
                 ],
               ],
             ],
@@ -662,24 +608,18 @@ exports[`DepictCard NordicDepictCard 1`] = `
           Array [
             false,
             Array [
-              false,
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgba(0, 0, 0, 0.5)",
+                "fontSize": 12,
+                "fontWeight": "400",
+              },
               Array [
-                false,
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "color": "rgba(0, 0, 0, 0.5)",
-                    "fontSize": 12,
-                    "fontWeight": "400",
-                  },
-                  Array [
-                    Object {
-                      "lineHeight": 24,
-                      "marginBottom": 6,
-                    },
-                    undefined,
-                  ],
-                ],
+                Object {
+                  "lineHeight": 24,
+                  "marginBottom": 6,
+                },
+                undefined,
               ],
             ],
           ],
@@ -712,25 +652,19 @@ exports[`DepictCard NordicDepictCard 1`] = `
             Array [
               false,
               Array [
-                false,
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000",
+                  "fontSize": 20,
+                  "fontWeight": "500",
+                },
                 Array [
-                  false,
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "#000",
-                      "fontSize": 20,
-                      "fontWeight": "500",
-                    },
-                    Array [
-                      Object {
-                        "lineHeight": 24,
-                      },
-                      Object {
-                        "lineHeight": 32,
-                      },
-                    ],
-                  ],
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "lineHeight": 32,
+                  },
                 ],
               ],
             ],
@@ -755,25 +689,19 @@ exports[`DepictCard NordicDepictCard 1`] = `
             Array [
               false,
               Array [
-                false,
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000",
+                  "fontSize": 18,
+                  "fontWeight": "500",
+                },
                 Array [
-                  false,
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "#000",
-                      "fontSize": 18,
-                      "fontWeight": "500",
-                    },
-                    Array [
-                      Object {
-                        "lineHeight": 24,
-                      },
-                      Object {
-                        "lineHeight": 32,
-                      },
-                    ],
-                  ],
+                  Object {
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "lineHeight": 32,
+                  },
                 ],
               ],
             ],

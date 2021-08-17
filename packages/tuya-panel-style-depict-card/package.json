@@ -28,8 +28,8 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "tuya-panel-utils": "0.0.2",
-    "tuya-panel-kit": "4.6.6",
+    "tuya-panel-utils": "0.1.0",
+    "tuya-panel-kit": "4.7.4",
     "tuya-panel-icon-background": "0.0.0"
   },
   "bugs": {

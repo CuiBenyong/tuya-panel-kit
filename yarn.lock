@@ -13603,48 +13603,6 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
-tuya-panel-kit@4.6.6:
-  version "4.6.6"
-  resolved "https://registry.nlark.com/tuya-panel-kit/download/tuya-panel-kit-4.6.6.tgz#05e7fbd5ecd581496f240a25de7996f452a5b0ea"
-  integrity sha1-Bef71ezVgUlvJAol3nmW9FKlsOo=
-  dependencies:
-    "@react-native-community/masked-view" "0.1.10"
-    "@react-navigation/native" "5.7.3"
-    "@react-navigation/stack" "5.9.0"
-    babel-cli "^6.26.0"
-    color "^0.11.1"
-    events "^1.1.1"
-    hoist-non-react-statics "^3.3.0"
-    prop-types "^15.6.1"
-    react-addons-shallow-compare "^15.6.2"
-    react-native-deprecated-custom-components "0.1.2"
-    react-native-gesture-handler "1.8.0"
-    react-native-reanimated "1.13.0"
-    react-native-safe-area-context "3.1.7"
-    react-native-screens "2.10.1"
-    react-native-svg "5.5.1"
-    style-equal "^1.0.0"
-    styled-components "^3.4.10"
-    tuya-panel-theme "^0.0.3"
-    tuya-panel-utils "^0.0.2"
-
-tuya-panel-theme@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.nlark.com/tuya-panel-theme/download/tuya-panel-theme-0.0.1.tgz#5ea801e8af8a78f78b9df6ee4e3cc6598a5df347"
-  integrity sha1-XqgB6K+KePeLnfbuTjzGWYpd80c=
-  dependencies:
-    tuya-panel-utils "^0.0.1"
-
-tuya-panel-utils@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.nlark.com/tuya-panel-utils/download/tuya-panel-utils-0.1.0.tgz#9d8b36dc449581695fdaf2c165e0acd61bcfa837"
-  integrity sha1-nYs23ESVgWlf2vLBZeCs1hvPqDc=
-
-tuya-panel-utils@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.nlark.com/tuya-panel-utils/download/tuya-panel-utils-0.0.1.tgz#910a1fc163ae61c63e0f5c2938983fcbd55b739a"
-  integrity sha1-kQofwWOuYcY+D1wpOJg/y9Vbc5o=
-
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.npm.taobao.org/tweetnacl/download/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"

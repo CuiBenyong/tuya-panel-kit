@@ -315,6 +315,7 @@ exports[`EnumTabsCard Classic 1`] = `
                             "opacity": 0,
                           },
                         ],
+                        Object {},
                         undefined,
                       ],
                       Object {
@@ -774,6 +775,7 @@ exports[`EnumTabsCard Classic set props 1`] = `
                             "opacity": 0,
                           },
                         ],
+                        Object {},
                         undefined,
                       ],
                       Object {
