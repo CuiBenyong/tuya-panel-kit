@@ -6,7 +6,7 @@ exports[`EnumButtonGroup Acrylic 1`] = `
     Array [
       Object {
         "backgroundColor": "rgba(0, 0, 0, 0)",
-        "borderRadius": 20,
+        "borderRadius": 40,
         "paddingBottom": 0,
         "paddingLeft": 0,
         "paddingRight": 0,

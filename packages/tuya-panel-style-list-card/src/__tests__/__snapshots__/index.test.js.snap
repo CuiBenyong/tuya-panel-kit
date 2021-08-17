@@ -6,12 +6,12 @@ exports[`StyleListCard NordicListCard 1`] = `
     Array [
       Object {
         "backgroundColor": "#FFF",
-        "borderRadius": 16,
-        "paddingBottom": 24,
-        "paddingLeft": 16,
-        "paddingRight": 16,
-        "paddingTop": 24,
-        "width": 327,
+        "borderRadius": 32,
+        "paddingBottom": 48,
+        "paddingLeft": 32,
+        "paddingRight": 32,
+        "paddingTop": 48,
+        "width": 654,
       },
       undefined,
     ]
@@ -23,7 +23,7 @@ exports[`StyleListCard NordicListCard 1`] = `
         "alignItems": "center",
         "flex": 1,
         "flexDirection": "row",
-        "marginBottom": 20,
+        "marginBottom": 40,
       }
     }
   >
@@ -34,8 +34,8 @@ exports[`StyleListCard NordicListCard 1`] = `
             "flexDirection": "row",
           },
           Object {
-            "height": 16,
-            "width": 16,
+            "height": 32,
+            "width": 32,
           },
           false,
           null,
@@ -56,8 +56,8 @@ exports[`StyleListCard NordicListCard 1`] = `
             false,
             Object {
               "flex": 0,
-              "height": 16,
-              "width": 16,
+              "height": 32,
+              "width": 32,
             },
           ]
         }
@@ -120,7 +120,7 @@ exports[`StyleListCard NordicListCard 1`] = `
       allowFontScaling={false}
       color="rgba(0, 0, 0, 0.9)"
       ellipsizeMode="tail"
-      size={16}
+      size={32}
       style={
         Array [
           false,
@@ -130,13 +130,13 @@ exports[`StyleListCard NordicListCard 1`] = `
               Object {
                 "backgroundColor": "transparent",
                 "color": "rgba(0, 0, 0, 0.9)",
-                "fontSize": 16,
+                "fontSize": 32,
                 "fontWeight": "400",
               },
               Array [
                 Object {
-                  "lineHeight": 24,
-                  "marginLeft": 12,
+                  "lineHeight": 48,
+                  "marginLeft": 24,
                 },
                 undefined,
               ],
@@ -174,10 +174,10 @@ exports[`StyleListCard NordicListCard 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "rgba(16, 130, 254, 0.09)",
-          "borderRadius": 12,
+          "borderRadius": 24,
           "flexDirection": "row",
           "opacity": 1,
-          "padding": 16,
+          "padding": 32,
         }
       }
     >
@@ -186,22 +186,22 @@ exports[`StyleListCard NordicListCard 1`] = `
           Array [
             Object {
               "backgroundColor": "#1082FE",
-              "height": 36,
-              "width": 36,
+              "height": 72,
+              "width": 72,
             },
             Array [
               Object {
                 "alignItems": "center",
                 "borderRadius": 50,
                 "display": "flex",
-                "height": 36,
+                "height": 72,
                 "justifyContent": "center",
                 "overflow": "hidden",
-                "width": 36,
+                "width": 72,
               },
               Array [
                 Object {
-                  "borderRadius": 8,
+                  "borderRadius": 16,
                 },
                 undefined,
               ],
@@ -216,8 +216,8 @@ exports[`StyleListCard NordicListCard 1`] = `
                 "flexDirection": "row",
               },
               Object {
-                "height": 20,
-                "width": 20,
+                "height": 40,
+                "width": 40,
               },
               false,
               null,
@@ -238,8 +238,8 @@ exports[`StyleListCard NordicListCard 1`] = `
                 false,
                 Object {
                   "flex": 0,
-                  "height": 20,
-                  "width": 20,
+                  "height": 40,
+                  "width": 40,
                 },
               ]
             }
@@ -303,7 +303,7 @@ exports[`StyleListCard NordicListCard 1`] = `
         allowFontScaling={false}
         color="rgba(0, 0, 0, 0.9)"
         ellipsizeMode="tail"
-        size={16}
+        size={32}
         style={
           Array [
             false,
@@ -313,13 +313,13 @@ exports[`StyleListCard NordicListCard 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "rgba(0, 0, 0, 0.9)",
-                  "fontSize": 16,
+                  "fontSize": 32,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
-                    "marginLeft": 16,
+                    "lineHeight": 48,
+                    "marginLeft": 32,
                   },
                   undefined,
                 ],
@@ -347,10 +347,10 @@ exports[`StyleListCard NordicListCard 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "transparent",
-          "borderRadius": 12,
+          "borderRadius": 24,
           "flexDirection": "row",
           "opacity": 1,
-          "padding": 16,
+          "padding": 32,
         }
       }
     >
@@ -359,22 +359,22 @@ exports[`StyleListCard NordicListCard 1`] = `
           Array [
             Object {
               "backgroundColor": "#158CFB",
-              "height": 36,
-              "width": 36,
+              "height": 72,
+              "width": 72,
             },
             Array [
               Object {
                 "alignItems": "center",
                 "borderRadius": 50,
                 "display": "flex",
-                "height": 36,
+                "height": 72,
                 "justifyContent": "center",
                 "overflow": "hidden",
-                "width": 36,
+                "width": 72,
               },
               Array [
                 Object {
-                  "borderRadius": 8,
+                  "borderRadius": 16,
                 },
                 undefined,
               ],
@@ -389,8 +389,8 @@ exports[`StyleListCard NordicListCard 1`] = `
                 "flexDirection": "row",
               },
               Object {
-                "height": 20,
-                "width": 20,
+                "height": 40,
+                "width": 40,
               },
               false,
               null,
@@ -411,8 +411,8 @@ exports[`StyleListCard NordicListCard 1`] = `
                 false,
                 Object {
                   "flex": 0,
-                  "height": 20,
-                  "width": 20,
+                  "height": 40,
+                  "width": 40,
                 },
               ]
             }
@@ -476,7 +476,7 @@ exports[`StyleListCard NordicListCard 1`] = `
         allowFontScaling={false}
         color="rgba(0, 0, 0, 0.5)"
         ellipsizeMode="tail"
-        size={16}
+        size={32}
         style={
           Array [
             false,
@@ -486,13 +486,13 @@ exports[`StyleListCard NordicListCard 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "rgba(0, 0, 0, 0.5)",
-                  "fontSize": 16,
+                  "fontSize": 32,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
-                    "marginLeft": 16,
+                    "lineHeight": 48,
+                    "marginLeft": 32,
                   },
                   undefined,
                 ],
@@ -520,10 +520,10 @@ exports[`StyleListCard NordicListCard 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "transparent",
-          "borderRadius": 12,
+          "borderRadius": 24,
           "flexDirection": "row",
           "opacity": 1,
-          "padding": 16,
+          "padding": 32,
         }
       }
     >
@@ -532,22 +532,22 @@ exports[`StyleListCard NordicListCard 1`] = `
           Array [
             Object {
               "backgroundColor": "#158CFB",
-              "height": 36,
-              "width": 36,
+              "height": 72,
+              "width": 72,
             },
             Array [
               Object {
                 "alignItems": "center",
                 "borderRadius": 50,
                 "display": "flex",
-                "height": 36,
+                "height": 72,
                 "justifyContent": "center",
                 "overflow": "hidden",
-                "width": 36,
+                "width": 72,
               },
               Array [
                 Object {
-                  "borderRadius": 8,
+                  "borderRadius": 16,
                 },
                 undefined,
               ],
@@ -562,8 +562,8 @@ exports[`StyleListCard NordicListCard 1`] = `
                 "flexDirection": "row",
               },
               Object {
-                "height": 20,
-                "width": 20,
+                "height": 40,
+                "width": 40,
               },
               false,
               null,
@@ -584,8 +584,8 @@ exports[`StyleListCard NordicListCard 1`] = `
                 false,
                 Object {
                   "flex": 0,
-                  "height": 20,
-                  "width": 20,
+                  "height": 40,
+                  "width": 40,
                 },
               ]
             }
@@ -649,7 +649,7 @@ exports[`StyleListCard NordicListCard 1`] = `
         allowFontScaling={false}
         color="rgba(0, 0, 0, 0.5)"
         ellipsizeMode="tail"
-        size={16}
+        size={32}
         style={
           Array [
             false,
@@ -659,13 +659,13 @@ exports[`StyleListCard NordicListCard 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "rgba(0, 0, 0, 0.5)",
-                  "fontSize": 16,
+                  "fontSize": 32,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
-                    "marginLeft": 16,
+                    "lineHeight": 48,
+                    "marginLeft": 32,
                   },
                   undefined,
                 ],

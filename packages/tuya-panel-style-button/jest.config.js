@@ -9,12 +9,6 @@ module.exports = {
   testMatch: ['<rootDir>/packages/tuya-panel-style-button/src/__tests__/?(*.)+(test).js'],
   coverageDirectory: '<rootDir>/packages/tuya-panel-style-button/coverage/',
   collectCoverageFrom: ['<rootDir>/packages/tuya-panel-style-button/src/index.tsx'],
-  modulePathIgnorePatterns: [
-    '<rootDir>/example/node_modules',
-    '<rootDir>/demos',
-    '<rootDir>/example',
-    '<rootDir>/packages/*/lib',
-  ],
   transform: {
     '^.+\\.(t|j)sx?$': 'babel-jest',
   },

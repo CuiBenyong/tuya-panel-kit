@@ -10,24 +10,6 @@ import { mount } from 'enzyme';
 
 const { ThemeProvider } = Utils.ThemeUtils;
 
-jest.mock('react-native-gesture-handler', () => {
-  return {
-    BaseButton: () => 'BaseButton',
-  };
-});
-jest.mock('@react-navigation/stack', () => {
-  return {
-    TransitionSpecs: {},
-    HeaderStyleInterpolators: {},
-    createStackNavigator: () => 'createStackNavigator',
-  };
-});
-jest.mock('Dimensions', () => {
-  return {
-    get: jest.fn().mockReturnValue({ width: 375, height: 667 }),
-  };
-});
-
 const data = [
   {
     label: '关闭',

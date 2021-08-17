@@ -9,24 +9,6 @@ import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { mount } from 'enzyme';
 import { View, Text } from 'react-native'
 
-jest.mock('react-native-gesture-handler', () => {
-  return {
-    BaseButton: () => 'BaseButton',
-  };
-});
-jest.mock('@react-navigation/stack', () => {
-  return {
-    TransitionSpecs: {},
-    HeaderStyleInterpolators: {},
-    createStackNavigator: () => 'createStackNavigator',
-  };
-});
-jest.mock('Dimensions', () => {
-  return {
-    get: jest.fn().mockReturnValue({ width: 375, height: 667 }),
-  };
-});
-
 const list = [
   {
     label: '按钮1',

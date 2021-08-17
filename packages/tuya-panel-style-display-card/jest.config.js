@@ -6,16 +6,9 @@ module.exports = {
   name: pkg.name,
   displayName: pkg.name,
   rootDir: '../..',
-  testMatch: ['<rootDir>/packages/tuya-panel-style-display-card/src/__tests__/index.test.js'],
+  testMatch: ['<rootDir>/packages/tuya-panel-style-display-card/src/__tests__/?(*.)+(test).js'],
   coverageDirectory: '<rootDir>/packages/tuya-panel-style-display-card/coverage/',
   collectCoverageFrom: ['<rootDir>/packages/tuya-panel-style-display-card/src/index.tsx'],
-  modulePathIgnorePatterns: [
-    '<rootDir>/example/node_modules',
-    '<rootDir>/demos',
-    '<rootDir>/example',
-    '<rootDir>/lib',
-    '<rootDir>/packages/*/lib',
-  ],
   transform: {
     '^.+\\.(t|j)sx?$': 'babel-jest',
   },

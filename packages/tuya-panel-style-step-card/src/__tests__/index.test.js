@@ -2,31 +2,9 @@
  * @jest-environment jsdom
  */
  import React from 'react';
- import renderer from 'react-test-renderer';
- import { TouchableOpacity } from 'react-native';
  import { mount } from 'enzyme';
  import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
  import { StudioStepCard, NordicStepCard } from '../index';
- 
- jest.mock('react-native-gesture-handler', () => {
-   return {
-     BaseButton: () => 'BaseButton',
-   };
- });
- 
- jest.mock('@react-navigation/stack', () => {
-   return {
-     TransitionSpecs: {},
-     HeaderStyleInterpolators: {},
-     createStackNavigator: () => 'createStackNavigator',
-   };
- });
- 
- jest.mock('Dimensions', () => {
-   return {
-     get: jest.fn().mockReturnValue({ width: 375, height: 667 }),
-   };
- });
  
 describe('StepCard', () => {
   it('StudioStepCard', () => {

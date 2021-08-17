@@ -14,15 +14,15 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "#FFF",
-      "borderRadius": 16,
+      "borderRadius": 32,
       "flexDirection": "row",
       "justifyContent": "space-around",
       "opacity": 1,
-      "paddingBottom": 20,
-      "paddingLeft": 25,
-      "paddingRight": 24,
-      "paddingTop": 19,
-      "width": 278,
+      "paddingBottom": 40,
+      "paddingLeft": 50,
+      "paddingRight": 48,
+      "paddingTop": 38,
+      "width": 556,
     }
   }
 >
@@ -41,8 +41,8 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
             "flexDirection": "row",
           },
           Object {
-            "height": 40,
-            "width": 40,
+            "height": 80,
+            "width": 80,
           },
           false,
           null,
@@ -63,8 +63,8 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
             false,
             Object {
               "flex": 0,
-              "height": 40,
-              "width": 40,
+              "height": 80,
+              "width": 80,
             },
           ]
         }
@@ -126,8 +126,8 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
         Object {
           "flex": 1,
           "justifyContent": "center",
-          "marginLeft": 12,
-          "marginRight": 12,
+          "marginLeft": 24,
+          "marginRight": 24,
         }
       }
     >
@@ -137,7 +137,7 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
         allowFontScaling={false}
         color="rgba(0, 0, 0, 0.87)"
         ellipsizeMode="tail"
-        size={16}
+        size={32}
         style={
           Array [
             false,
@@ -147,12 +147,12 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "rgba(0, 0, 0, 0.87)",
-                  "fontSize": 16,
+                  "fontSize": 32,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   undefined,
                 ],
@@ -172,7 +172,7 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
         allowFontScaling={false}
         color="rgba(0, 0, 0, 0.35)"
         ellipsizeMode="tail"
-        size={14}
+        size={28}
         style={
           Array [
             false,
@@ -182,15 +182,15 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "rgba(0, 0, 0, 0.35)",
-                  "fontSize": 14,
+                  "fontSize": 28,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   Object {
-                    "lineHeight": 19,
+                    "lineHeight": 38,
                   },
                 ],
               ],
@@ -228,10 +228,10 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "transparent",
-          "height": 30,
+          "height": 57,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 54,
+          "width": 106,
         }
       }
     >
@@ -239,10 +239,10 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
         style={
           Array [
             Object {
-              "borderRadius": 10,
-              "height": 27,
+              "borderRadius": 20,
+              "height": 54,
               "justifyContent": "center",
-              "width": 52,
+              "width": 104,
             },
             Object {
               "backgroundColor": "#FE7862",
@@ -256,12 +256,12 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#FFF",
-            "borderRadius": 0.5,
-            "height": 6,
+            "borderRadius": 1,
+            "height": 12,
             "justifyContent": "center",
-            "left": 4.5,
+            "left": 9,
             "position": "absolute",
-            "width": 1,
+            "width": 2,
           }
         }
       />
@@ -270,12 +270,12 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#FFF",
-            "borderRadius": 0.5,
-            "height": 1.2000000000000002,
+            "borderRadius": 1,
+            "height": 2.4000000000000004,
             "justifyContent": "center",
             "position": "absolute",
-            "right": 4.5,
-            "width": 1,
+            "right": 9,
+            "width": 2,
           }
         }
       />
@@ -285,9 +285,9 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
             "alignItems": "center",
             "alignSelf": "flex-start",
             "backgroundColor": "#fff",
-            "borderRadius": 8.8,
+            "borderRadius": 17.6,
             "elevation": 2,
-            "height": 24,
+            "height": 48,
             "justifyContent": "center",
             "position": "absolute",
             "shadowColor": "rgba(0, 0, 0, 0.3)",
@@ -299,10 +299,10 @@ exports[`SwitchCard AcrylicSwitchCard 1`] = `
             "shadowRadius": 3,
             "transform": Array [
               Object {
-                "translateX": 27.5,
+                "translateX": 54,
               },
             ],
-            "width": 24,
+            "width": 48,
           }
         }
       />
@@ -325,15 +325,15 @@ exports[`SwitchCard AcrylicSwitchCard 2`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "#FFF",
-      "borderRadius": 14,
+      "borderRadius": 28,
       "flexDirection": "row",
       "justifyContent": "space-around",
       "opacity": 1,
-      "paddingBottom": 20,
-      "paddingLeft": 25,
-      "paddingRight": 24,
-      "paddingTop": 19,
-      "width": 310,
+      "paddingBottom": 40,
+      "paddingLeft": 50,
+      "paddingRight": 48,
+      "paddingTop": 38,
+      "width": 620,
     }
   }
 >
@@ -352,8 +352,8 @@ exports[`SwitchCard AcrylicSwitchCard 2`] = `
             "flexDirection": "row",
           },
           Object {
-            "height": 32,
-            "width": 32,
+            "height": 64,
+            "width": 64,
           },
           false,
           null,
@@ -374,8 +374,8 @@ exports[`SwitchCard AcrylicSwitchCard 2`] = `
             false,
             Object {
               "flex": 0,
-              "height": 32,
-              "width": 32,
+              "height": 64,
+              "width": 64,
             },
           ]
         }
@@ -437,8 +437,8 @@ exports[`SwitchCard AcrylicSwitchCard 2`] = `
         Object {
           "flex": 1,
           "justifyContent": "center",
-          "marginLeft": 12,
-          "marginRight": 12,
+          "marginLeft": 24,
+          "marginRight": 24,
         }
       }
     >
@@ -448,7 +448,7 @@ exports[`SwitchCard AcrylicSwitchCard 2`] = `
         allowFontScaling={false}
         color="rgba(0, 0, 0, 0.87)"
         ellipsizeMode="tail"
-        size={16}
+        size={32}
         style={
           Array [
             false,
@@ -458,15 +458,15 @@ exports[`SwitchCard AcrylicSwitchCard 2`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "rgba(0, 0, 0, 0.87)",
-                  "fontSize": 16,
+                  "fontSize": 32,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   Object {
-                    "lineHeight": 22,
+                    "lineHeight": 44,
                   },
                 ],
               ],
@@ -485,7 +485,7 @@ exports[`SwitchCard AcrylicSwitchCard 2`] = `
         allowFontScaling={false}
         color="rgba(0, 0, 0, 0.35)"
         ellipsizeMode="tail"
-        size={14}
+        size={28}
         style={
           Array [
             false,
@@ -495,15 +495,15 @@ exports[`SwitchCard AcrylicSwitchCard 2`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "rgba(0, 0, 0, 0.35)",
-                  "fontSize": 14,
+                  "fontSize": 28,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   Object {
-                    "lineHeight": 19,
+                    "lineHeight": 38,
                   },
                 ],
               ],
@@ -533,8 +533,8 @@ exports[`SwitchCard AcrylicSwitchCard 2`] = `
             "flexDirection": "row",
           },
           Object {
-            "height": 12,
-            "width": 12,
+            "height": 24,
+            "width": 24,
           },
           false,
           null,
@@ -555,8 +555,8 @@ exports[`SwitchCard AcrylicSwitchCard 2`] = `
             false,
             Object {
               "flex": 0,
-              "height": 12,
-              "width": 12,
+              "height": 24,
+              "width": 24,
             },
           ]
         }
@@ -636,58 +636,58 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
             backgroundColor="#FFF"
             disabled={true}
             fontColor="#3D3D3D"
-            fontSize={16}
+            fontSize={32}
             fontWeight={400}
             icon="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
-            iconSize={32}
+            iconSize={64}
             milliseconds={500}
             onLongPress={[Function]}
             padding={
               Array [
-                19,
-                24,
-                20,
-                25,
+                38,
+                48,
+                40,
+                50,
               ]
             }
-            radius={14}
+            radius={28}
             showIcon={true}
             subFontColor="rgba(61, 61, 61, 0.5)"
-            subFontSize={14}
+            subFontSize={28}
             subFontWeight={400}
             switchSize={
               Object {
-                "activeSize": 20,
-                "height": 24,
-                "margin": 2,
-                "width": 40,
+                "activeSize": 40,
+                "height": 48,
+                "margin": 4,
+                "width": 80,
               }
             }
             text="List Card"
             textStyle={
               Object {
-                "lineHeight": 22,
+                "lineHeight": 44,
               }
             }
             unit="°C"
             unitColor="rgba(0, 0, 0, 0.5)"
-            unitSize={12}
+            unitSize={24}
             unitStyle={
               Object {
-                "marginTop": 5,
+                "marginTop": 10,
               }
             }
             unitWeight={400}
             value="26"
             valueColor="rgba(0, 0, 0, 0.87)"
             valueFontWeight={500}
-            valueSize={20}
+            valueSize={40}
             valueStyle={
               Object {
-                "lineHeight": 27,
+                "lineHeight": 54,
               }
             }
-            width={310}
+            width={620}
           >
             <TouchableOpacity
               activeOpacity={0.8}
@@ -699,14 +699,14 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                   Object {
                     "alignItems": "center",
                     "backgroundColor": "#FFF",
-                    "borderRadius": 14,
+                    "borderRadius": 28,
                     "flexDirection": "row",
                     "justifyContent": "space-around",
-                    "paddingBottom": 20,
-                    "paddingLeft": 25,
-                    "paddingRight": 24,
-                    "paddingTop": 19,
-                    "width": 310,
+                    "paddingBottom": 40,
+                    "paddingLeft": 50,
+                    "paddingRight": 48,
+                    "paddingTop": 38,
+                    "width": 620,
                   },
                   undefined,
                 ]
@@ -727,14 +727,14 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                       Object {
                         "alignItems": "center",
                         "backgroundColor": "#FFF",
-                        "borderRadius": 14,
+                        "borderRadius": 28,
                         "flexDirection": "row",
                         "justifyContent": "space-around",
-                        "paddingBottom": 20,
-                        "paddingLeft": 25,
-                        "paddingRight": 24,
-                        "paddingTop": 19,
-                        "width": 310,
+                        "paddingBottom": 40,
+                        "paddingLeft": 50,
+                        "paddingRight": 48,
+                        "paddingTop": 38,
+                        "width": 620,
                       },
                       undefined,
                     ],
@@ -757,15 +757,15 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                     Object {
                       "alignItems": "center",
                       "backgroundColor": "#FFF",
-                      "borderRadius": 14,
+                      "borderRadius": 28,
                       "flexDirection": "row",
                       "justifyContent": "space-around",
                       "opacity": 1,
-                      "paddingBottom": 20,
-                      "paddingLeft": 25,
-                      "paddingRight": 24,
-                      "paddingTop": 19,
-                      "width": 310,
+                      "paddingBottom": 40,
+                      "paddingLeft": 50,
+                      "paddingRight": 48,
+                      "paddingTop": 38,
+                      "width": 620,
                     }
                   }
                 >
@@ -782,15 +782,15 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                       Object {
                         "alignItems": "center",
                         "backgroundColor": "#FFF",
-                        "borderRadius": 14,
+                        "borderRadius": 28,
                         "flexDirection": "row",
                         "justifyContent": "space-around",
                         "opacity": 1,
-                        "paddingBottom": 20,
-                        "paddingLeft": 25,
-                        "paddingRight": 24,
-                        "paddingTop": 19,
-                        "width": 310,
+                        "paddingBottom": 40,
+                        "paddingLeft": 50,
+                        "paddingRight": 48,
+                        "paddingTop": 38,
+                        "width": 620,
                       }
                     }
                   >
@@ -816,7 +816,7 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                           iconBgRadius={50}
                           iconBgSize={50}
                           iconColor="#D3D3D3"
-                          iconSize={32}
+                          iconSize={64}
                           imageRadius={0}
                           showIcon={true}
                           showIconBg={false}
@@ -825,7 +825,7 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                           <Component
                             color="#D3D3D3"
                             d="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
-                            size={32}
+                            size={64}
                           >
                             <IconFont
                               color="#D3D3D3"
@@ -834,7 +834,7 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                               hFlip={false}
                               height={null}
                               name={null}
-                              size={32}
+                              size={64}
                               stroke={null}
                               strokeCap="round"
                               strokeDash={
@@ -857,8 +857,8 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                       "flexDirection": "row",
                                     },
                                     Object {
-                                      "height": 32,
-                                      "width": 32,
+                                      "height": 64,
+                                      "width": 64,
                                     },
                                     false,
                                     null,
@@ -872,8 +872,8 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                         "flexDirection": "row",
                                       },
                                       Object {
-                                        "height": 32,
-                                        "width": 32,
+                                        "height": 64,
+                                        "width": 64,
                                       },
                                       false,
                                       null,
@@ -881,11 +881,11 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                   }
                                 >
                                   <Svg
-                                    height={32}
+                                    height={64}
                                     key="0"
                                     preserveAspectRatio="xMidYMid meet"
                                     viewBox="0 0 1024 1024"
-                                    width={32}
+                                    width={64}
                                   >
                                     <_class
                                       align="xMidYMid"
@@ -901,8 +901,8 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                           false,
                                           Object {
                                             "flex": 0,
-                                            "height": 32,
-                                            "width": 32,
+                                            "height": 64,
+                                            "width": 64,
                                           },
                                         ]
                                       }
@@ -923,8 +923,8 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                             false,
                                             Object {
                                               "flex": 0,
-                                              "height": 32,
-                                              "width": 32,
+                                              "height": 64,
+                                              "width": 64,
                                             },
                                           ]
                                         }
@@ -1009,8 +1009,8 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                             Object {
                               "flex": 1,
                               "justifyContent": "center",
-                              "marginLeft": 12,
-                              "marginRight": 12,
+                              "marginLeft": 24,
+                              "marginRight": 24,
                             }
                           }
                         >
@@ -1019,22 +1019,22 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                               Object {
                                 "flex": 1,
                                 "justifyContent": "center",
-                                "marginLeft": 12,
-                                "marginRight": 12,
+                                "marginLeft": 24,
+                                "marginRight": 24,
                               }
                             }
                           >
                             <TYText
                               align={null}
                               color="#3D3D3D"
-                              size={16}
+                              size={32}
                               style={
                                 Array [
                                   Object {
-                                    "lineHeight": 24,
+                                    "lineHeight": 48,
                                   },
                                   Object {
-                                    "lineHeight": 22,
+                                    "lineHeight": 44,
                                   },
                                 ]
                               }
@@ -1046,14 +1046,14 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                 align={null}
                                 allowFontScaling={false}
                                 color="#3D3D3D"
-                                size={16}
+                                size={32}
                                 style={
                                   Array [
                                     Object {
-                                      "lineHeight": 24,
+                                      "lineHeight": 48,
                                     },
                                     Object {
-                                      "lineHeight": 22,
+                                      "lineHeight": 44,
                                     },
                                   ]
                                 }
@@ -1067,21 +1067,21 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                   allowFontScaling={false}
                                   color="#3D3D3D"
                                   ellipsizeMode="tail"
-                                  size={16}
+                                  size={32}
                                   style={
                                     Array [
                                       Object {
                                         "backgroundColor": "transparent",
                                         "color": "#3D3D3D",
-                                        "fontSize": 16,
+                                        "fontSize": 32,
                                         "fontWeight": "400",
                                       },
                                       Array [
                                         Object {
-                                          "lineHeight": 24,
+                                          "lineHeight": 48,
                                         },
                                         Object {
-                                          "lineHeight": 22,
+                                          "lineHeight": 44,
                                         },
                                       ],
                                     ]
@@ -1096,7 +1096,7 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                     allowFontScaling={false}
                                     color="#3D3D3D"
                                     ellipsizeMode="tail"
-                                    size={16}
+                                    size={32}
                                     style={
                                       Array [
                                         false,
@@ -1106,15 +1106,15 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                             Object {
                                               "backgroundColor": "transparent",
                                               "color": "#3D3D3D",
-                                              "fontSize": 16,
+                                              "fontSize": 32,
                                               "fontWeight": "400",
                                             },
                                             Array [
                                               Object {
-                                                "lineHeight": 24,
+                                                "lineHeight": 48,
                                               },
                                               Object {
-                                                "lineHeight": 22,
+                                                "lineHeight": 44,
                                               },
                                             ],
                                           ],
@@ -1153,14 +1153,14 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                         <TYText
                           align={null}
                           color="rgba(0, 0, 0, 0.87)"
-                          size={20}
+                          size={40}
                           style={
                             Array [
                               Object {
-                                "lineHeight": 32,
+                                "lineHeight": 64,
                               },
                               Object {
-                                "lineHeight": 27,
+                                "lineHeight": 54,
                               },
                             ]
                           }
@@ -1172,14 +1172,14 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                             align={null}
                             allowFontScaling={false}
                             color="rgba(0, 0, 0, 0.87)"
-                            size={20}
+                            size={40}
                             style={
                               Array [
                                 Object {
-                                  "lineHeight": 32,
+                                  "lineHeight": 64,
                                 },
                                 Object {
-                                  "lineHeight": 27,
+                                  "lineHeight": 54,
                                 },
                               ]
                             }
@@ -1193,21 +1193,21 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                               allowFontScaling={false}
                               color="rgba(0, 0, 0, 0.87)"
                               ellipsizeMode="tail"
-                              size={20}
+                              size={40}
                               style={
                                 Array [
                                   Object {
                                     "backgroundColor": "transparent",
                                     "color": "rgba(0, 0, 0, 0.87)",
-                                    "fontSize": 20,
+                                    "fontSize": 40,
                                     "fontWeight": "500",
                                   },
                                   Array [
                                     Object {
-                                      "lineHeight": 32,
+                                      "lineHeight": 64,
                                     },
                                     Object {
-                                      "lineHeight": 27,
+                                      "lineHeight": 54,
                                     },
                                   ],
                                 ]
@@ -1222,7 +1222,7 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                 allowFontScaling={false}
                                 color="rgba(0, 0, 0, 0.87)"
                                 ellipsizeMode="tail"
-                                size={20}
+                                size={40}
                                 style={
                                   Array [
                                     false,
@@ -1232,15 +1232,15 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                         Object {
                                           "backgroundColor": "transparent",
                                           "color": "rgba(0, 0, 0, 0.87)",
-                                          "fontSize": 20,
+                                          "fontSize": 40,
                                           "fontWeight": "500",
                                         },
                                         Array [
                                           Object {
-                                            "lineHeight": 32,
+                                            "lineHeight": 64,
                                           },
                                           Object {
-                                            "lineHeight": 27,
+                                            "lineHeight": 54,
                                           },
                                         ],
                                       ],
@@ -1259,14 +1259,14 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                         <TYText
                           align={null}
                           color="rgba(0, 0, 0, 0.5)"
-                          size={12}
+                          size={24}
                           style={
                             Array [
                               Object {
-                                "lineHeight": 24,
+                                "lineHeight": 48,
                               },
                               Object {
-                                "marginTop": 5,
+                                "marginTop": 10,
                               },
                             ]
                           }
@@ -1278,14 +1278,14 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                             align={null}
                             allowFontScaling={false}
                             color="rgba(0, 0, 0, 0.5)"
-                            size={12}
+                            size={24}
                             style={
                               Array [
                                 Object {
-                                  "lineHeight": 24,
+                                  "lineHeight": 48,
                                 },
                                 Object {
-                                  "marginTop": 5,
+                                  "marginTop": 10,
                                 },
                               ]
                             }
@@ -1299,21 +1299,21 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                               allowFontScaling={false}
                               color="rgba(0, 0, 0, 0.5)"
                               ellipsizeMode="tail"
-                              size={12}
+                              size={24}
                               style={
                                 Array [
                                   Object {
                                     "backgroundColor": "transparent",
                                     "color": "rgba(0, 0, 0, 0.5)",
-                                    "fontSize": 12,
+                                    "fontSize": 24,
                                     "fontWeight": "400",
                                   },
                                   Array [
                                     Object {
-                                      "lineHeight": 24,
+                                      "lineHeight": 48,
                                     },
                                     Object {
-                                      "marginTop": 5,
+                                      "marginTop": 10,
                                     },
                                   ],
                                 ]
@@ -1328,7 +1328,7 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                 allowFontScaling={false}
                                 color="rgba(0, 0, 0, 0.5)"
                                 ellipsizeMode="tail"
-                                size={12}
+                                size={24}
                                 style={
                                   Array [
                                     false,
@@ -1338,15 +1338,15 @@ exports[`SwitchCard AcrylicSwitchCard 3`] = `
                                         Object {
                                           "backgroundColor": "transparent",
                                           "color": "rgba(0, 0, 0, 0.5)",
-                                          "fontSize": 12,
+                                          "fontSize": 24,
                                           "fontWeight": "400",
                                         },
                                         Array [
                                           Object {
-                                            "lineHeight": 24,
+                                            "lineHeight": 48,
                                           },
                                           Object {
-                                            "marginTop": 5,
+                                            "marginTop": 10,
                                           },
                                         ],
                                       ],
@@ -1390,15 +1390,15 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "#FFF",
-      "borderRadius": 14,
+      "borderRadius": 28,
       "flexDirection": "row",
       "justifyContent": "space-around",
       "opacity": 1,
-      "paddingBottom": 20,
-      "paddingLeft": 25,
-      "paddingRight": 24,
-      "paddingTop": 19,
-      "width": 310,
+      "paddingBottom": 40,
+      "paddingLeft": 50,
+      "paddingRight": 48,
+      "paddingTop": 38,
+      "width": 620,
     }
   }
 >
@@ -1417,8 +1417,8 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
             "flexDirection": "row",
           },
           Object {
-            "height": 22,
-            "width": 22,
+            "height": 44,
+            "width": 44,
           },
           false,
           null,
@@ -1439,8 +1439,8 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
             false,
             Object {
               "flex": 0,
-              "height": 22,
-              "width": 22,
+              "height": 44,
+              "width": 44,
             },
           ]
         }
@@ -1502,8 +1502,8 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
         Object {
           "flex": 1,
           "justifyContent": "center",
-          "marginLeft": 12,
-          "marginRight": 12,
+          "marginLeft": 24,
+          "marginRight": 24,
         }
       }
     >
@@ -1513,7 +1513,7 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
         allowFontScaling={false}
         color="#3D3D3D"
         ellipsizeMode="tail"
-        size={15}
+        size={30}
         style={
           Array [
             false,
@@ -1523,12 +1523,12 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "#3D3D3D",
-                  "fontSize": 15,
+                  "fontSize": 30,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   undefined,
                 ],
@@ -1548,7 +1548,7 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
         allowFontScaling={false}
         color="rgba(61, 61, 61, 0.5)"
         ellipsizeMode="tail"
-        size={14}
+        size={28}
         style={
           Array [
             false,
@@ -1558,12 +1558,12 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "rgba(61, 61, 61, 0.5)",
-                  "fontSize": 14,
+                  "fontSize": 28,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   undefined,
                 ],
@@ -1602,10 +1602,10 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "transparent",
-          "height": 27,
+          "height": 51,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 42,
+          "width": 82,
         }
       }
     >
@@ -1613,10 +1613,10 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
         style={
           Array [
             Object {
-              "borderRadius": 13.285714285714286,
-              "height": 24,
+              "borderRadius": 26.571428571428573,
+              "height": 48,
               "justifyContent": "center",
-              "width": 40,
+              "width": 80,
             },
             Object {
               "backgroundColor": "#1082FE",
@@ -1631,9 +1631,9 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
             "alignItems": "center",
             "alignSelf": "flex-start",
             "backgroundColor": "#fff",
-            "borderRadius": 10,
+            "borderRadius": 20,
             "elevation": 2,
-            "height": 20,
+            "height": 40,
             "justifyContent": "center",
             "position": "absolute",
             "shadowColor": "rgba(0, 0, 0, 0.3)",
@@ -1645,10 +1645,10 @@ exports[`SwitchCard ClassicSwitchCard 1`] = `
             "shadowRadius": 3,
             "transform": Array [
               Object {
-                "translateX": 19,
+                "translateX": 37,
               },
             ],
-            "width": 20,
+            "width": 40,
           }
         }
       />
@@ -1671,16 +1671,16 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "#FFF",
-      "borderRadius": 14,
+      "borderRadius": 28,
       "flexDirection": "row",
       "justifyContent": "space-around",
       "marginTop": 20,
       "opacity": 1,
-      "paddingBottom": 20,
-      "paddingLeft": 25,
-      "paddingRight": 24,
-      "paddingTop": 19,
-      "width": 310,
+      "paddingBottom": 40,
+      "paddingLeft": 50,
+      "paddingRight": 48,
+      "paddingTop": 38,
+      "width": 620,
     }
   }
 >
@@ -1699,8 +1699,8 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
             "flexDirection": "row",
           },
           Object {
-            "height": 22,
-            "width": 22,
+            "height": 44,
+            "width": 44,
           },
           false,
           null,
@@ -1721,8 +1721,8 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
             false,
             Object {
               "flex": 0,
-              "height": 22,
-              "width": 22,
+              "height": 44,
+              "width": 44,
             },
           ]
         }
@@ -1784,8 +1784,8 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
         Object {
           "flex": 1,
           "justifyContent": "center",
-          "marginLeft": 12,
-          "marginRight": 12,
+          "marginLeft": 24,
+          "marginRight": 24,
         }
       }
     >
@@ -1795,7 +1795,7 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
         allowFontScaling={false}
         color="#3D3D3D"
         ellipsizeMode="tail"
-        size={15}
+        size={30}
         style={
           Array [
             false,
@@ -1805,12 +1805,12 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "#3D3D3D",
-                  "fontSize": 15,
+                  "fontSize": 30,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   undefined,
                 ],
@@ -1830,7 +1830,7 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
         allowFontScaling={false}
         color="rgba(61, 61, 61, 0.5)"
         ellipsizeMode="tail"
-        size={14}
+        size={28}
         style={
           Array [
             false,
@@ -1840,12 +1840,12 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "rgba(61, 61, 61, 0.5)",
-                  "fontSize": 14,
+                  "fontSize": 28,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   undefined,
                 ],
@@ -1875,7 +1875,7 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
       allowFontScaling={false}
       color="rgba(0, 0, 0, 0.5)"
       ellipsizeMode="tail"
-      size={14}
+      size={28}
       style={
         Array [
           false,
@@ -1885,16 +1885,16 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
               Object {
                 "backgroundColor": "transparent",
                 "color": "rgba(0, 0, 0, 0.5)",
-                "fontSize": 14,
+                "fontSize": 28,
                 "fontWeight": "400",
               },
               Array [
                 Object {
-                  "lineHeight": 32,
-                  "marginRight": 4,
+                  "lineHeight": 64,
+                  "marginRight": 8,
                 },
                 Object {
-                  "lineHeight": 24,
+                  "lineHeight": 48,
                 },
               ],
             ],
@@ -1914,8 +1914,8 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
             "flexDirection": "row",
           },
           Object {
-            "height": 12,
-            "width": 12,
+            "height": 24,
+            "width": 24,
           },
           false,
           null,
@@ -1936,8 +1936,8 @@ exports[`SwitchCard ClassicSwitchCard 2`] = `
             false,
             Object {
               "flex": 0,
-              "height": 12,
-              "width": 12,
+              "height": 24,
+              "width": 24,
             },
           ]
         }
@@ -2012,15 +2012,15 @@ exports[`SwitchCard ClassicSwitchCard 3`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "#FFF",
-      "borderRadius": 14,
+      "borderRadius": 28,
       "flexDirection": "row",
       "justifyContent": "space-around",
       "opacity": 1,
-      "paddingBottom": 20,
-      "paddingLeft": 25,
-      "paddingRight": 24,
-      "paddingTop": 19,
-      "width": 310,
+      "paddingBottom": 40,
+      "paddingLeft": 50,
+      "paddingRight": 48,
+      "paddingTop": 38,
+      "width": 620,
     }
   }
 >
@@ -2039,8 +2039,8 @@ exports[`SwitchCard ClassicSwitchCard 3`] = `
             "flexDirection": "row",
           },
           Object {
-            "height": 22,
-            "width": 22,
+            "height": 44,
+            "width": 44,
           },
           false,
           null,
@@ -2061,8 +2061,8 @@ exports[`SwitchCard ClassicSwitchCard 3`] = `
             false,
             Object {
               "flex": 0,
-              "height": 22,
-              "width": 22,
+              "height": 44,
+              "width": 44,
             },
           ]
         }
@@ -2124,8 +2124,8 @@ exports[`SwitchCard ClassicSwitchCard 3`] = `
         Object {
           "flex": 1,
           "justifyContent": "center",
-          "marginLeft": 12,
-          "marginRight": 12,
+          "marginLeft": 24,
+          "marginRight": 24,
         }
       }
     >
@@ -2135,7 +2135,7 @@ exports[`SwitchCard ClassicSwitchCard 3`] = `
         allowFontScaling={false}
         color="#3D3D3D"
         ellipsizeMode="tail"
-        size={15}
+        size={30}
         style={
           Array [
             false,
@@ -2145,12 +2145,12 @@ exports[`SwitchCard ClassicSwitchCard 3`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "#3D3D3D",
-                  "fontSize": 15,
+                  "fontSize": 30,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   undefined,
                 ],
@@ -2180,7 +2180,7 @@ exports[`SwitchCard ClassicSwitchCard 3`] = `
       allowFontScaling={false}
       color="#505050"
       ellipsizeMode="tail"
-      size={22}
+      size={44}
       style={
         Array [
           false,
@@ -2190,12 +2190,12 @@ exports[`SwitchCard ClassicSwitchCard 3`] = `
               Object {
                 "backgroundColor": "transparent",
                 "color": "#505050",
-                "fontSize": 22,
+                "fontSize": 44,
                 "fontWeight": "600",
               },
               Array [
                 Object {
-                  "lineHeight": 32,
+                  "lineHeight": 64,
                 },
                 undefined,
               ],
@@ -2227,15 +2227,15 @@ exports[`SwitchCard NordicSwitchCard 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "#FFF",
-      "borderRadius": 16,
+      "borderRadius": 32,
       "flexDirection": "row",
       "justifyContent": "space-around",
       "opacity": 1,
-      "paddingBottom": 20,
-      "paddingLeft": 25,
-      "paddingRight": 24,
-      "paddingTop": 19,
-      "width": 278,
+      "paddingBottom": 40,
+      "paddingLeft": 50,
+      "paddingRight": 48,
+      "paddingTop": 38,
+      "width": 556,
     }
   }
 >
@@ -2253,7 +2253,7 @@ exports[`SwitchCard NordicSwitchCard 1`] = `
           "flex": 1,
           "justifyContent": "center",
           "marginLeft": 0,
-          "marginRight": 12,
+          "marginRight": 24,
         }
       }
     >
@@ -2263,7 +2263,7 @@ exports[`SwitchCard NordicSwitchCard 1`] = `
         allowFontScaling={false}
         color="#000"
         ellipsizeMode="tail"
-        size={16}
+        size={32}
         style={
           Array [
             false,
@@ -2273,16 +2273,16 @@ exports[`SwitchCard NordicSwitchCard 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "#000",
-                  "fontSize": 16,
+                  "fontSize": 32,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   Object {
-                    "lineHeight": 22,
-                    "marginLeft": 8,
+                    "lineHeight": 44,
+                    "marginLeft": 16,
                   },
                 ],
               ],
@@ -2320,10 +2320,10 @@ exports[`SwitchCard NordicSwitchCard 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "transparent",
-          "height": 28,
+          "height": 53,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 48,
+          "width": 94,
         }
       }
     >
@@ -2331,10 +2331,10 @@ exports[`SwitchCard NordicSwitchCard 1`] = `
         style={
           Array [
             Object {
-              "borderRadius": 13.839285714285715,
-              "height": 25,
+              "borderRadius": 27.67857142857143,
+              "height": 50,
               "justifyContent": "center",
-              "width": 46,
+              "width": 92,
             },
             Object {
               "backgroundColor": "#1082FE",
@@ -2349,9 +2349,9 @@ exports[`SwitchCard NordicSwitchCard 1`] = `
             "alignItems": "center",
             "alignSelf": "flex-start",
             "backgroundColor": "#fff",
-            "borderRadius": 9,
+            "borderRadius": 18,
             "elevation": 2,
-            "height": 18,
+            "height": 36,
             "justifyContent": "center",
             "position": "absolute",
             "shadowColor": "rgba(0, 0, 0, 0.3)",
@@ -2363,10 +2363,10 @@ exports[`SwitchCard NordicSwitchCard 1`] = `
             "shadowRadius": 3,
             "transform": Array [
               Object {
-                "translateX": 25,
+                "translateX": 49,
               },
             ],
-            "width": 18,
+            "width": 36,
           }
         }
       />
@@ -2389,15 +2389,15 @@ exports[`SwitchCard NordicSwitchCard 2`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "#FFF",
-      "borderRadius": 14,
+      "borderRadius": 28,
       "flexDirection": "row",
       "justifyContent": "space-around",
       "opacity": 1,
-      "paddingBottom": 20,
-      "paddingLeft": 25,
-      "paddingRight": 24,
-      "paddingTop": 19,
-      "width": 310,
+      "paddingBottom": 40,
+      "paddingLeft": 50,
+      "paddingRight": 48,
+      "paddingTop": 38,
+      "width": 620,
     }
   }
 >
@@ -2414,18 +2414,18 @@ exports[`SwitchCard NordicSwitchCard 2`] = `
         Array [
           Object {
             "backgroundColor": "#1082FE",
-            "height": 36,
-            "width": 36,
+            "height": 72,
+            "width": 72,
           },
           Array [
             Object {
               "alignItems": "center",
-              "borderRadius": 8,
+              "borderRadius": 16,
               "display": "flex",
-              "height": 36,
+              "height": 72,
               "justifyContent": "center",
               "overflow": "hidden",
-              "width": 36,
+              "width": 72,
             },
             Object {},
           ],
@@ -2439,8 +2439,8 @@ exports[`SwitchCard NordicSwitchCard 2`] = `
               "flexDirection": "row",
             },
             Object {
-              "height": 14,
-              "width": 14,
+              "height": 28,
+              "width": 28,
             },
             false,
             null,
@@ -2461,8 +2461,8 @@ exports[`SwitchCard NordicSwitchCard 2`] = `
               false,
               Object {
                 "flex": 0,
-                "height": 14,
-                "width": 14,
+                "height": 28,
+                "width": 28,
               },
             ]
           }
@@ -2525,8 +2525,8 @@ exports[`SwitchCard NordicSwitchCard 2`] = `
         Object {
           "flex": 1,
           "justifyContent": "center",
-          "marginLeft": 12,
-          "marginRight": 12,
+          "marginLeft": 24,
+          "marginRight": 24,
         }
       }
     >
@@ -2536,7 +2536,7 @@ exports[`SwitchCard NordicSwitchCard 2`] = `
         allowFontScaling={false}
         color="#3D3D3D"
         ellipsizeMode="tail"
-        size={16}
+        size={32}
         style={
           Array [
             false,
@@ -2546,16 +2546,16 @@ exports[`SwitchCard NordicSwitchCard 2`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "#3D3D3D",
-                  "fontSize": 16,
+                  "fontSize": 32,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   Object {
-                    "lineHeight": 22,
-                    "marginLeft": 8,
+                    "lineHeight": 44,
+                    "marginLeft": 16,
                   },
                 ],
               ],
@@ -2584,7 +2584,7 @@ exports[`SwitchCard NordicSwitchCard 2`] = `
       allowFontScaling={false}
       color="rgba(0, 0, 0, 0.5)"
       ellipsizeMode="tail"
-      size={12}
+      size={24}
       style={
         Array [
           false,
@@ -2594,16 +2594,16 @@ exports[`SwitchCard NordicSwitchCard 2`] = `
               Object {
                 "backgroundColor": "transparent",
                 "color": "rgba(0, 0, 0, 0.5)",
-                "fontSize": 12,
+                "fontSize": 24,
                 "fontWeight": "400",
               },
               Array [
                 Object {
-                  "lineHeight": 32,
-                  "marginRight": 4,
+                  "lineHeight": 64,
+                  "marginRight": 8,
                 },
                 Object {
-                  "lineHeight": 16,
+                  "lineHeight": 32,
                 },
               ],
             ],
@@ -2623,8 +2623,8 @@ exports[`SwitchCard NordicSwitchCard 2`] = `
             "flexDirection": "row",
           },
           Object {
-            "height": 12,
-            "width": 12,
+            "height": 24,
+            "width": 24,
           },
           false,
           null,
@@ -2645,8 +2645,8 @@ exports[`SwitchCard NordicSwitchCard 2`] = `
             false,
             Object {
               "flex": 0,
-              "height": 12,
-              "width": 12,
+              "height": 24,
+              "width": 24,
             },
           ]
         }
@@ -2721,15 +2721,15 @@ exports[`SwitchCard NordicSwitchCard 3`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "#FFF",
-      "borderRadius": 14,
+      "borderRadius": 28,
       "flexDirection": "row",
       "justifyContent": "space-around",
       "opacity": 1,
-      "paddingBottom": 20,
-      "paddingLeft": 25,
-      "paddingRight": 24,
-      "paddingTop": 19,
-      "width": 310,
+      "paddingBottom": 40,
+      "paddingLeft": 50,
+      "paddingRight": 48,
+      "paddingTop": 38,
+      "width": 620,
     }
   }
 >
@@ -2746,18 +2746,18 @@ exports[`SwitchCard NordicSwitchCard 3`] = `
         Array [
           Object {
             "backgroundColor": "#1082FE",
-            "height": 36,
-            "width": 36,
+            "height": 72,
+            "width": 72,
           },
           Array [
             Object {
               "alignItems": "center",
-              "borderRadius": 8,
+              "borderRadius": 16,
               "display": "flex",
-              "height": 36,
+              "height": 72,
               "justifyContent": "center",
               "overflow": "hidden",
-              "width": 36,
+              "width": 72,
             },
             Object {},
           ],
@@ -2771,8 +2771,8 @@ exports[`SwitchCard NordicSwitchCard 3`] = `
               "flexDirection": "row",
             },
             Object {
-              "height": 14,
-              "width": 14,
+              "height": 28,
+              "width": 28,
             },
             false,
             null,
@@ -2793,8 +2793,8 @@ exports[`SwitchCard NordicSwitchCard 3`] = `
               false,
               Object {
                 "flex": 0,
-                "height": 14,
-                "width": 14,
+                "height": 28,
+                "width": 28,
               },
             ]
           }
@@ -2857,8 +2857,8 @@ exports[`SwitchCard NordicSwitchCard 3`] = `
         Object {
           "flex": 1,
           "justifyContent": "center",
-          "marginLeft": 12,
-          "marginRight": 12,
+          "marginLeft": 24,
+          "marginRight": 24,
         }
       }
     >
@@ -2868,7 +2868,7 @@ exports[`SwitchCard NordicSwitchCard 3`] = `
         allowFontScaling={false}
         color="#3D3D3D"
         ellipsizeMode="tail"
-        size={16}
+        size={32}
         style={
           Array [
             false,
@@ -2878,16 +2878,16 @@ exports[`SwitchCard NordicSwitchCard 3`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "#3D3D3D",
-                  "fontSize": 16,
+                  "fontSize": 32,
                   "fontWeight": "400",
                 },
                 Array [
                   Object {
-                    "lineHeight": 24,
+                    "lineHeight": 48,
                   },
                   Object {
-                    "lineHeight": 22,
-                    "marginLeft": 8,
+                    "lineHeight": 44,
+                    "marginLeft": 16,
                   },
                 ],
               ],
@@ -2916,7 +2916,7 @@ exports[`SwitchCard NordicSwitchCard 3`] = `
       allowFontScaling={false}
       color="rgba(0, 0, 0, 0.5)"
       ellipsizeMode="tail"
-      size={16}
+      size={32}
       style={
         Array [
           false,
@@ -2926,12 +2926,12 @@ exports[`SwitchCard NordicSwitchCard 3`] = `
               Object {
                 "backgroundColor": "transparent",
                 "color": "rgba(0, 0, 0, 0.5)",
-                "fontSize": 16,
+                "fontSize": 32,
                 "fontWeight": "400",
               },
               Array [
                 Object {
-                  "lineHeight": 32,
+                  "lineHeight": 64,
                 },
                 undefined,
               ],
@@ -2967,24 +2967,24 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
             backgroundColor="#FFF"
             disabled={true}
             fontColor="#000"
-            fontSize={15}
+            fontSize={30}
             fontWeight={400}
             icon="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
-            iconSize={22}
+            iconSize={44}
             milliseconds={500}
             onTintColor="#76A6E4"
             padding={
               Array [
-                19,
-                24,
-                20,
-                25,
+                38,
+                48,
+                40,
+                50,
               ]
             }
-            radius={14}
+            radius={28}
             showIcon={true}
             subFontColor="rgba(61, 61, 61, 0.5)"
-            subFontSize={14}
+            subFontSize={28}
             subFontWeight={400}
             switchSize={
               Object {
@@ -2995,13 +2995,13 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
             text="Switch Card"
             thumbStyle={
               Object {
-                "borderRadius": 2,
-                "height": 12,
-                "width": 4,
+                "borderRadius": 4,
+                "height": 24,
+                "width": 8,
               }
             }
             type="switch"
-            width={294}
+            width={588}
           >
             <TouchableOpacity
               activeOpacity={0.8}
@@ -3013,14 +3013,14 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                   Object {
                     "alignItems": "center",
                     "backgroundColor": "#FFF",
-                    "borderRadius": 14,
+                    "borderRadius": 28,
                     "flexDirection": "row",
                     "justifyContent": "space-around",
-                    "paddingBottom": 20,
-                    "paddingLeft": 25,
-                    "paddingRight": 24,
-                    "paddingTop": 19,
-                    "width": 294,
+                    "paddingBottom": 40,
+                    "paddingLeft": 50,
+                    "paddingRight": 48,
+                    "paddingTop": 38,
+                    "width": 588,
                   },
                   undefined,
                 ]
@@ -3041,14 +3041,14 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                       Object {
                         "alignItems": "center",
                         "backgroundColor": "#FFF",
-                        "borderRadius": 14,
+                        "borderRadius": 28,
                         "flexDirection": "row",
                         "justifyContent": "space-around",
-                        "paddingBottom": 20,
-                        "paddingLeft": 25,
-                        "paddingRight": 24,
-                        "paddingTop": 19,
-                        "width": 294,
+                        "paddingBottom": 40,
+                        "paddingLeft": 50,
+                        "paddingRight": 48,
+                        "paddingTop": 38,
+                        "width": 588,
                       },
                       undefined,
                     ],
@@ -3071,15 +3071,15 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                     Object {
                       "alignItems": "center",
                       "backgroundColor": "#FFF",
-                      "borderRadius": 14,
+                      "borderRadius": 28,
                       "flexDirection": "row",
                       "justifyContent": "space-around",
                       "opacity": 1,
-                      "paddingBottom": 20,
-                      "paddingLeft": 25,
-                      "paddingRight": 24,
-                      "paddingTop": 19,
-                      "width": 294,
+                      "paddingBottom": 40,
+                      "paddingLeft": 50,
+                      "paddingRight": 48,
+                      "paddingTop": 38,
+                      "width": 588,
                     }
                   }
                 >
@@ -3096,15 +3096,15 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                       Object {
                         "alignItems": "center",
                         "backgroundColor": "#FFF",
-                        "borderRadius": 14,
+                        "borderRadius": 28,
                         "flexDirection": "row",
                         "justifyContent": "space-around",
                         "opacity": 1,
-                        "paddingBottom": 20,
-                        "paddingLeft": 25,
-                        "paddingRight": 24,
-                        "paddingTop": 19,
-                        "width": 294,
+                        "paddingBottom": 40,
+                        "paddingLeft": 50,
+                        "paddingRight": 48,
+                        "paddingTop": 38,
+                        "width": 588,
                       }
                     }
                   >
@@ -3130,7 +3130,7 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                           iconBgRadius={50}
                           iconBgSize={50}
                           iconColor="#D3D3D3"
-                          iconSize={22}
+                          iconSize={44}
                           imageRadius={0}
                           onTintColor="#76A6E4"
                           showIcon={true}
@@ -3138,16 +3138,16 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                           style={Object {}}
                           thumbStyle={
                             Object {
-                              "borderRadius": 2,
-                              "height": 12,
-                              "width": 4,
+                              "borderRadius": 4,
+                              "height": 24,
+                              "width": 8,
                             }
                           }
                         >
                           <Component
                             color="#D3D3D3"
                             d="M512 0C794.760533 0 1024 229.239467 1024 512S794.760533 1024 512 1024 0 794.760533 0 512 229.239467 0 512 0z m185.048178 327.0656a26.988089 26.988089 0 0 0-38.183822 38.183822 207.712711 207.712711 0 1 1-293.728712 0 26.988089 26.988089 0 1 0-38.183822-38.183822c-102.172444 102.1952-102.172444 267.901156 0 370.096356 102.1952 102.172444 267.901156 102.172444 370.096356 0 102.172444-102.1952 102.172444-267.901156 0-370.096356zM511.886222 227.555556a27.079111 27.079111 0 0 0-26.919822 24.302933l-0.136533 2.776178v196.152889a27.079111 27.079111 0 0 0 53.998933 2.776177l0.136533-2.776177v-196.152889a27.079111 27.079111 0 0 0-27.079111-27.079111z"
-                            size={22}
+                            size={44}
                           >
                             <IconFont
                               color="#D3D3D3"
@@ -3156,7 +3156,7 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                               hFlip={false}
                               height={null}
                               name={null}
-                              size={22}
+                              size={44}
                               stroke={null}
                               strokeCap="round"
                               strokeDash={
@@ -3179,8 +3179,8 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                       "flexDirection": "row",
                                     },
                                     Object {
-                                      "height": 22,
-                                      "width": 22,
+                                      "height": 44,
+                                      "width": 44,
                                     },
                                     false,
                                     null,
@@ -3194,8 +3194,8 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                         "flexDirection": "row",
                                       },
                                       Object {
-                                        "height": 22,
-                                        "width": 22,
+                                        "height": 44,
+                                        "width": 44,
                                       },
                                       false,
                                       null,
@@ -3203,11 +3203,11 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                   }
                                 >
                                   <Svg
-                                    height={22}
+                                    height={44}
                                     key="0"
                                     preserveAspectRatio="xMidYMid meet"
                                     viewBox="0 0 1024 1024"
-                                    width={22}
+                                    width={44}
                                   >
                                     <_class
                                       align="xMidYMid"
@@ -3223,8 +3223,8 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                           false,
                                           Object {
                                             "flex": 0,
-                                            "height": 22,
-                                            "width": 22,
+                                            "height": 44,
+                                            "width": 44,
                                           },
                                         ]
                                       }
@@ -3245,8 +3245,8 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                             false,
                                             Object {
                                               "flex": 0,
-                                              "height": 22,
-                                              "width": 22,
+                                              "height": 44,
+                                              "width": 44,
                                             },
                                           ]
                                         }
@@ -3331,8 +3331,8 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                             Object {
                               "flex": 1,
                               "justifyContent": "center",
-                              "marginLeft": 12,
-                              "marginRight": 12,
+                              "marginLeft": 24,
+                              "marginRight": 24,
                             }
                           }
                         >
@@ -3341,19 +3341,19 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                               Object {
                                 "flex": 1,
                                 "justifyContent": "center",
-                                "marginLeft": 12,
-                                "marginRight": 12,
+                                "marginLeft": 24,
+                                "marginRight": 24,
                               }
                             }
                           >
                             <TYText
                               align={null}
                               color="#000"
-                              size={15}
+                              size={30}
                               style={
                                 Array [
                                   Object {
-                                    "lineHeight": 24,
+                                    "lineHeight": 48,
                                   },
                                   undefined,
                                 ]
@@ -3366,11 +3366,11 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                 align={null}
                                 allowFontScaling={false}
                                 color="#000"
-                                size={15}
+                                size={30}
                                 style={
                                   Array [
                                     Object {
-                                      "lineHeight": 24,
+                                      "lineHeight": 48,
                                     },
                                     undefined,
                                   ]
@@ -3385,18 +3385,18 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                   allowFontScaling={false}
                                   color="#000"
                                   ellipsizeMode="tail"
-                                  size={15}
+                                  size={30}
                                   style={
                                     Array [
                                       Object {
                                         "backgroundColor": "transparent",
                                         "color": "#000",
-                                        "fontSize": 15,
+                                        "fontSize": 30,
                                         "fontWeight": "400",
                                       },
                                       Array [
                                         Object {
-                                          "lineHeight": 24,
+                                          "lineHeight": 48,
                                         },
                                         undefined,
                                       ],
@@ -3412,7 +3412,7 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                     allowFontScaling={false}
                                     color="#000"
                                     ellipsizeMode="tail"
-                                    size={15}
+                                    size={30}
                                     style={
                                       Array [
                                         false,
@@ -3422,12 +3422,12 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                             Object {
                                               "backgroundColor": "transparent",
                                               "color": "#000",
-                                              "fontSize": 15,
+                                              "fontSize": 30,
                                               "fontWeight": "400",
                                             },
                                             Array [
                                               Object {
-                                                "lineHeight": 24,
+                                                "lineHeight": 48,
                                               },
                                               undefined,
                                             ],
@@ -3460,9 +3460,9 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                       theme={null}
                       thumbStyle={
                         Object {
-                          "borderRadius": 2,
-                          "height": 12,
-                          "width": 4,
+                          "borderRadius": 4,
+                          "height": 24,
+                          "width": 8,
                         }
                       }
                     >
@@ -3496,9 +3496,9 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                             switchType={null}
                             thumbStyle={
                               Object {
-                                "borderRadius": 2,
-                                "height": 12,
-                                "width": 4,
+                                "borderRadius": 4,
+                                "height": 24,
+                                "width": 8,
                               }
                             }
                             thumbTintColor="#fff"
@@ -3667,9 +3667,9 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                                   "width": 4,
                                                 },
                                                 Object {
-                                                  "borderRadius": 2,
-                                                  "height": 12,
-                                                  "width": 4,
+                                                  "borderRadius": 4,
+                                                  "height": 24,
+                                                  "width": 8,
                                                 },
                                               ],
                                             ]
@@ -3681,9 +3681,9 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                                 "alignItems": "center",
                                                 "alignSelf": "flex-start",
                                                 "backgroundColor": "#fff",
-                                                "borderRadius": 2,
+                                                "borderRadius": 4,
                                                 "elevation": 2,
-                                                "height": 12,
+                                                "height": 24,
                                                 "justifyContent": "center",
                                                 "position": "absolute",
                                                 "shadowColor": "rgba(0, 0, 0, 0.3)",
@@ -3698,7 +3698,7 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                                     "translateX": NaN,
                                                   },
                                                 ],
-                                                "width": 4,
+                                                "width": 8,
                                               }
                                             }
                                           >
@@ -3708,9 +3708,9 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                                   "alignItems": "center",
                                                   "alignSelf": "flex-start",
                                                   "backgroundColor": "#fff",
-                                                  "borderRadius": 2,
+                                                  "borderRadius": 4,
                                                   "elevation": 2,
-                                                  "height": 12,
+                                                  "height": 24,
                                                   "justifyContent": "center",
                                                   "position": "absolute",
                                                   "shadowColor": "rgba(0, 0, 0, 0.3)",
@@ -3725,7 +3725,7 @@ exports[`SwitchCard PaintSwitchCard 1`] = `
                                                       "translateX": NaN,
                                                     },
                                                   ],
-                                                  "width": 4,
+                                                  "width": 8,
                                                 }
                                               }
                                             />

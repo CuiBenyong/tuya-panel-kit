@@ -6,7 +6,7 @@ exports[`EnumTabsCard Classic 1`] = `
     Array [
       Object {
         "backgroundColor": "#fff",
-        "borderRadius": 14,
+        "borderRadius": 28,
         "paddingBottom": 22,
         "paddingLeft": 20,
         "paddingRight": 20,
@@ -24,7 +24,7 @@ exports[`EnumTabsCard Classic 1`] = `
           "flexDirection": "row",
         },
         Object {
-          "marginBottom": 24,
+          "marginBottom": 48,
         },
       ]
     }
@@ -36,8 +36,8 @@ exports[`EnumTabsCard Classic 1`] = `
             "flexDirection": "row",
           },
           Object {
-            "height": 14,
-            "width": 14,
+            "height": 28,
+            "width": 28,
           },
           false,
           null,
@@ -58,8 +58,8 @@ exports[`EnumTabsCard Classic 1`] = `
             false,
             Object {
               "flex": 0,
-              "height": 14,
-              "width": 14,
+              "height": 28,
+              "width": 28,
             },
           ]
         }
@@ -122,7 +122,7 @@ exports[`EnumTabsCard Classic 1`] = `
       allowFontScaling={false}
       color={null}
       ellipsizeMode="tail"
-      size={15}
+      size={30}
       style={
         Array [
           false,
@@ -132,14 +132,14 @@ exports[`EnumTabsCard Classic 1`] = `
               Object {
                 "backgroundColor": "transparent",
                 "color": "#333",
-                "fontSize": 15,
+                "fontSize": 30,
               },
               Array [
                 Object {
                   "color": "#3d3d3d",
-                  "fontSize": 15,
+                  "fontSize": 30,
                   "fontWeight": "normal",
-                  "marginLeft": 8,
+                  "marginLeft": 16,
                 },
                 Object {},
               ],
@@ -167,7 +167,7 @@ exports[`EnumTabsCard Classic 1`] = `
         allowFontScaling={false}
         color={null}
         ellipsizeMode="tail"
-        size={15}
+        size={30}
         style={
           Array [
             false,
@@ -177,11 +177,11 @@ exports[`EnumTabsCard Classic 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "#333",
-                  "fontSize": 15,
+                  "fontSize": 30,
                 },
                 Object {
                   "color": "#158CFB",
-                  "fontSize": 15,
+                  "fontSize": 30,
                   "fontWeight": "normal",
                   "marginRight": 5,
                 },
@@ -200,7 +200,7 @@ exports[`EnumTabsCard Classic 1`] = `
         allowFontScaling={false}
         color={null}
         ellipsizeMode="tail"
-        size={15}
+        size={30}
         style={
           Array [
             false,
@@ -210,11 +210,11 @@ exports[`EnumTabsCard Classic 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "#333",
-                  "fontSize": 15,
+                  "fontSize": 30,
                 },
                 Object {
                   "color": "#158CFB",
-                  "fontSize": 15,
+                  "fontSize": 30,
                   "fontWeight": "normal",
                   "marginRight": 5,
                 },
@@ -240,15 +240,15 @@ exports[`EnumTabsCard Classic 1`] = `
           Object {
             "backgroundColor": "#E3E9EE",
             "borderColor": "#fff",
-            "borderRadius": 15,
-            "height": 30,
+            "borderRadius": 30,
+            "height": 60,
             "justifyContent": "center",
           },
           Object {
             "backgroundColor": "#E3E9EE",
           },
           Object {
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
         ]
       }
@@ -289,7 +289,7 @@ exports[`EnumTabsCard Classic 1`] = `
             color={null}
             ellipsizeMode="tail"
             numberOfLines={1}
-            size={14}
+            size={28}
             style={
               Array [
                 false,
@@ -299,7 +299,7 @@ exports[`EnumTabsCard Classic 1`] = `
                     Object {
                       "backgroundColor": "transparent",
                       "color": "#333",
-                      "fontSize": 14,
+                      "fontSize": 28,
                     },
                     Array [
                       Object {
@@ -324,7 +324,7 @@ exports[`EnumTabsCard Classic 1`] = `
                       },
                       Object {
                         "color": "#fff",
-                        "fontSize": 14,
+                        "fontSize": 28,
                       },
                     ],
                   ],
@@ -366,10 +366,10 @@ exports[`EnumTabsCard Classic 1`] = `
                 },
                 Object {
                   "backgroundColor": "#158CFB",
-                  "borderRadius": 4,
-                  "height": 4,
+                  "borderRadius": 8,
+                  "height": 8,
                   "opacity": 0.4,
-                  "width": 4,
+                  "width": 8,
                 },
               ]
             }
@@ -404,10 +404,10 @@ exports[`EnumTabsCard Classic 1`] = `
                 },
                 Object {
                   "backgroundColor": "#158CFB",
-                  "borderRadius": 4,
-                  "height": 4,
+                  "borderRadius": 8,
+                  "height": 8,
                   "opacity": 0.4,
-                  "width": 4,
+                  "width": 8,
                 },
               ]
             }
@@ -442,10 +442,10 @@ exports[`EnumTabsCard Classic 1`] = `
                 },
                 Object {
                   "backgroundColor": "#158CFB",
-                  "borderRadius": 4,
-                  "height": 4,
+                  "borderRadius": 8,
+                  "height": 8,
                   "opacity": 0.4,
-                  "width": 4,
+                  "width": 8,
                 },
               ]
             }
@@ -480,10 +480,10 @@ exports[`EnumTabsCard Classic 1`] = `
                 },
                 Object {
                   "backgroundColor": "#158CFB",
-                  "borderRadius": 4,
-                  "height": 4,
+                  "borderRadius": 8,
+                  "height": 8,
                   "opacity": 0.4,
-                  "width": 4,
+                  "width": 8,
                 },
               ]
             }
@@ -518,10 +518,10 @@ exports[`EnumTabsCard Classic 1`] = `
                 },
                 Object {
                   "backgroundColor": "#158CFB",
-                  "borderRadius": 4,
-                  "height": 4,
+                  "borderRadius": 8,
+                  "height": 8,
                   "opacity": 0.4,
-                  "width": 4,
+                  "width": 8,
                 },
               ]
             }
@@ -539,7 +539,7 @@ exports[`EnumTabsCard Classic set props 1`] = `
     Array [
       Object {
         "backgroundColor": "#fff",
-        "borderRadius": 14,
+        "borderRadius": 28,
         "paddingBottom": 22,
         "paddingLeft": 20,
         "paddingRight": 20,
@@ -557,7 +557,7 @@ exports[`EnumTabsCard Classic set props 1`] = `
           "flexDirection": "row",
         },
         Object {
-          "marginBottom": 24,
+          "marginBottom": 48,
         },
       ]
     }
@@ -571,8 +571,8 @@ exports[`EnumTabsCard Classic set props 1`] = `
       style={
         Object {
           "borderRadius": 0,
-          "height": 14,
-          "width": 14,
+          "height": 28,
+          "width": 28,
         }
       }
     />
@@ -582,7 +582,7 @@ exports[`EnumTabsCard Classic set props 1`] = `
       allowFontScaling={false}
       color={null}
       ellipsizeMode="tail"
-      size={15}
+      size={30}
       style={
         Array [
           false,
@@ -592,14 +592,14 @@ exports[`EnumTabsCard Classic set props 1`] = `
               Object {
                 "backgroundColor": "transparent",
                 "color": "#333",
-                "fontSize": 15,
+                "fontSize": 30,
               },
               Array [
                 Object {
                   "color": "#3d3d3d",
-                  "fontSize": 15,
+                  "fontSize": 30,
                   "fontWeight": "normal",
-                  "marginLeft": 8,
+                  "marginLeft": 16,
                 },
                 Object {},
               ],
@@ -627,7 +627,7 @@ exports[`EnumTabsCard Classic set props 1`] = `
         allowFontScaling={false}
         color={null}
         ellipsizeMode="tail"
-        size={15}
+        size={30}
         style={
           Array [
             false,
@@ -637,11 +637,11 @@ exports[`EnumTabsCard Classic set props 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "#333",
-                  "fontSize": 15,
+                  "fontSize": 30,
                 },
                 Object {
                   "color": "#158CFB",
-                  "fontSize": 15,
+                  "fontSize": 30,
                   "fontWeight": "normal",
                   "marginRight": 5,
                 },
@@ -660,7 +660,7 @@ exports[`EnumTabsCard Classic set props 1`] = `
         allowFontScaling={false}
         color={null}
         ellipsizeMode="tail"
-        size={15}
+        size={30}
         style={
           Array [
             false,
@@ -670,11 +670,11 @@ exports[`EnumTabsCard Classic set props 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "color": "#333",
-                  "fontSize": 15,
+                  "fontSize": 30,
                 },
                 Object {
                   "color": "#158CFB",
-                  "fontSize": 15,
+                  "fontSize": 30,
                   "fontWeight": "normal",
                   "marginRight": 5,
                 },
@@ -700,15 +700,15 @@ exports[`EnumTabsCard Classic set props 1`] = `
           Object {
             "backgroundColor": "#E3E9EE",
             "borderColor": "#fff",
-            "borderRadius": 15,
-            "height": 30,
+            "borderRadius": 30,
+            "height": 60,
             "justifyContent": "center",
           },
           Object {
             "backgroundColor": "#E3E9EE",
           },
           Object {
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
         ]
       }
@@ -749,7 +749,7 @@ exports[`EnumTabsCard Classic set props 1`] = `
             color={null}
             ellipsizeMode="tail"
             numberOfLines={1}
-            size={14}
+            size={28}
             style={
               Array [
                 false,
@@ -759,7 +759,7 @@ exports[`EnumTabsCard Classic set props 1`] = `
                     Object {
                       "backgroundColor": "transparent",
                       "color": "#333",
-                      "fontSize": 14,
+                      "fontSize": 28,
                     },
                     Array [
                       Object {
@@ -784,7 +784,7 @@ exports[`EnumTabsCard Classic set props 1`] = `
                       },
                       Object {
                         "color": "#fff",
-                        "fontSize": 14,
+                        "fontSize": 28,
                       },
                     ],
                   ],
@@ -826,10 +826,10 @@ exports[`EnumTabsCard Classic set props 1`] = `
                 },
                 Object {
                   "backgroundColor": "#158CFB",
-                  "borderRadius": 4,
-                  "height": 4,
+                  "borderRadius": 8,
+                  "height": 8,
                   "opacity": 0.4,
-                  "width": 4,
+                  "width": 8,
                 },
               ]
             }
@@ -864,10 +864,10 @@ exports[`EnumTabsCard Classic set props 1`] = `
                 },
                 Object {
                   "backgroundColor": "#158CFB",
-                  "borderRadius": 4,
-                  "height": 4,
+                  "borderRadius": 8,
+                  "height": 8,
                   "opacity": 0.4,
-                  "width": 4,
+                  "width": 8,
                 },
               ]
             }
@@ -902,10 +902,10 @@ exports[`EnumTabsCard Classic set props 1`] = `
                 },
                 Object {
                   "backgroundColor": "#158CFB",
-                  "borderRadius": 4,
-                  "height": 4,
+                  "borderRadius": 8,
+                  "height": 8,
                   "opacity": 0.4,
-                  "width": 4,
+                  "width": 8,
                 },
               ]
             }
@@ -940,10 +940,10 @@ exports[`EnumTabsCard Classic set props 1`] = `
                 },
                 Object {
                   "backgroundColor": "#158CFB",
-                  "borderRadius": 4,
-                  "height": 4,
+                  "borderRadius": 8,
+                  "height": 8,
                   "opacity": 0.4,
-                  "width": 4,
+                  "width": 8,
                 },
               ]
             }
@@ -978,10 +978,10 @@ exports[`EnumTabsCard Classic set props 1`] = `
                 },
                 Object {
                   "backgroundColor": "#158CFB",
-                  "borderRadius": 4,
-                  "height": 4,
+                  "borderRadius": 8,
+                  "height": 8,
                   "opacity": 0.4,
-                  "width": 4,
+                  "width": 8,
                 },
               ]
             }

@@ -11,12 +11,6 @@ module.exports = {
   ],
   coverageDirectory: '<rootDir>/packages/tuya-panel-style-enum-button-group/coverage/',
   collectCoverageFrom: ['<rootDir>/packages/tuya-panel-style-enum-button-group/src/index.tsx'],
-  modulePathIgnorePatterns: [
-    '<rootDir>/example/node_modules',
-    '<rootDir>/demos',
-    '<rootDir>/example',
-    '<rootDir>/packages/*/lib',
-  ],
   transform: {
     '^.+\\.(t|j)sx?$': 'babel-jest',
   },

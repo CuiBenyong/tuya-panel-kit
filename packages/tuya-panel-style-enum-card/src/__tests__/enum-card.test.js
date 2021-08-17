@@ -8,24 +8,6 @@ import { ClassicEnumCard, NordicEnumCard, AcrylicEnumCard } from '../index';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { mount } from 'enzyme';
 
-jest.mock('react-native-gesture-handler', () => {
-  return {
-    BaseButton: () => 'BaseButton',
-  };
-});
-jest.mock('@react-navigation/stack', () => {
-  return {
-    TransitionSpecs: {},
-    HeaderStyleInterpolators: {},
-    createStackNavigator: () => 'createStackNavigator',
-  };
-});
-jest.mock('Dimensions', () => {
-  return {
-    get: jest.fn().mockReturnValue({ width: 375, height: 667 }),
-  };
-});
-
 const IMAGE =
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAEXRFWHRTb2Z0d2FyZQBwbmdjcnVzaEB1SfMAAABQSURBVGje7dSxCQBACARB+2/ab8BEeQNhFi6WSYzYLYudDQYGBgYGBgYGBgYGBgYGBgZmcvDqYGBgmhivGQYGBgYGBgYGBgYGBgYGBgbmQw+P/eMrC5UTVAAAAABJRU5ErkJggg==';
 const list = [
@@ -114,7 +96,7 @@ describe('EnumCard', () => {
       showText={false}
       iconBgSize={40}
     />);
-    expect(wrap.find('Carousel').at(0).props().style.height).toBe(60);  
+    expect(wrap.find('Carousel').at(0).props().style.height).toBe(80);  
     // expect(wrap.find('Carousel').at(0).props().plat).toBe('android');  
 
     expect(wrap).toMatchSnapshot();
@@ -129,7 +111,7 @@ describe('EnumCard', () => {
       iconSize={20}
       textStyle={{ marginTop: 10, fontSize: 20 }}
     />);
-    expect(wrap1.find('Carousel').at(0).props().style.height).toBe(70);
+    expect(wrap1.find('Carousel').at(0).props().style.height).toBe(90);
     expect(wrap1).toMatchSnapshot();
   });
 
