@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Iconbackground, { Background } from '../index';
+import { ClassicIconBackground, Background } from '../index';
 import { Text } from 'react-native';
 
 const icon =
@@ -12,24 +12,24 @@ const icon =
 const image = 
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAEXRFWHRTb2Z0d2FyZQBwbmdjcnVzaEB1SfMAAABQSURBVGje7dSxCQBACARB+2/ab8BEeQNhFi6WSYzYLYudDQYGBgYGBgYGBgYGBgYGBgZmcvDqYGBgmhivGQYGBgYGBgYGBgYGBgYGBgbmQw+P/eMrC5UTVAAAAABJRU5ErkJggg==';
 
-describe('IconBackground', () => {
+describe('ClassicIconBackground', () => {
   it('icon and background', () => {
-    const wrapper = renderer.create(<Iconbackground icon={icon} iconBgRadius={5} />).toJSON();
+    const wrapper = renderer.create(<ClassicIconBackground icon={icon} iconBgRadius={5} />).toJSON();
     expect(wrapper).toMatchSnapshot();
   });
 
   it('only icon', () => {
-    const wrapper = renderer.create(<Iconbackground icon={icon} showIconBg={false} />).toJSON();
+    const wrapper = renderer.create(<ClassicIconBackground icon={icon} showIconBg={false} />).toJSON();
     expect(wrapper).toMatchSnapshot();
   });
 
   it('no icon', () => {
-    const wrapper = renderer.create(<Iconbackground showIcon={false} />).toJSON();
+    const wrapper = renderer.create(<ClassicIconBackground showIcon={false} />).toJSON();
     expect(wrapper).toMatchSnapshot();
   });
 
   it('image', () => {
-    const wrapper = renderer.create(<Iconbackground image={image} />).toJSON();
+    const wrapper = renderer.create(<ClassicIconBackground image={image} />).toJSON();
     expect(wrapper).toMatchSnapshot();
   })
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
 import { TYText, SwitchButton } from 'tuya-panel-kit';
-import IconBackground from 'tuya-panel-icon-background';
+import { ClassicIconBackground } from 'tuya-panel-style-icon-background';
 import { IStudioCardProps, IStudioDefaultProps } from './interface';
 
 const { parseToStyle } = Utils.ThemeUtils;
@@ -48,7 +48,7 @@ const StudioBlock: React.FC<IStudioCardProps> = ({
           marginBottom: cx(35),
         }}
       >
-        <IconBackground
+        <ClassicIconBackground
           iconSize={cx(22)}
           showIcon={showIcon}
           showIconBg={false}

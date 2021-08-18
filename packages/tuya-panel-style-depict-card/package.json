@@ -30,7 +30,7 @@
   "dependencies": {
     "tuya-panel-utils": "0.1.0",
     "tuya-panel-kit": "4.7.4",
-    "tuya-panel-icon-background": "0.0.0"
+    "tuya-panel-style-icon-background": "0.0.0"
   },
   "bugs": {
     "url": "https://github.com/tuya/tuya-panel-kit/issues"

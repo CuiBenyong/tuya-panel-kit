@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
 import { TYText, SwitchButton } from 'tuya-panel-kit';
-import IconBackground from 'tuya-panel-icon-background';
+import { ClassicIconBackground } from 'tuya-panel-style-icon-background';
 import { IStudioCardProps, IAcrylicDefaultProps } from './interface';
 
 const { parseToStyle } = Utils.ThemeUtils;
@@ -39,7 +39,7 @@ const AcrylicBlock: React.FC<IStudioCardProps> = ({
         style,
       ]}
     >
-      <IconBackground
+      <ClassicIconBackground
         iconSize={cx(40)}
         showIcon={showIcon}
         showIconBg={false}

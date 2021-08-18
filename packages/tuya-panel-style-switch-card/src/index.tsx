@@ -2,7 +2,7 @@ import React from 'react';
 import { View, TouchableOpacity } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
 import { TYText, SwitchButton, IconFont } from 'tuya-panel-kit';
-import IconBackground from 'tuya-panel-icon-background';
+import { ClassicIconBackground } from 'tuya-panel-style-icon-background';
 import { ISwitchCardProps, IDefaultProps } from './interface';
 import {
   NordicDefaultProps,
@@ -154,7 +154,7 @@ export const StyleSwitchCard: React.FC<ISwitchCardProps> = ({
       activeOpacity={0.8}
     >
       <View style={{ flexDirection: 'row', flex: 1 }}>
-        <IconBackground
+        <ClassicIconBackground
           iconSize={cx(22)}
           showIcon={showIcon}
           showIconBg={false}

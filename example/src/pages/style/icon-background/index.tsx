@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import IconBackground, { Background } from 'tuya-panel-icon-background';
+import { ClassicIconBackground, Background } from 'tuya-panel-style-icon-background';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { ListView } from '#components';
 import Strings from '#i18n';
@@ -9,7 +9,7 @@ const IMAGE =
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAEXRFWHRTb2Z0d2FyZQBwbmdjcnVzaEB1SfMAAABQSURBVGje7dSxCQBACARB+2/ab8BEeQNhFi6WSYzYLYudDQYGBgYGBgYGBgYGBgYGBgZmcvDqYGBgmhivGQYGBgYGBgYGBgYGBgYGBgbmQw+P/eMrC5UTVAAAAABJRU5ErkJggg==';
 
 export default () => {
-  // return <IconBackground icon={TuyaRNSvgs.power} />;
+  // return <ClassicIconBackground icon={TuyaRNSvgs.power} />;
   return (
     <ListView
       style={{ backgroundColor: '#f8f8f8' }}
@@ -18,15 +18,15 @@ export default () => {
           title: Strings.getLang('icon_and_background'),
           content: (
             <View style={{ display: 'flex', flexDirection: 'row' }}>
-              <IconBackground icon={TuyaRNSvgs.power} style={{ marginRight: 20 }} />
-              <IconBackground icon={TuyaRNSvgs.power} iconBgRadius={5} />
+              <ClassicIconBackground icon={TuyaRNSvgs.power} style={{ marginRight: 20 }} />
+              <ClassicIconBackground icon={TuyaRNSvgs.power} iconBgRadius={5} />
             </View>
           ),
         },
         {
           title: Strings.getLang('only_icon'),
           content: (
-            <IconBackground
+            <ClassicIconBackground
               icon={TuyaRNSvgs.power}
               iconColor="#57BCFB"
               iconBgRadius={5}
@@ -37,7 +37,7 @@ export default () => {
         {
           title: Strings.getLang('no_icon'),
           content: (
-            <IconBackground
+            <ClassicIconBackground
               icon={TuyaRNSvgs.power}
               iconColor="#57BCFB"
               iconBgRadius={5}
@@ -48,7 +48,7 @@ export default () => {
         {
           title: Strings.getLang('iconbg_image'),
           content: (
-            <IconBackground
+            <ClassicIconBackground
               image={IMAGE}
               iconBgColor="#fff"
               iconColor="#57BCFB"
@@ -61,7 +61,7 @@ export default () => {
           title: '渐变',
           content: (
             <View style={{ display: 'flex', flexDirection: 'row' }}>
-              <IconBackground
+              <ClassicIconBackground
                 iconBgColor={{
                   deg: 90,
                   stops: {
@@ -72,7 +72,7 @@ export default () => {
                 icon={TuyaRNSvgs.power}
                 style={{ marginRight: 20 }}
               />
-              <IconBackground
+              <ClassicIconBackground
                 iconBgColor={{
                   stops: [
                     {

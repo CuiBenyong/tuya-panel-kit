@@ -1,6 +1,6 @@
 import { StyleProp, ViewStyle } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
-import { BackgroundType } from 'tuya-panel-icon-background';
+import { BackgroundType } from 'tuya-panel-style-icon-background';
 
 const { convertX: cx } = Utils.RatioUtils;
 export const defaultProps = {

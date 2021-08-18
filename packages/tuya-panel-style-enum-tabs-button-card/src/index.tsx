@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { TYText, TabBar } from 'tuya-panel-kit';
-import IconBackground from 'tuya-panel-icon-background';
+import { ClassicIconBackground } from 'tuya-panel-style-icon-background';
 import { Utils } from 'tuya-panel-utils';
 import { IEnumTabsButtonCardProps, defaultProps, EnumItem } from './interface';
 
@@ -116,7 +116,7 @@ const EnumTabsButtonCard: React.FC<IEnumTabsButtonCardProps> = ({
       {showTitle && (
         <View style={[styles.titleContent, titleStyle]}>
           {Boolean(icon) && (
-            <IconBackground
+            <ClassicIconBackground
               icon={iconIsImage ? '' : icon}
               image={icon}
               iconColor={iconColor}

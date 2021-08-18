@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
 import { TYText, IconFont } from 'tuya-panel-kit';
-import IconBackground from 'tuya-panel-icon-background';
+import { ClassicIconBackground } from 'tuya-panel-style-icon-background';
 import { INordicIconCardProps, INordicDefaultProps } from './interface';
 
 const { parseToStyle } = Utils.ThemeUtils;
@@ -48,7 +48,7 @@ const NordicIconBlock: React.FC<INordicIconCardProps> = ({
         style,
       ]}
     >
-      <IconBackground
+      <ClassicIconBackground
         iconSize={cx(21)}
         iconBgSize={cx(48)}
         iconBgRadius={cx(12)}

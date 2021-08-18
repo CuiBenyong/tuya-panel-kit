@@ -1,9 +1,7 @@
 # `tuya-panel-style-list-card`
 
-> TODO: description
-
 ## Usage
 
-```
+```jsx
 import { NordicListCard } from 'tuya-panel-style-list-card';
 ```

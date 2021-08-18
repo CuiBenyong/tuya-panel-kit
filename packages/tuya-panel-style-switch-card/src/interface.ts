@@ -1,7 +1,7 @@
 import { StyleProp, TextStyle, ViewStyle } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
 import { SwitchButtonProps } from 'tuya-panel-kit';
-import { IconBackgroundProps } from 'tuya-panel-icon-background';
+import { IconBackgroundProps } from 'tuya-panel-style-icon-background';
 import React from 'react';
 
 const { convertX: cx } = Utils.RatioUtils;

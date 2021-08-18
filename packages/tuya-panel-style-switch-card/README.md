@@ -1,11 +1,12 @@
 # `tuya-panel-style-switch-card`
 
-> TODO: description
-
 ## Usage
 
-```
-const tuyaPanelStyleSwitchCard = require('tuya-panel-style-switch-card');
-
-// TODO: DEMONSTRATE API
+```jsx
+import {
+  ClassicSwitchCard,
+  NordicSwitchCard,
+  AcrylicSwitchCard,
+  PaintSwitchCard,
+} from 'tuya-panel-style-switch-card';
 ```

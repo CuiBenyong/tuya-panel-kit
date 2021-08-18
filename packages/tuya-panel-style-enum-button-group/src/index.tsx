@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Carousel } from 'tuya-panel-kit';
-import IconBackground, { Background } from 'tuya-panel-icon-background';
+import { ClassicIconBackground, Background } from 'tuya-panel-style-icon-background';
 import { Utils } from 'tuya-panel-utils';
 import { splitArr } from './utils';
 import { defaultProps, IEnumButtonGroupProps, DataItem } from './interface';
@@ -169,7 +169,7 @@ const EnumButtonGroup: React.FC<IEnumButtonGroupProps> = ({
           height={buttonHeight}
           background={realIconBgColor}
         >
-          <IconBackground
+          <ClassicIconBackground
             icon={data.iconIsImage ? '' : icon}
             image={icon}
             iconSize={iconSize}

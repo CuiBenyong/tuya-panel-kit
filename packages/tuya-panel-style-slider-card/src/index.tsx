@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Slider, TYText } from 'tuya-panel-kit';
-import IconBackground from 'tuya-panel-icon-background';
+import { ClassicIconBackground } from 'tuya-panel-style-icon-background';
 import { Utils } from 'tuya-panel-utils';
 import { defaultProps, ISliderProps } from './interface';
 import { classicLargeSliderProps, NorDicSliderCardProps, AcrylicSliderCardProps } from './theme';
@@ -150,7 +150,7 @@ const SliderCard: React.FC<ISliderProps> = ({
       {showTitle && Boolean(title) && (
         <View style={[titleStyle, styles.titleContent]}>
           {Boolean(icon) && (
-            <IconBackground
+            <ClassicIconBackground
               icon={iconIsImage ? '' : icon}
               image={icon}
               iconColor={iconColor}
@@ -193,7 +193,7 @@ const SliderCard: React.FC<ISliderProps> = ({
         <View style={styles.sliderBox}>
           {bothSideIcons && Array.isArray(bothSideIcons) && (
             <View style={{marginRight: cx(8)}}>
-              <IconBackground
+              <ClassicIconBackground
                 icon={bothSideIconIsImage ? '' : bothSideIcons[0]}
                 image={bothSideIcons[0]}
                 iconSize={bothSideIconSize}
@@ -234,7 +234,7 @@ const SliderCard: React.FC<ISliderProps> = ({
           />
           {bothSideIcons && Array.isArray(bothSideIcons) && (
             <View style={{marginLeft: cx(8)}}>
-              <IconBackground
+              <ClassicIconBackground
                 icon={bothSideIconIsImage ? '' : bothSideIcons[1]}
                 image={bothSideIcons[1]}
                 iconSize={bothSideIconSize}

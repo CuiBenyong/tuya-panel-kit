@@ -1,7 +1,7 @@
 import { TYText, IconFont } from 'tuya-panel-kit';
 import React from 'react';
 import { TouchableOpacity, View } from 'react-native';
-import IconBackground from 'tuya-panel-icon-background';
+import { ClassicIconBackground } from 'tuya-panel-style-icon-background';
 import { Utils } from 'tuya-panel-utils';
 import { INordicStepCardProps, INordicDefaultProps, IStudioStepCardState } from './interface';
 
@@ -116,7 +116,7 @@ export class StyleNordicStepCard extends React.PureComponent<
         ]}
       >
         <View style={{ flexDirection: 'row', marginBottom: cx(20), flex: 1, alignItems: 'center' }}>
-          <IconBackground {...rest} showIcon={showIcon} style={iconStyle} />
+          <ClassicIconBackground {...rest} showIcon={showIcon} style={iconStyle} />
           <TYText
             text={text}
             size={fontSize}

@@ -1,7 +1,7 @@
 {
   "name": "tuya-panel-style-block-card",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "tuya-panel-style-block-card",
   "author": "ZengBeauty <2497752603@qq.com>",
   "homepage": "https://github.com/tuya/tuya-panel-kit#readme",
   "license": "MIT",
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "tuya-panel-utils": "0.1.0",
-    "tuya-panel-icon-background": "0.0.0",
+    "tuya-panel-style-icon-background": "0.0.0",
     "tuya-panel-kit": "4.7.4"
   },
   "devDependencies": {

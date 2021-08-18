@@ -1,10 +1,10 @@
 import React from 'react';
 import { ViewStyle, Image, StyleProp } from 'react-native';
 import { IconFont } from 'tuya-panel-kit';
-import Background, { IBackgroundProps, BackgroundType } from './Background';
+import Background, { BackgroundType } from './background';
 
-export { default as Background } from './Background';
-export * from './Background';
+export { default as Background } from './background';
+export * from './background';
 
 export interface IconBackgroundProps {
   icon?: string;
@@ -34,7 +34,7 @@ const defaultProps = {
   imageRadius: 0,
 };
 
-const IconBackground: React.FC<IconBackgroundProps> = props => {
+export const ClassicIconBackground: React.FC<IconBackgroundProps> = props => {
   const renderIcon = () => {
     if (props.icon) {
       return <IconFont d={props.icon} color={props.iconColor} size={props.iconSize} />;
@@ -66,7 +66,6 @@ const IconBackground: React.FC<IconBackgroundProps> = props => {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          // backgroundColor: props.iconBgColor || '#fff',
           width: props.iconBgSize,
           height: props.iconBgSize,
           overflow: 'hidden',
@@ -84,6 +83,4 @@ const IconBackground: React.FC<IconBackgroundProps> = props => {
   );
 };
 
-IconBackground.defaultProps = defaultProps;
-
-export default IconBackground;
+ClassicIconBackground.defaultProps = defaultProps;

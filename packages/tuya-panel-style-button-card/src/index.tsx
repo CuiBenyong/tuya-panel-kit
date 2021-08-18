@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Utils } from 'tuya-panel-utils';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import IconBackground from 'tuya-panel-icon-background';
+import { ClassicIconBackground } from 'tuya-panel-style-icon-background';
 import { defaultProps, IButtonCardProps, RangeItem } from './interface';
 import { NordicDefaultProps } from './theme';
 
@@ -182,7 +182,7 @@ const ButtonCard: React.FC<IButtonCardProps> = ({
     >
       {showTitle && title && (
         <View style={[styles.titleBox, titleContentStyle]}>
-          <IconBackground
+          <ClassicIconBackground
             icon={icon}
             iconColor={iconColor}
             iconBgColor={iconBgColor}

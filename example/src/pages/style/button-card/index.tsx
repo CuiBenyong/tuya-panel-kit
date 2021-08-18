@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { ClassicButtonCard, NordicButtonCard } from 'tuya-panel-style-button-card';
-import Iconbackground from 'tuya-panel-icon-background';
+import { ClassicIconBackground } from 'tuya-panel-style-icon-background';
 import { ListView } from '#components';
 
 const list = [
@@ -40,7 +40,7 @@ export default () => {
     // console.log(data);
     return (
       <View style={styles.buttonStyle}>
-        <Iconbackground showIconBg={false} icon={data.icon} />
+        <ClassicIconBackground showIconBg={false} icon={data.icon} />
         <Text style={{ marginTop: 15 }}>{data.label}</Text>
       </View>
     );

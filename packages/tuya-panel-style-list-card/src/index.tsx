@@ -1,7 +1,7 @@
 import { TYText } from 'tuya-panel-kit';
 import React from 'react';
 import { TouchableOpacity, View } from 'react-native';
-import IconBackground from 'tuya-panel-icon-background';
+import { ClassicIconBackground } from 'tuya-panel-style-icon-background';
 import { Utils } from 'tuya-panel-utils';
 import { IStyleListCardProps, IStyleListCardDefaultProps } from './interface';
 
@@ -54,7 +54,7 @@ export const StyleListCard: React.FC<IStyleListCardProps> = ({
       ]}
     >
       <View style={{ flexDirection: 'row', marginBottom: cx(20), flex: 1, alignItems: 'center' }}>
-        <IconBackground
+        <ClassicIconBackground
           {...rest}
           iconBgColor={iconBgColor}
           iconColor={iconColor}
@@ -110,7 +110,7 @@ export const StyleListCard: React.FC<IStyleListCardProps> = ({
                 disabled={disabled}
                 onPress={() => handlePress(itemValue)}
               >
-                <IconBackground
+                <ClassicIconBackground
                   {...restData}
                   iconSize={iconSize}
                   iconBgSize={iconBgSize}

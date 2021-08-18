@@ -149,8 +149,8 @@ describe('EnumCard', () => {
       .at(1);
     touchInstance.props().onPress();
     wrap.update()
-    expect(wrap.find('IconBackground').at(0).props().iconBgColor).toBe(iconBgColor);
-    expect(wrap.find('IconBackground').at(1).props().iconBgColor).toBe(activeIconBgColor);
+    expect(wrap.find('ClassicIconBackground').at(0).props().iconBgColor).toBe(iconBgColor);
+    expect(wrap.find('ClassicIconBackground').at(1).props().iconBgColor).toBe(activeIconBgColor);
   });
 });
 

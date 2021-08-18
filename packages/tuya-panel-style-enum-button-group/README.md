@@ -1,11 +1,7 @@
 # `tuya-panel-style-enum-button-group`
 
-> TODO: description
-
 ## Usage
 
-```
-const tuyaPanelStyleEnumButtonGroup = require('tuya-panel-style-enum-button-group');
-
-// TODO: DEMONSTRATE API
+```jsx
+import { DataItem, AcrylicEnumButtonGroup } from 'tuya-panel-style-enum-button-group';
 ```

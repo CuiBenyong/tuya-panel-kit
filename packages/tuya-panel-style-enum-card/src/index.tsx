@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Platform } from 'react-native';
 import { Utils } from 'tuya-panel-utils';
 import { Carousel } from 'tuya-panel-kit';
-import IconBackground from 'tuya-panel-icon-background';
+import { ClassicIconBackground } from 'tuya-panel-style-icon-background';
 import { NordicDefaultProps, AcrylicDefaultProps } from './theme';
 import { defaultProps, IEnumCardProps } from './interface';
 
@@ -143,7 +143,7 @@ const EnumCard: React.FC<IEnumCardProps> = ({
           onPress={() => handClick(data.key)}
           disabled={disabled || data.disabled}
         >
-          <IconBackground
+          <ClassicIconBackground
             icon={data.isImage ? '' : data.icon}
             image={data.icon}
             iconSize={iconSize}

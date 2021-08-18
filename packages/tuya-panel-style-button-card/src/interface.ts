@@ -1,5 +1,5 @@
 import { Utils } from 'tuya-panel-utils';
-import { BackgroundType } from 'tuya-panel-icon-background';
+import { BackgroundType } from 'tuya-panel-style-icon-background';
 import React from 'react';
 
 const { convertX: cx } = Utils.RatioUtils;

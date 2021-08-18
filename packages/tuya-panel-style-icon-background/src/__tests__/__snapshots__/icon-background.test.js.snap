@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`IconBackground Background 1`] = `
+exports[`ClassicIconBackground Background 1`] = `
 <View
   style={
     Array [
@@ -162,7 +162,7 @@ exports[`IconBackground Background 1`] = `
 </View>
 `;
 
-exports[`IconBackground icon and background 1`] = `
+exports[`ClassicIconBackground icon and background 1`] = `
 <View
   style={
     Array [
@@ -276,7 +276,7 @@ exports[`IconBackground icon and background 1`] = `
 </View>
 `;
 
-exports[`IconBackground image 1`] = `
+exports[`ClassicIconBackground image 1`] = `
 <View
   style={
     Array [
@@ -317,9 +317,9 @@ exports[`IconBackground image 1`] = `
 </View>
 `;
 
-exports[`IconBackground no icon 1`] = `null`;
+exports[`ClassicIconBackground no icon 1`] = `null`;
 
-exports[`IconBackground only icon 1`] = `
+exports[`ClassicIconBackground only icon 1`] = `
 <View
   style={
     Array [
