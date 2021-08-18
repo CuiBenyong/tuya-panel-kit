@@ -31,7 +31,7 @@ export class StyleNordicStepCard extends React.PureComponent<
     }
   }
 
-  timerId: number;
+  timerId: NodeJS.Timeout;
 
   handleMath = (isMinus: boolean) => {
     const { val } = this.state;

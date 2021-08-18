@@ -26,7 +26,7 @@ export class StyleStepCard extends React.PureComponent<IStudioStepCardProps, ISt
     }
   }
 
-  timerId: number;
+  timerId: NodeJS.Timeout;
 
   handleMath = (isMinus: boolean) => {
     const { val } = this.state;
