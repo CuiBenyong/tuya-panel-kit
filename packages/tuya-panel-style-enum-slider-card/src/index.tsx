@@ -1,1 +1,1 @@
-export { default as AcrylicEnumSliderCard } from './acrylicComponent';
+export { default as AcrylicEnumSliderCard } from './acrylic';
