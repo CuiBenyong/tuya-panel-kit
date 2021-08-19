@@ -4,12 +4,12 @@
  import React from 'react';
  import { mount } from 'enzyme';
  import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
- import { StudioStepCard, NordicStepCard } from '../index';
+ import { ClassicStepCard, NordicStepCard } from '../index';
  
 describe('StepCard', () => {
-  it('StudioStepCard', () => {
+  it('ClassicStepCard', () => {
     jest.useFakeTimers();
-    const wrapper = mount(<StudioStepCard value={10} onValueChange={value => console.log({ value })} />)
+    const wrapper = mount(<ClassicStepCard value={10} onValueChange={value => console.log({ value })} />)
     const touchable = wrapper
       .findWhere(c => c.name() === 'TouchableOpacity' && !!c.prop('onPressIn')).at(0);
       const touchable2 = wrapper
@@ -17,7 +17,7 @@ describe('StepCard', () => {
     jest.runAllTimers();
     touchable.props().onPressIn(true);
     touchable.props().onPressOut();
-    wrapper.update(<StudioStepCard value={25} onValueChange={value => console.log({ value })} />)
+    wrapper.update(<ClassicStepCard value={25} onValueChange={value => console.log({ value })} />)
     touchable2.props().onPressIn(false);
     touchable2.props().onPressOut();
     wrapper.unmount();

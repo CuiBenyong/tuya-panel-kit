@@ -3,5 +3,5 @@
 ## Usage
 
 ```jsx
-import { StudioStepCard, NordicStepCard } from 'tuya-panel-style-step-card';
+import { ClassicStepCard, NordicStepCard } from 'tuya-panel-style-step-card';
 ```

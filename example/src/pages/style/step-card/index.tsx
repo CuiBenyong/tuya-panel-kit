@@ -1,5 +1,5 @@
 import React from 'react';
-import { StudioStepCard, NordicStepCard } from 'tuya-panel-style-step-card';
+import { ClassicStepCard, NordicStepCard } from 'tuya-panel-style-step-card';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { ListView } from '#components';
 import Strings from '#i18n';
@@ -11,7 +11,7 @@ export default () => {
       list={[
         {
           title: Strings.getLang('basic'),
-          content: <StudioStepCard onValueChange={value => console.log({ value })} />,
+          content: <ClassicStepCard onValueChange={value => console.log({ value })} />,
         },
         {
           title: Strings.getLang('scandinavian'),
